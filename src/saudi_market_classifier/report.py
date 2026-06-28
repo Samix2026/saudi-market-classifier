@@ -24,20 +24,22 @@ def main():
         "",
     ]
 
-    sector_counts = df["sector"].value_counts()
-
-    for sector, count in sector_counts.items():
-        lines.append(f"- {sector}: {count}")
+    for sector, group in df.groupby("sector"):
+        lines.append(f"### {sector}")
+        lines.append("")
+        for _, row in group.sort_values("symbol").iterrows():
+            lines.append(
+                f"- {row['symbol']} — {row['name_ar']} "
+                f"({row['business_class']}, {row['vision2030_theme']})"
+            )
+        lines.append("")
 
     lines.extend([
-        "",
         "## Companies by business class",
         "",
     ])
 
-    class_counts = df["business_class"].value_counts()
-
-    for business_class, count in class_counts.items():
+    for business_class, count in df["business_class"].value_counts().items():
         lines.append(f"- {business_class}: {count}")
 
     lines.extend([
@@ -46,12 +48,10 @@ def main():
         "",
     ])
 
-    theme_counts = df["vision2030_theme"].value_counts()
-
-    for theme, count in theme_counts.items():
+    for theme, count in df["vision2030_theme"].value_counts().items():
         lines.append(f"- {theme}: {count}")
 
-    report_path.write_text("\n".join(lines), encoding="utf-8")
+    report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Report written to {report_path}")
 
 
