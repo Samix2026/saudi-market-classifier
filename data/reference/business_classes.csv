@@ -1,10 +1,11 @@
 sector,business_class
-البنوك,financial
-الطاقة,energy
+إدارة وتطوير العقارات,real_estate
 الاتصالات,digital_infrastructure
-المواد الأساسية,basic_materials
+البنوك,financial
+التأمين,insurance
 الرعاية الصحية,healthcare
+الطاقة,energy
+المرافق العامة,utilities
+المواد الأساسية,basic_materials
 تجزئة الأغذية,consumer_defensive
 تجزئة وتوزيع السلع الكمالية,consumer_retail
-المرافق العامة,utilities
-إدارة وتطوير العقارات,real_estate

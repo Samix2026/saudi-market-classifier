@@ -4,9 +4,9 @@
 
 ## Summary
 
-- عدد الشركات: 32
-- عدد القطاعات: 9
-- عدد تصنيفات الأعمال: 9
+- عدد الشركات: 44
+- عدد القطاعات: 10
+- عدد تصنيفات الأعمال: 10
 - عدد ثيمات رؤية 2030: 12
 
 ## Companies by sector
@@ -21,6 +21,8 @@
 - 7010 — stc (digital_infrastructure, digital_transformation)
 - 7020 — اتحاد اتصالات (digital_infrastructure, digital_transformation)
 - 7030 — زين السعودية (digital_infrastructure, digital_transformation)
+- 7040 — عذيب للاتصالات (digital_infrastructure, digital_transformation)
+- 7202 — سلوشنز (digital_infrastructure, digital_transformation)
 
 ### البنوك
 
@@ -35,10 +37,23 @@
 - 1150 — مصرف الإنماء (financial, financial_sector_development)
 - 1180 — البنك الأهلي السعودي (financial, financial_sector_development)
 
+### التأمين
+
+- 8010 — التعاونية (insurance, financial_sector_development)
+- 8030 — ميدغلف للتأمين (insurance, financial_sector_development)
+- 8060 — ولاء (insurance, financial_sector_development)
+- 8210 — بوبا العربية (insurance, healthcare_access)
+- 8230 — تكافل الراجحي (insurance, financial_sector_development)
+
 ### الرعاية الصحية
 
 - 4002 — المواساة (healthcare, healthcare_quality)
 - 4004 — دله الصحية (healthcare, healthcare_quality)
+- 4005 — رعاية (healthcare, healthcare_quality)
+- 4007 — الحمادي (healthcare, healthcare_quality)
+- 4009 — السعودي الألماني الصحية (healthcare, healthcare_quality)
+- 4013 — مجموعة سليمان الحبيب (healthcare, healthcare_quality)
+- 4017 — فقيه الطبية (healthcare, healthcare_quality)
 
 ### الطاقة
 
@@ -74,25 +89,26 @@
 
 - financial: 10
 - basic_materials: 7
+- healthcare: 7
+- digital_infrastructure: 5
+- insurance: 5
 - energy: 4
-- digital_infrastructure: 3
 - utilities: 2
-- healthcare: 2
 - real_estate: 2
 - consumer_defensive: 1
 - consumer_retail: 1
 
 ## Companies by Vision 2030 theme
 
-- financial_sector_development: 10
+- financial_sector_development: 14
+- healthcare_quality: 7
 - industrial_development: 6
+- digital_transformation: 5
 - energy: 4
-- digital_transformation: 3
-- healthcare_quality: 2
+- healthcare_access: 2
 - food_security_and_industry: 1
 - renewable_energy_and_utilities: 1
 - utilities_and_infrastructure: 1
 - food_security_and_retail: 1
-- healthcare_access: 1
 - housing_and_real_estate: 1
 - quality_of_life_and_retail: 1

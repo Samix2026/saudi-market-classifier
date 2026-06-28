@@ -25,9 +25,21 @@ symbol,name_ar,name_en,market,sector,industry
 4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
 4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
 4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
+4005,رعاية,Care,main,الرعاية الصحية,Healthcare Services
+4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services
+4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
+4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
+4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
 4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management
 7010,stc,stc,main,الاتصالات,Telecom
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom
+7040,عذيب للاتصالات,GO Telecom,main,الاتصالات,Telecom
+7202,سلوشنز,solutions by stc,main,الاتصالات,Digital Services
+8010,التعاونية,Tawuniya,main,التأمين,Insurance
+8030,ميدغلف للتأمين,MedGulf,main,التأمين,Insurance
+8060,ولاء,Walaa,main,التأمين,Insurance
+8210,بوبا العربية,Bupa Arabia,main,التأمين,Insurance
+8230,تكافل الراجحي,Al Rajhi Takaful,main,التأمين,Insurance
