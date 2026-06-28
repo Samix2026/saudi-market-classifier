@@ -1,0 +1,6 @@
+data/raw/debug/
+data/raw/main_market_companies.csv
+data/raw/main_market_companies_clean.csv
+data/raw/main_market_companies_needs_sector.csv
+data/raw/main_market_companies_review.csv
+data/raw/excluded_non_main_market.csv
