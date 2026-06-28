@@ -5,9 +5,12 @@ sector,business_class
 البنوك,financial
 التأمين,insurance
 الخدمات الاستهلاكية,consumer_services
+الخدمات التجارية والمهنية,commercial_services
 الرعاية الصحية,healthcare
+السلع الرأسمالية,capital_goods
 الطاقة,energy
 المرافق العامة,utilities
 المواد الأساسية,basic_materials
+النقل,transportation_logistics
 تجزئة الأغذية,consumer_defensive
 تجزئة وتوزيع السلع الكمالية,consumer_retail

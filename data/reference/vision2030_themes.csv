@@ -13,9 +13,17 @@ symbol,vision2030_theme
 1202,industrial_development
 1210,industrial_development
 1211,industrial_development
+1301,industrial_development
+1302,industrial_development
+1303,industrial_development
 1322,industrial_development
+1830,quality_of_life_and_retail
+1831,labor_market_and_services
+1832,logistics_and_transport
+1833,labor_market_and_services
 2010,industrial_development
 2020,food_security_and_industry
+2040,industrial_development
 2082,renewable_energy_and_utilities
 2083,utilities_and_infrastructure
 2222,energy
@@ -31,6 +39,8 @@ symbol,vision2030_theme
 4009,healthcare_quality
 4013,healthcare_quality
 4017,healthcare_quality
+4030,logistics_and_transport
+4031,logistics_and_transport
 4163,healthcare_access
 4164,healthcare_access
 4190,quality_of_life_and_retail

@@ -13,9 +13,17 @@ symbol,name_ar,name_en,market,sector,industry,business_class,vision2030_theme
 1202,مبكو,MEPCO,main,المواد الأساسية,Materials,basic_materials,industrial_development
 1210,بي سي آي,BCI,main,المواد الأساسية,Chemicals,basic_materials,industrial_development
 1211,معادن,Maaden,main,المواد الأساسية,Mining,basic_materials,industrial_development
+1301,أسلاك,Aslak,main,السلع الرأسمالية,Industrial Products,capital_goods,industrial_development
+1302,بوان,Bawan,main,السلع الرأسمالية,Industrial Products,capital_goods,industrial_development
+1303,صناعات كهربائية,Electrical Industries,main,السلع الرأسمالية,Electrical Equipment,capital_goods,industrial_development
 1322,أماك,AMAK,main,المواد الأساسية,Mining,basic_materials,industrial_development
+1830,لجام للرياضة,Leejam Sports,main,الخدمات الاستهلاكية,Fitness & Wellness,consumer_services,quality_of_life_and_retail
+1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources,commercial_services,labor_market_and_services
+1832,صدر,Sadr Logistics,main,النقل,Logistics,transportation_logistics,logistics_and_transport
+1833,الموارد,Al Mawarid,main,الخدمات التجارية والمهنية,Human Resources,commercial_services,labor_market_and_services
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals,basic_materials,industrial_development
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers,basic_materials,food_security_and_industry
+2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products,capital_goods,industrial_development
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities,utilities,renewable_energy_and_utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities,utilities,utilities_and_infrastructure
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas,energy,energy
@@ -31,6 +39,8 @@ symbol,name_ar,name_en,market,sector,industry,business_class,vision2030_theme
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
+4030,البحري,Bahri,main,النقل,Marine Transportation,transportation_logistics,logistics_and_transport
+4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services,transportation_logistics,logistics_and_transport
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail,consumer_retail,healthcare_access
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail,consumer_retail,healthcare_access
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail,consumer_retail,quality_of_life_and_retail

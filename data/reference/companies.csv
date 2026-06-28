@@ -13,9 +13,17 @@ symbol,name_ar,name_en,market,sector,industry
 1202,مبكو,MEPCO,main,المواد الأساسية,Materials
 1210,بي سي آي,BCI,main,المواد الأساسية,Chemicals
 1211,معادن,Maaden,main,المواد الأساسية,Mining
+1301,أسلاك,Aslak,main,السلع الرأسمالية,Industrial Products
+1302,بوان,Bawan,main,السلع الرأسمالية,Industrial Products
+1303,صناعات كهربائية,Electrical Industries,main,السلع الرأسمالية,Electrical Equipment
 1322,أماك,AMAK,main,المواد الأساسية,Mining
+1830,لجام للرياضة,Leejam Sports,main,الخدمات الاستهلاكية,Fitness & Wellness
+1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources
+1832,صدر,Sadr Logistics,main,النقل,Logistics
+1833,الموارد,Al Mawarid,main,الخدمات التجارية والمهنية,Human Resources
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
+2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas
@@ -31,6 +39,8 @@ symbol,name_ar,name_en,market,sector,industry
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
 4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services
+4030,البحري,Bahri,main,النقل,Marine Transportation
+4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
