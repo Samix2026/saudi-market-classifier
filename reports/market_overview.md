@@ -4,9 +4,9 @@
 
 ## الملخص
 
-- عدد الشركات: 157
-- عدد القطاعات: 15
-- عدد تصنيفات الأعمال: 15
+- عدد الشركات: 163
+- عدد القطاعات: 16
+- عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
 
 ## الشركات حسب القطاع
@@ -111,6 +111,15 @@
 
 - 1831 — مهارة (commercial_services, labor_market_and_services)
 - 1833 — الموارد (commercial_services, labor_market_and_services)
+
+### الخدمات المالية
+
+- 1111 — شركة مجموعة تداول السعودية القابضة (financial_services, unclassified)
+- 1182 — شركة أملاك العالمية للتمويل (financial_services, unclassified)
+- 1183 — شركة سهل للتمويل (financial_services, unclassified)
+- 4081 — شركة النايفات للتمويل (financial_services, unclassified)
+- 4082 — شركة المرابحة المرنة للتمويل (financial_services, unclassified)
+- 4084 — شركة دراية المالية (financial_services, unclassified)
 
 ### الرعاية الصحية
 
@@ -221,6 +230,7 @@
 - healthcare: 14
 - digital_infrastructure: 11
 - financial: 10
+- financial_services: 6
 - real_estate: 5
 - capital_goods: 4
 - energy: 4
@@ -233,7 +243,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 93
+- unclassified: 99
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

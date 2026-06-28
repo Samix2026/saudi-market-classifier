@@ -5,10 +5,13 @@ symbol,vision2030_theme
 1050,financial_sector_development
 1060,financial_sector_development
 1080,financial_sector_development
+1111,unclassified
 1120,financial_sector_development
 1140,financial_sector_development
 1150,financial_sector_development
 1180,financial_sector_development
+1182,unclassified
+1183,unclassified
 1201,industrial_development
 1202,industrial_development
 1210,industrial_development
@@ -98,6 +101,9 @@ symbol,vision2030_theme
 4021,unclassified
 4030,logistics_and_transport
 4031,logistics_and_transport
+4081,unclassified
+4082,unclassified
+4084,unclassified
 4163,healthcare_access
 4164,healthcare_access
 4190,quality_of_life_and_retail

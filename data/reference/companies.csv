@@ -5,10 +5,13 @@ symbol,name_ar,name_en,market,sector,industry
 1050,البنك السعودي الفرنسي,Banque Saudi Fransi,main,البنوك,Banks
 1060,البنك السعودي الأول,Saudi Awwal Bank,main,البنوك,Banks
 1080,البنك العربي الوطني,Arab National Bank,main,البنوك,Banks
+1111,شركة مجموعة تداول السعودية القابضة,Saudi Tadawul Group Holding Co.,M,الخدمات المالية,
 1120,مصرف الراجحي,Al Rajhi Bank,main,البنوك,Banks
 1140,بنك البلاد,Bank Albilad,main,البنوك,Banks
 1150,مصرف الإنماء,Alinma Bank,main,البنوك,Banks
 1180,البنك الأهلي السعودي,SNB,main,البنوك,Banks
+1182,شركة أملاك العالمية للتمويل,Amlak International Finance Co.,M,الخدمات المالية,
+1183,شركة سهل للتمويل,SHL Finance Co.,M,الخدمات المالية,
 1201,تكوين,Takween,main,المواد الأساسية,Materials
 1202,مبكو,MEPCO,main,المواد الأساسية,Materials
 1210,بي سي آي,BCI,main,المواد الأساسية,Chemicals
@@ -98,6 +101,9 @@ symbol,name_ar,name_en,market,sector,industry
 4021,شركة مجمع المركز الكندي الطبي العام,Canadian Medical Center Co.,M,الرعاية الصحية,
 4030,البحري,Bahri,main,النقل,Marine Transportation
 4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services
+4081,شركة النايفات للتمويل,Nayifat Finance Co.,M,الخدمات المالية,
+4082,شركة المرابحة المرنة للتمويل,Morabaha Marina Financing Co.,M,الخدمات المالية,
+4084,شركة دراية المالية,Derayah Financial Co.,M,الخدمات المالية,
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
