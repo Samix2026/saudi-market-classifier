@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 197
+- عدد الشركات: 206
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -13,11 +13,20 @@
 
 ### إدارة وتطوير العقارات
 
+- 4020 — الشركة العقارية السعودية (real_estate, unclassified)
+- 4090 — شركة طيبة للإستثمار (real_estate, unclassified)
+- 4100 — شركة مكة للإنشاء والتعمير (real_estate, unclassified)
+- 4150 — شركة الرياض للتعمير (real_estate, unclassified)
+- 4220 — إعمار المدينة الإقتصادية (real_estate, unclassified)
+- 4230 — شركة البحر الأحمر العالمية (real_estate, unclassified)
+- 4250 — شركة جبل عمر للتطوير (real_estate, unclassified)
 - 4300 — دار الأركان (real_estate, housing_and_real_estate)
 - 4310 — مدينة المعرفة (real_estate, housing_and_real_estate)
 - 4320 — الأندلس (real_estate, quality_of_life_and_retail)
 - 4321 — المراكز العربية (real_estate, quality_of_life_and_retail)
 - 4322 — رتال (real_estate, housing_and_real_estate)
+- 4323 — شركة سمو العقارية (real_estate, unclassified)
+- 4324 — شركة بنان العقارية (real_estate, unclassified)
 
 ### إنتاج الأغذية
 
@@ -264,11 +273,11 @@
 - capital_goods: 16
 - consumer_retail: 15
 - healthcare: 14
+- real_estate: 14
 - consumer_services: 13
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 6
-- real_estate: 5
 - energy: 4
 - transportation_logistics: 3
 - commercial_services: 2
@@ -277,7 +286,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 133
+- unclassified: 142
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7
