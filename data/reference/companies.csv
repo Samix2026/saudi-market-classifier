@@ -16,6 +16,9 @@ symbol,name_ar,name_en,market,sector,industry
 1202,مبكو,MEPCO,main,المواد الأساسية,Materials
 1210,بي سي آي,BCI,main,المواد الأساسية,Chemicals
 1211,معادن,Maaden,main,المواد الأساسية,Mining
+1212,مجموعة أسترا الصناعية,Astra Industrial Group,M,السلع الرأسمالية,
+1213,شركة نسيج العالمية التجارية,Naseej International Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
+1214,شركة الحسن غازي إبراهيم شاكر,Al Hassan Ghazi Ibrahim Shaker Co.,M,تجزئة وتوزيع السلع الكمالية,
 1301,أسلاك,Aslak,main,السلع الرأسمالية,Industrial Products
 1302,بوان,Bawan,main,السلع الرأسمالية,Industrial Products
 1303,صناعات كهربائية,Electrical Industries,main,السلع الرأسمالية,Electrical Equipment
@@ -24,6 +27,8 @@ symbol,name_ar,name_en,market,sector,industry
 1321,شركة أنابيب الشرق المتكاملة للصناعة,East Pipes Integrated Company for Industry,M,السلع الرأسمالية,
 1322,أماك,AMAK,main,المواد الأساسية,Mining
 1323,الشركة المتحدة لصناعات الكرتون,United Carton Industries Co.,M,السلع الرأسمالية,
+1324,شركة صالح عبدالعزيز الراشد وأولاده,Saleh Abdulaziz Al Rashed and Sons Co.,M,السلع الرأسمالية,
+1810,مجموعة سيرا القابضة,Seera Group Holding,M,الخدمات الاستهلاكية,
 1820,شركة مجموعة بان القابضة,BAAN Holding Group Co.,M,الخدمات الاستهلاكية,
 1830,لجام للرياضة,Leejam Sports,main,الخدمات الاستهلاكية,Fitness & Wellness
 1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources
@@ -48,9 +53,14 @@ symbol,name_ar,name_en,market,sector,industry
 2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
 2100,شركة وفرة للصناعة والتنمية,Wafrah for Industry and Development Co.,M,إنتاج الأغذية,
 2110,شركة الكابلات السعودية,Saudi Cable Co.,M,السلع الرأسمالية,
+2120,الشركة السعودية للصناعات المتطورة,Saudi Advanced Industries Co.,M,الخدمات المالية,
+2130,الشركة السعودية للتنمية الصناعية,Saudi Industrial Development Co.,M,السلع الرأسمالية,
+2140,شركة أيان للإستثمار,AYYAN Investment Co.,M,الرعاية الصحية,
 2150,شركة الصناعات الزجاجية الوطنية,The National Company for Glass Industries,M,المواد الأساسية,
 2160,شركة أميانتيت العربية السعودية,Saudi Arabian Amiantit Co.,M,المواد الأساسية,
 2170,شركة اللجين,Alujain Corp.,M,المواد الأساسية,
+2180,شركة تصنيع مواد التعبئة والتغليف,Filing and Packing Materials Manufacturing Co.,M,المواد الأساسية,
+2190,شركة البنى التحتية المستدامة القابضة,Sustained Infrastructure Holding Co.,M,النقل,
 2200,الشركة العربية للأنابيب,Arabian Pipes Co.,M,المواد الأساسية,
 2210,شركة نماء للكيماويات,Nama Chemicals Co.,M,المواد الأساسية,
 2220,الشركة الوطنية لتصنيع وسبك المعادن,National Metal Manufacturing and Casting Co.,M,المواد الأساسية,
@@ -75,6 +85,7 @@ symbol,name_ar,name_en,market,sector,industry
 2310,شركة الصحراء العالمية للبتروكيماويات,Sahara International Petrochemical Co.,M,المواد الأساسية,
 2320,شركة البابطين للطاقة والإتصالات,Al-Babtain Power and Telecommunication Co.,M,السلع الرأسمالية,
 2330,الشركة المتقدمة للبتروكيماويات,Advanced Petrochemical Co.,M,المواد الأساسية,
+2340,شركة ارتيكس للاستثمار الصناعي,ARTEX Industrial Investment Co.,M,تجزئة وتوزيع السلع الكمالية,
 2350,شركة كيان السعودية للبتروكيماويات,Saudi Kayan Petrochemical Co.,M,المواد الأساسية,
 2360,الشركة السعودية لإنتاج الأنابيب الفخارية,Saudi Vitrified Clay Pipes Co.,M,المواد الأساسية,
 2370,شركة الشرق الأوسط للكابلات المتخصصة,Middle East Specialized Cables Co.,M,المواد الأساسية,
@@ -107,6 +118,7 @@ symbol,name_ar,name_en,market,sector,industry
 4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services
 4008,الشركة السعودية للعدد والأدوات,Saudi Company for Hardware,M,تجزئة وتوزيع السلع الكمالية,
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
+4010,شركة دور للضيافة,Dur Hospitality Co.,M,الخدمات الاستهلاكية,
 4011,شركة لازوردي للمجوهرات,Lazurde Company for Jewelry,M,تجزئة وتوزيع السلع الكمالية,
 4012,شركة ثوب الأصيل,Thob Al Aseel Co.,M,تجزئة وتوزيع السلع الكمالية,
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
@@ -123,17 +135,27 @@ symbol,name_ar,name_en,market,sector,industry
 4040,الشركة السعودية للنقل الجماعي,Saudi Public Transport Co.,M,النقل,
 4050,الشركة السعودية لخدمات السيارات والمعدات,Saudi Automotive Services Co.,M,تجزئة وتوزيع السلع الكمالية,
 4051,شركة باعظيم التجارية,Baazeem Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
+4061,مجموعة أنعام الدولية القابضة,Anaam International Holding Group,M,إنتاج الأغذية,
+4070,شركة تهامة للإعلان والعلاقات العامة والتسويق,"Tihama Advertising, Public Relations and Marketing Co.",M,الخدمات التجارية والمهنية,
+4071,الشركة العربية للتعهدات الفنية,Arabian Contracting Services Co.,M,الخدمات التجارية والمهنية,
+4072,شركة مجموعة إم بي سي,MBC Group Co.,M,الخدمات الاستهلاكية,
+4080,شركة سناد القابضة,Sinad Holding Co.,M,تجزئة وتوزيع السلع الكمالية,
 4081,شركة النايفات للتمويل,Nayifat Finance Co.,M,الخدمات المالية,
 4082,شركة المرابحة المرنة للتمويل,Morabaha Marina Financing Co.,M,الخدمات المالية,
+4083,الشركة المتحدة الدولية القابضة,United International Holding Co.,M,الخدمات المالية,
 4084,شركة دراية المالية,Derayah Financial Co.,M,الخدمات المالية,
 4090,شركة طيبة للإستثمار,Taiba Investments Co.,M,إدارة وتطوير العقارات,
 4100,شركة مكة للإنشاء والتعمير,Makkah Construction and Development Co.,M,إدارة وتطوير العقارات,
 4110,شركة باتك للإستثمار والأعمال اللوجستية,Batic Investments and Logistics Co.,M,النقل,
+4130,شركة درب السعودية الأستثمارية,Saudi Darb Investment Co.,M,الخدمات المالية,
+4140,الشركة السعودية للصادرات الصناعية,Saudi Industrial Export Co.,M,السلع الرأسمالية,
 4141,شركة العمران للصناعة والتجارة,Al-Omran Industrial Trading Co.,M,السلع الرأسمالية,
 4142,شركة مجموعة كابلات الرياض,Riyadh Cables Group Co.,M,السلع الرأسمالية,
 4143,شركة مجموعة التيسير تالكو الصناعية,Al Taiseer Group Talco Industrial Co.,M,السلع الرأسمالية,
+4144,شركة رؤوم التجارية,Raoom Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
 4145,شركة العبيكان للزجاج,Obeikan Glass Co.,M,السلع الرأسمالية,
 4146,شركة جاز العربية للخدمات,Gas Arabian Services Co.,M,السلع الرأسمالية,
+4147,شركة اتحاد جروننفلدر سعدي القابضة,Consolidated Grunenfelder Saady Holding Co.,M,تجزئة وتوزيع السلع الكمالية,
 4148,شركة الوسائل الصناعية,Alwasail Industrial Co.,M,السلع الرأسمالية,
 4150,شركة الرياض للتعمير,Arriyadh Development Co.,M,إدارة وتطوير العقارات,
 4160,شركة ثمار التنمية القابضة,Thimar Development Holding Co.,M,الخدمات التجارية والمهنية,
@@ -141,12 +163,16 @@ symbol,name_ar,name_en,market,sector,industry
 4162,شركة المنجم للأغذية,Almunajem Foods Co.,M,الخدمات التجارية والمهنية,
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
+4165,شركة الماجد للعود,Al Majed Oud Co.,M,تجزئة وتوزيع السلع الكمالية,
 4170,شركة المشروعات السياحية,Tourism Enterprise Co.,M,الخدمات الاستهلاكية,
+4180,مجموعة فتيحي القابضة,Fitaihi Holding Group,M,تجزئة وتوزيع السلع الكمالية,
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
 4191,شركة عبد الله سعد محمد أبو معطي للمكتبات,Abdullah Saad Mohammed Abo Moati for Bookstores Co.,M,تجزئة وتوزيع السلع الكمالية,
 4192,شركة متاجر السيف للتنمية والاستثمار,AlSaif Stores for Development and Investment Co.,M,تجزئة وتوزيع السلع الكمالية,
 4193,شركة نايس ون بيوتي للتسويق الإلكتروني,Nice One Beauty Digital Marketing Co.,M,تجزئة وتوزيع السلع الكمالية,
 4194,شركة مجموعة منزل التسويق للتجارة,Marketing Home Group for Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
+4200,شركة الدريس للخدمات البترولية و النقليات,Aldrees Petroleum and Transport Services Co.,M,الطاقة,
+4210,المجموعة السعودية للأبحاث والإعلام,Saudi Research and Media Group,M,الخدمات الاستهلاكية,
 4220,إعمار المدينة الإقتصادية,Emaar The Economic City,M,إدارة وتطوير العقارات,
 4230,شركة البحر الأحمر العالمية,Red Sea International Co.,M,إدارة وتطوير العقارات,
 4240,شركة إيه إف جي إنترناشونال,AFG International Co.,M,تجزئة وتوزيع السلع الكمالية,
@@ -157,6 +183,8 @@ symbol,name_ar,name_en,market,sector,industry
 4263,شركة سال السعودية للخدمات اللوجستية,SAL Saudi Logistics Services Co.,M,النقل,
 4264,شركة طيران ناس,Flynas Co.,M,النقل,
 4265,شركة شري للتجارة,Cherry Trading Co.,M,النقل,
+4270,الشركة السعودية للطباعة والتغليف,Saudi Printing and Packaging Co.,M,الخدمات التجارية والمهنية,
+4280,شركة المملكة القابضة,Kingdom Holding Co.,M,الخدمات المالية,
 4290,شركة الخليج للتدريب والتعليم,Alkhaleej Training and Education Co.,M,الخدمات الاستهلاكية,
 4291,الشركة الوطنية للتربية و التعليم,National Company for Learning and Education,M,الخدمات الاستهلاكية,
 4292,شركة عطاء التعليمية,Ataa Educational Co.,M,الخدمات الاستهلاكية,
@@ -167,6 +195,9 @@ symbol,name_ar,name_en,market,sector,industry
 4322,رتال,Retal,main,إدارة وتطوير العقارات,Real Estate Development
 4323,شركة سمو العقارية,Sumou Real Estate Co.,M,إدارة وتطوير العقارات,
 4324,شركة بنان العقارية,Banan Real Estate Co.,M,إدارة وتطوير العقارات,
+4325,شركة أم القرى للتنمية والإعمار,Umm Al Qura for Development and Construction Co.,M,إدارة وتطوير العقارات,
+4326,شركة دار الماجد العقارية,Dar Al Majed Real Estate Co.,M,إدارة وتطوير العقارات,
+4327,شركة الرمز للعقارات,Alramz Real Estate Co.,M,إدارة وتطوير العقارات,
 5110,الشركة السعودية للطاقة,Saudi Energy Co.,M,المرافق العامة,
 6001,حلواني إخوان,Halwani Bros,main,إنتاج الأغذية,Food Production
 6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants
@@ -178,6 +209,8 @@ symbol,name_ar,name_en,market,sector,industry
 6015,شركة أمريكانا للمطاعم العالمية بي إل سي - شركة أجنبية,Americana Restaurants International PLC - Foreign Company,M,الخدمات الاستهلاكية,
 6016,شركة مطاعم بيت الشطيرة للوجبات السريعة,Shatirah House Restaurant Co.,M,الخدمات الاستهلاكية,
 6017,شركة جاهز الدولية لتقنية نظم المعلومات,Jahez International Company for Information System Technology,M,الخدمات الاستهلاكية,
+6018,شركة الأندية للرياضة,Sport Clubs Co.,M,الخدمات الاستهلاكية,
+6019,شركة المسار الشامل للتعليم,Al Masar Al Shamil Education Co.,M,الخدمات الاستهلاكية,
 6020,جاكو,JACO,main,إنتاج الأغذية,Agriculture
 6030,شركة حائل للتنمية الزراعية,Hail Agriculture Development Co.,M,إنتاج الأغذية,
 6040,شركة تبوك للتنمية الزراعية,Tabuk Agricultural Development Co.,M,إنتاج الأغذية,

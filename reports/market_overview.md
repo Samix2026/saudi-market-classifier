@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 226
+- عدد الشركات: 259
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -27,6 +27,9 @@
 - 4322 — رتال (real_estate, housing_and_real_estate)
 - 4323 — شركة سمو العقارية (real_estate, unclassified)
 - 4324 — شركة بنان العقارية (real_estate, unclassified)
+- 4325 — شركة أم القرى للتنمية والإعمار (real_estate, unclassified)
+- 4326 — شركة دار الماجد العقارية (real_estate, unclassified)
+- 4327 — شركة الرمز للعقارات (real_estate, unclassified)
 
 ### إنتاج الأغذية
 
@@ -42,6 +45,7 @@
 - 2286 — شركة المطاحن الرابعة (food_production, unclassified)
 - 2287 — الشركة العربية للاستثمار الزراعي والصناعي (food_production, unclassified)
 - 2288 — شركة نفوذ للمنتجات الغذائية (food_production, unclassified)
+- 4061 — مجموعة أنعام الدولية القابضة (food_production, unclassified)
 - 6001 — حلواني إخوان (food_production, food_security_and_industry)
 - 6010 — نادك (food_production, food_security_and_industry)
 - 6020 — جاكو (food_production, food_security_and_industry)
@@ -113,9 +117,13 @@
 
 ### الخدمات الاستهلاكية
 
+- 1810 — مجموعة سيرا القابضة (consumer_services, unclassified)
 - 1820 — شركة مجموعة بان القابضة (consumer_services, unclassified)
 - 1830 — لجام للرياضة (consumer_services, quality_of_life_and_retail)
+- 4010 — شركة دور للضيافة (consumer_services, unclassified)
+- 4072 — شركة مجموعة إم بي سي (consumer_services, unclassified)
 - 4170 — شركة المشروعات السياحية (consumer_services, unclassified)
+- 4210 — المجموعة السعودية للأبحاث والإعلام (consumer_services, unclassified)
 - 4290 — شركة الخليج للتدريب والتعليم (consumer_services, unclassified)
 - 4291 — الشركة الوطنية للتربية و التعليم (consumer_services, unclassified)
 - 4292 — شركة عطاء التعليمية (consumer_services, unclassified)
@@ -126,6 +134,8 @@
 - 6015 — شركة أمريكانا للمطاعم العالمية بي إل سي - شركة أجنبية (consumer_services, unclassified)
 - 6016 — شركة مطاعم بيت الشطيرة للوجبات السريعة (consumer_services, unclassified)
 - 6017 — شركة جاهز الدولية لتقنية نظم المعلومات (consumer_services, unclassified)
+- 6018 — شركة الأندية للرياضة (consumer_services, unclassified)
+- 6019 — شركة المسار الشامل للتعليم (consumer_services, unclassified)
 
 ### الخدمات التجارية والمهنية
 
@@ -133,22 +143,30 @@
 - 1833 — الموارد (commercial_services, labor_market_and_services)
 - 1834 — الشركة السعودية لحلول القوى البشرية (commercial_services, unclassified)
 - 1835 — شركة تمكين للموارد البشرية (commercial_services, unclassified)
+- 4070 — شركة تهامة للإعلان والعلاقات العامة والتسويق (commercial_services, unclassified)
+- 4071 — الشركة العربية للتعهدات الفنية (commercial_services, unclassified)
 - 4160 — شركة ثمار التنمية القابضة (commercial_services, unclassified)
 - 4161 — شركة بن داود القابضة (commercial_services, unclassified)
 - 4162 — شركة المنجم للأغذية (commercial_services, unclassified)
+- 4270 — الشركة السعودية للطباعة والتغليف (commercial_services, unclassified)
 
 ### الخدمات المالية
 
 - 1111 — شركة مجموعة تداول السعودية القابضة (financial_services, unclassified)
 - 1182 — شركة أملاك العالمية للتمويل (financial_services, unclassified)
 - 1183 — شركة سهل للتمويل (financial_services, unclassified)
+- 2120 — الشركة السعودية للصناعات المتطورة (financial_services, unclassified)
 - 4081 — شركة النايفات للتمويل (financial_services, unclassified)
 - 4082 — شركة المرابحة المرنة للتمويل (financial_services, unclassified)
+- 4083 — الشركة المتحدة الدولية القابضة (financial_services, unclassified)
 - 4084 — شركة دراية المالية (financial_services, unclassified)
+- 4130 — شركة درب السعودية الأستثمارية (financial_services, unclassified)
+- 4280 — شركة المملكة القابضة (financial_services, unclassified)
 
 ### الرعاية الصحية
 
 - 2070 — الشركة السعودية للصناعات الدوائية والمستلزمات الطبية (healthcare, unclassified)
+- 2140 — شركة أيان للإستثمار (healthcare, unclassified)
 - 4002 — المواساة (healthcare, healthcare_quality)
 - 4004 — دله الصحية (healthcare, healthcare_quality)
 - 4005 — رعاية (healthcare, healthcare_quality)
@@ -165,6 +183,7 @@
 
 ### السلع الرأسمالية
 
+- 1212 — مجموعة أسترا الصناعية (capital_goods, unclassified)
 - 1301 — أسلاك (capital_goods, industrial_development)
 - 1302 — بوان (capital_goods, industrial_development)
 - 1303 — صناعات كهربائية (capital_goods, industrial_development)
@@ -172,9 +191,12 @@
 - 1320 — الشركة السعودية لأنابيب الصلب (capital_goods, unclassified)
 - 1321 — شركة أنابيب الشرق المتكاملة للصناعة (capital_goods, unclassified)
 - 1323 — الشركة المتحدة لصناعات الكرتون (capital_goods, unclassified)
+- 1324 — شركة صالح عبدالعزيز الراشد وأولاده (capital_goods, unclassified)
 - 2040 — الخزف السعودي (capital_goods, industrial_development)
 - 2110 — شركة الكابلات السعودية (capital_goods, unclassified)
+- 2130 — الشركة السعودية للتنمية الصناعية (capital_goods, unclassified)
 - 2320 — شركة البابطين للطاقة والإتصالات (capital_goods, unclassified)
+- 4140 — الشركة السعودية للصادرات الصناعية (capital_goods, unclassified)
 - 4141 — شركة العمران للصناعة والتجارة (capital_goods, unclassified)
 - 4142 — شركة مجموعة كابلات الرياض (capital_goods, unclassified)
 - 4143 — شركة مجموعة التيسير تالكو الصناعية (capital_goods, unclassified)
@@ -193,6 +215,7 @@
 - 2380 — بترو رابغ (energy, energy)
 - 2381 — الحفر العربية (energy, energy)
 - 2382 — أديس (energy, energy)
+- 4200 — شركة الدريس للخدمات البترولية و النقليات (energy, unclassified)
 
 ### المرافق العامة
 
@@ -217,6 +240,7 @@
 - 2150 — شركة الصناعات الزجاجية الوطنية (basic_materials, unclassified)
 - 2160 — شركة أميانتيت العربية السعودية (basic_materials, unclassified)
 - 2170 — شركة اللجين (basic_materials, unclassified)
+- 2180 — شركة تصنيع مواد التعبئة والتغليف (basic_materials, unclassified)
 - 2200 — الشركة العربية للأنابيب (basic_materials, unclassified)
 - 2210 — شركة نماء للكيماويات (basic_materials, unclassified)
 - 2220 — الشركة الوطنية لتصنيع وسبك المعادن (basic_materials, unclassified)
@@ -252,6 +276,7 @@
 ### النقل
 
 - 1832 — صدر (transportation_logistics, logistics_and_transport)
+- 2190 — شركة البنى التحتية المستدامة القابضة (transportation_logistics, unclassified)
 - 4030 — البحري (transportation_logistics, logistics_and_transport)
 - 4031 — الخدمات الأرضية (transportation_logistics, logistics_and_transport)
 - 4040 — الشركة السعودية للنقل الجماعي (transportation_logistics, unclassified)
@@ -269,6 +294,9 @@
 
 ### تجزئة وتوزيع السلع الكمالية
 
+- 1213 — شركة نسيج العالمية التجارية (consumer_retail, unclassified)
+- 1214 — شركة الحسن غازي إبراهيم شاكر (consumer_retail, unclassified)
+- 2340 — شركة ارتيكس للاستثمار الصناعي (consumer_retail, unclassified)
 - 4003 — إكسترا (consumer_retail, quality_of_life_and_retail)
 - 4006 — الشركة السعودية للتسويق (consumer_retail, unclassified)
 - 4008 — الشركة السعودية للعدد والأدوات (consumer_retail, unclassified)
@@ -276,8 +304,13 @@
 - 4012 — شركة ثوب الأصيل (consumer_retail, unclassified)
 - 4050 — الشركة السعودية لخدمات السيارات والمعدات (consumer_retail, unclassified)
 - 4051 — شركة باعظيم التجارية (consumer_retail, unclassified)
+- 4080 — شركة سناد القابضة (consumer_retail, unclassified)
+- 4144 — شركة رؤوم التجارية (consumer_retail, unclassified)
+- 4147 — شركة اتحاد جروننفلدر سعدي القابضة (consumer_retail, unclassified)
 - 4163 — الدواء (consumer_retail, healthcare_access)
 - 4164 — النهدي الطبية (consumer_retail, healthcare_access)
+- 4165 — شركة الماجد للعود (consumer_retail, unclassified)
+- 4180 — مجموعة فتيحي القابضة (consumer_retail, unclassified)
 - 4190 — جرير (consumer_retail, quality_of_life_and_retail)
 - 4191 — شركة عبد الله سعد محمد أبو معطي للمكتبات (consumer_retail, unclassified)
 - 4192 — شركة متاجر السيف للتنمية والاستثمار (consumer_retail, unclassified)
@@ -287,26 +320,26 @@
 
 ## الشركات حسب تصنيف النشاط
 
-- basic_materials: 45
+- basic_materials: 46
 - insurance: 28
-- food_production: 22
-- capital_goods: 16
-- consumer_retail: 15
-- healthcare: 14
-- real_estate: 14
-- consumer_services: 13
-- transportation_logistics: 11
+- consumer_retail: 23
+- food_production: 23
+- capital_goods: 20
+- consumer_services: 19
+- real_estate: 17
+- healthcare: 15
+- transportation_logistics: 12
 - digital_infrastructure: 11
 - financial: 10
-- energy: 9
-- commercial_services: 7
-- financial_services: 6
+- financial_services: 10
+- commercial_services: 10
+- energy: 10
 - utilities: 4
 - consumer_defensive: 1
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 162
+- unclassified: 195
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7
