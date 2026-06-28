@@ -1,6 +1,21 @@
 symbol,name_ar,name_en,market,sector,industry
 1120,مصرف الراجحي,Al Rajhi Bank,main,البنوك,Banks
 1150,مصرف الإنماء,Alinma Bank,main,البنوك,Banks
+1180,البنك الأهلي السعودي,SNB,main,البنوك,Banks
+1010,بنك الرياض,Riyad Bank,main,البنوك,Banks
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
+2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
+1211,معادن,Maaden,main,المواد الأساسية,Mining
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas
+2380,بترو رابغ,Petro Rabigh,main,الطاقة,Refining & Petrochemicals
 7010,stc,stc,main,الاتصالات,Telecom
+7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
+7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom
+4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
+4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
+4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
+4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
+2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
+2083,مرافق,Marafiq,main,المرافق العامة,Utilities
+4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
+4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management

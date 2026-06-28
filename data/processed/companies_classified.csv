@@ -1,6 +1,21 @@
 symbol,name_ar,name_en,market,sector,industry,business_class,vision2030_theme
 1120,مصرف الراجحي,Al Rajhi Bank,main,البنوك,Banks,financial,financial_sector_development
 1150,مصرف الإنماء,Alinma Bank,main,البنوك,Banks,financial,financial_sector_development
+1180,البنك الأهلي السعودي,SNB,main,البنوك,Banks,financial,financial_sector_development
+1010,بنك الرياض,Riyad Bank,main,البنوك,Banks,financial,financial_sector_development
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals,basic_materials,industrial_development
+2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers,basic_materials,food_security_and_industry
+1211,معادن,Maaden,main,المواد الأساسية,Mining,basic_materials,industrial_development
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas,energy,energy
+2380,بترو رابغ,Petro Rabigh,main,الطاقة,Refining & Petrochemicals,energy,energy
 7010,stc,stc,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation
+7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation
+7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation
+4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
+4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
+4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail,consumer_defensive,food_security_and_retail
+4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail,consumer_retail,healthcare_access
+2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities,utilities,renewable_energy_and_utilities
+2083,مرافق,Marafiq,main,المرافق العامة,Utilities,utilities,utilities_and_infrastructure
+4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development,real_estate,housing_and_real_estate
+4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management,real_estate,quality_of_life_and_retail
