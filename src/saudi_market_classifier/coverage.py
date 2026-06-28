@@ -37,12 +37,35 @@ def main():
 
     lines.extend([
         "",
+        "## نوع المصدر",
+        "",
+    ])
+
+    for source_type, count in df["source_type"].value_counts().items():
+        lines.append(f"- {source_type}: {count}")
+
+    lines.extend([
+        "",
         "## التغطية حسب القطاع",
         "",
     ])
 
     for sector, count in df["sector"].value_counts().items():
         lines.append(f"- {sector}: {count}")
+
+    lines.extend([
+        "",
+        "## الشركات التي تحتاج إلى رابط مصدر رسمي",
+        "",
+    ])
+
+    pending_sources = df[df["source_type"] != "official"]
+
+    for _, row in pending_sources.sort_values("symbol").iterrows():
+        lines.append(
+            f"- {row['symbol']} — {row['name_ar']} "
+            f"({row['source_type']})"
+        )
 
     lines.extend([
         "",
