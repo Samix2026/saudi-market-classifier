@@ -113,6 +113,7 @@ symbol,name_ar,name_en,market,sector,industry
 4021,شركة مجمع المركز الكندي الطبي العام,Canadian Medical Center Co.,M,الرعاية الصحية,
 4030,البحري,Bahri,main,النقل,Marine Transportation
 4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services
+4040,الشركة السعودية للنقل الجماعي,Saudi Public Transport Co.,M,النقل,
 4050,الشركة السعودية لخدمات السيارات والمعدات,Saudi Automotive Services Co.,M,تجزئة وتوزيع السلع الكمالية,
 4051,شركة باعظيم التجارية,Baazeem Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
 4081,شركة النايفات للتمويل,Nayifat Finance Co.,M,الخدمات المالية,
@@ -120,6 +121,7 @@ symbol,name_ar,name_en,market,sector,industry
 4084,شركة دراية المالية,Derayah Financial Co.,M,الخدمات المالية,
 4090,شركة طيبة للإستثمار,Taiba Investments Co.,M,إدارة وتطوير العقارات,
 4100,شركة مكة للإنشاء والتعمير,Makkah Construction and Development Co.,M,إدارة وتطوير العقارات,
+4110,شركة باتك للإستثمار والأعمال اللوجستية,Batic Investments and Logistics Co.,M,النقل,
 4141,شركة العمران للصناعة والتجارة,Al-Omran Industrial Trading Co.,M,السلع الرأسمالية,
 4142,شركة مجموعة كابلات الرياض,Riyadh Cables Group Co.,M,السلع الرأسمالية,
 4143,شركة مجموعة التيسير تالكو الصناعية,Al Taiseer Group Talco Industrial Co.,M,السلع الرأسمالية,
@@ -139,6 +141,12 @@ symbol,name_ar,name_en,market,sector,industry
 4230,شركة البحر الأحمر العالمية,Red Sea International Co.,M,إدارة وتطوير العقارات,
 4240,شركة إيه إف جي إنترناشونال,AFG International Co.,M,تجزئة وتوزيع السلع الكمالية,
 4250,شركة جبل عمر للتطوير,Jabal Omar Development Co.,M,إدارة وتطوير العقارات,
+4260,الشركة المتحدة الدولية للمواصلات,United International Transportation Co.,M,النقل,
+4261,شركة ذيب لتأجير السيارات,Theeb Rent a Car Co.,M,النقل,
+4262,شركة لومي للتأجير,Lumi Rental Co.,M,النقل,
+4263,شركة سال السعودية للخدمات اللوجستية,SAL Saudi Logistics Services Co.,M,النقل,
+4264,شركة طيران ناس,Flynas Co.,M,النقل,
+4265,شركة شري للتجارة,Cherry Trading Co.,M,النقل,
 4290,شركة الخليج للتدريب والتعليم,Alkhaleej Training and Education Co.,M,الخدمات الاستهلاكية,
 4291,الشركة الوطنية للتربية و التعليم,National Company for Learning and Education,M,الخدمات الاستهلاكية,
 4292,شركة عطاء التعليمية,Ataa Educational Co.,M,الخدمات الاستهلاكية,

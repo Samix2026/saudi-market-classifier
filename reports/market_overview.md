@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 206
+- عدد الشركات: 214
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -242,6 +242,14 @@
 - 1832 — صدر (transportation_logistics, logistics_and_transport)
 - 4030 — البحري (transportation_logistics, logistics_and_transport)
 - 4031 — الخدمات الأرضية (transportation_logistics, logistics_and_transport)
+- 4040 — الشركة السعودية للنقل الجماعي (transportation_logistics, unclassified)
+- 4110 — شركة باتك للإستثمار والأعمال اللوجستية (transportation_logistics, unclassified)
+- 4260 — الشركة المتحدة الدولية للمواصلات (transportation_logistics, unclassified)
+- 4261 — شركة ذيب لتأجير السيارات (transportation_logistics, unclassified)
+- 4262 — شركة لومي للتأجير (transportation_logistics, unclassified)
+- 4263 — شركة سال السعودية للخدمات اللوجستية (transportation_logistics, unclassified)
+- 4264 — شركة طيران ناس (transportation_logistics, unclassified)
+- 4265 — شركة شري للتجارة (transportation_logistics, unclassified)
 
 ### تجزئة الأغذية
 
@@ -275,18 +283,18 @@
 - healthcare: 14
 - real_estate: 14
 - consumer_services: 13
+- transportation_logistics: 11
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 6
 - energy: 4
-- transportation_logistics: 3
 - commercial_services: 2
 - utilities: 2
 - consumer_defensive: 1
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 142
+- unclassified: 150
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7
