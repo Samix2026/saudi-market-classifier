@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 163
+- عدد الشركات: 175
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -143,7 +143,19 @@
 - 1301 — أسلاك (capital_goods, industrial_development)
 - 1302 — بوان (capital_goods, industrial_development)
 - 1303 — صناعات كهربائية (capital_goods, industrial_development)
+- 1304 — شركة اليمامة للصناعات الحديدية (capital_goods, unclassified)
+- 1320 — الشركة السعودية لأنابيب الصلب (capital_goods, unclassified)
+- 1321 — شركة أنابيب الشرق المتكاملة للصناعة (capital_goods, unclassified)
+- 1323 — الشركة المتحدة لصناعات الكرتون (capital_goods, unclassified)
 - 2040 — الخزف السعودي (capital_goods, industrial_development)
+- 2110 — شركة الكابلات السعودية (capital_goods, unclassified)
+- 2320 — شركة البابطين للطاقة والإتصالات (capital_goods, unclassified)
+- 4141 — شركة العمران للصناعة والتجارة (capital_goods, unclassified)
+- 4142 — شركة مجموعة كابلات الرياض (capital_goods, unclassified)
+- 4143 — شركة مجموعة التيسير تالكو الصناعية (capital_goods, unclassified)
+- 4145 — شركة العبيكان للزجاج (capital_goods, unclassified)
+- 4146 — شركة جاز العربية للخدمات (capital_goods, unclassified)
+- 4148 — شركة الوسائل الصناعية (capital_goods, unclassified)
 
 ### الطاقة
 
@@ -227,12 +239,12 @@
 - basic_materials: 45
 - insurance: 28
 - food_production: 22
+- capital_goods: 16
 - healthcare: 14
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 6
 - real_estate: 5
-- capital_goods: 4
 - energy: 4
 - consumer_retail: 4
 - transportation_logistics: 3
@@ -243,7 +255,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 99
+- unclassified: 111
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

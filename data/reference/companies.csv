@@ -19,7 +19,11 @@ symbol,name_ar,name_en,market,sector,industry
 1301,أسلاك,Aslak,main,السلع الرأسمالية,Industrial Products
 1302,بوان,Bawan,main,السلع الرأسمالية,Industrial Products
 1303,صناعات كهربائية,Electrical Industries,main,السلع الرأسمالية,Electrical Equipment
+1304,شركة اليمامة للصناعات الحديدية,Al Yamamah Steel Industries Co.,M,السلع الرأسمالية,
+1320,الشركة السعودية لأنابيب الصلب,Saudi Steel Pipe Co.,M,السلع الرأسمالية,
+1321,شركة أنابيب الشرق المتكاملة للصناعة,East Pipes Integrated Company for Industry,M,السلع الرأسمالية,
 1322,أماك,AMAK,main,المواد الأساسية,Mining
+1323,الشركة المتحدة لصناعات الكرتون,United Carton Industries Co.,M,السلع الرأسمالية,
 1830,لجام للرياضة,Leejam Sports,main,الخدمات الاستهلاكية,Fitness & Wellness
 1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources
 1832,صدر,Sadr Logistics,main,النقل,Logistics
@@ -36,6 +40,7 @@ symbol,name_ar,name_en,market,sector,industry
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
 2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
 2100,شركة وفرة للصناعة والتنمية,Wafrah for Industry and Development Co.,M,إنتاج الأغذية,
+2110,شركة الكابلات السعودية,Saudi Cable Co.,M,السلع الرأسمالية,
 2150,شركة الصناعات الزجاجية الوطنية,The National Company for Glass Industries,M,المواد الأساسية,
 2160,شركة أميانتيت العربية السعودية,Saudi Arabian Amiantit Co.,M,المواد الأساسية,
 2170,شركة اللجين,Alujain Corp.,M,المواد الأساسية,
@@ -60,6 +65,7 @@ symbol,name_ar,name_en,market,sector,industry
 2290,شركة ينبع الوطنية للبتروكيماويات,Yanbu National Petrochemical Co.,M,المواد الأساسية,
 2300,الشركة السعودية لصناعة الورق,Saudi Paper Manufacturing Co.,M,المواد الأساسية,
 2310,شركة الصحراء العالمية للبتروكيماويات,Sahara International Petrochemical Co.,M,المواد الأساسية,
+2320,شركة البابطين للطاقة والإتصالات,Al-Babtain Power and Telecommunication Co.,M,السلع الرأسمالية,
 2330,الشركة المتقدمة للبتروكيماويات,Advanced Petrochemical Co.,M,المواد الأساسية,
 2350,شركة كيان السعودية للبتروكيماويات,Saudi Kayan Petrochemical Co.,M,المواد الأساسية,
 2360,الشركة السعودية لإنتاج الأنابيب الفخارية,Saudi Vitrified Clay Pipes Co.,M,المواد الأساسية,
@@ -104,6 +110,12 @@ symbol,name_ar,name_en,market,sector,industry
 4081,شركة النايفات للتمويل,Nayifat Finance Co.,M,الخدمات المالية,
 4082,شركة المرابحة المرنة للتمويل,Morabaha Marina Financing Co.,M,الخدمات المالية,
 4084,شركة دراية المالية,Derayah Financial Co.,M,الخدمات المالية,
+4141,شركة العمران للصناعة والتجارة,Al-Omran Industrial Trading Co.,M,السلع الرأسمالية,
+4142,شركة مجموعة كابلات الرياض,Riyadh Cables Group Co.,M,السلع الرأسمالية,
+4143,شركة مجموعة التيسير تالكو الصناعية,Al Taiseer Group Talco Industrial Co.,M,السلع الرأسمالية,
+4145,شركة العبيكان للزجاج,Obeikan Glass Co.,M,السلع الرأسمالية,
+4146,شركة جاز العربية للخدمات,Gas Arabian Services Co.,M,السلع الرأسمالية,
+4148,شركة الوسائل الصناعية,Alwasail Industrial Co.,M,السلع الرأسمالية,
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
