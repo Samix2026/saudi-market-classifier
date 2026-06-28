@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 175
+- عدد الشركات: 184
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -230,9 +230,18 @@
 ### تجزئة وتوزيع السلع الكمالية
 
 - 4003 — إكسترا (consumer_retail, quality_of_life_and_retail)
+- 4006 — الشركة السعودية للتسويق (consumer_retail, unclassified)
+- 4008 — الشركة السعودية للعدد والأدوات (consumer_retail, unclassified)
+- 4050 — الشركة السعودية لخدمات السيارات والمعدات (consumer_retail, unclassified)
+- 4051 — شركة باعظيم التجارية (consumer_retail, unclassified)
 - 4163 — الدواء (consumer_retail, healthcare_access)
 - 4164 — النهدي الطبية (consumer_retail, healthcare_access)
 - 4190 — جرير (consumer_retail, quality_of_life_and_retail)
+- 4191 — شركة عبد الله سعد محمد أبو معطي للمكتبات (consumer_retail, unclassified)
+- 4192 — شركة متاجر السيف للتنمية والاستثمار (consumer_retail, unclassified)
+- 4193 — شركة نايس ون بيوتي للتسويق الإلكتروني (consumer_retail, unclassified)
+- 4194 — شركة مجموعة منزل التسويق للتجارة (consumer_retail, unclassified)
+- 4240 — شركة إيه إف جي إنترناشونال (consumer_retail, unclassified)
 
 ## الشركات حسب تصنيف النشاط
 
@@ -241,12 +250,12 @@
 - food_production: 22
 - capital_goods: 16
 - healthcare: 14
+- consumer_retail: 13
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 6
 - real_estate: 5
 - energy: 4
-- consumer_retail: 4
 - transportation_logistics: 3
 - consumer_services: 2
 - commercial_services: 2
@@ -255,7 +264,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 111
+- unclassified: 120
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

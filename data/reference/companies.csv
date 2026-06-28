@@ -95,7 +95,9 @@ symbol,name_ar,name_en,market,sector,industry
 4003,إكسترا,eXtra,main,تجزئة وتوزيع السلع الكمالية,Electronics Retail
 4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
 4005,رعاية,Care,main,الرعاية الصحية,Healthcare Services
+4006,الشركة السعودية للتسويق,Saudi Marketing Co.,M,تجزئة وتوزيع السلع الكمالية,
 4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services
+4008,الشركة السعودية للعدد والأدوات,Saudi Company for Hardware,M,تجزئة وتوزيع السلع الكمالية,
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
 4014,شركة دار المعدات الطبية والعلمية,Scientific and Medical Equipment House Co.,M,الرعاية الصحية,
@@ -107,6 +109,8 @@ symbol,name_ar,name_en,market,sector,industry
 4021,شركة مجمع المركز الكندي الطبي العام,Canadian Medical Center Co.,M,الرعاية الصحية,
 4030,البحري,Bahri,main,النقل,Marine Transportation
 4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services
+4050,الشركة السعودية لخدمات السيارات والمعدات,Saudi Automotive Services Co.,M,تجزئة وتوزيع السلع الكمالية,
+4051,شركة باعظيم التجارية,Baazeem Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
 4081,شركة النايفات للتمويل,Nayifat Finance Co.,M,الخدمات المالية,
 4082,شركة المرابحة المرنة للتمويل,Morabaha Marina Financing Co.,M,الخدمات المالية,
 4084,شركة دراية المالية,Derayah Financial Co.,M,الخدمات المالية,
@@ -119,6 +123,11 @@ symbol,name_ar,name_en,market,sector,industry
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
+4191,شركة عبد الله سعد محمد أبو معطي للمكتبات,Abdullah Saad Mohammed Abo Moati for Bookstores Co.,M,تجزئة وتوزيع السلع الكمالية,
+4192,شركة متاجر السيف للتنمية والاستثمار,AlSaif Stores for Development and Investment Co.,M,تجزئة وتوزيع السلع الكمالية,
+4193,شركة نايس ون بيوتي للتسويق الإلكتروني,Nice One Beauty Digital Marketing Co.,M,تجزئة وتوزيع السلع الكمالية,
+4194,شركة مجموعة منزل التسويق للتجارة,Marketing Home Group for Trading Co.,M,تجزئة وتوزيع السلع الكمالية,
+4240,شركة إيه إف جي إنترناشونال,AFG International Co.,M,تجزئة وتوزيع السلع الكمالية,
 4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
 4310,مدينة المعرفة,Knowledge City,main,إدارة وتطوير العقارات,Real Estate Development
 4320,الأندلس,Al Andalus,main,إدارة وتطوير العقارات,Real Estate Management
