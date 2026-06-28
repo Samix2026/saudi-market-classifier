@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 151
+- عدد الشركات: 157
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
 - عدد ثيمات رؤية 2030: 15
@@ -50,7 +50,13 @@
 - 7020 — اتحاد اتصالات (digital_infrastructure, digital_transformation)
 - 7030 — زين السعودية (digital_infrastructure, digital_transformation)
 - 7040 — عذيب للاتصالات (digital_infrastructure, digital_transformation)
+- 7200 — شركة المعمر لأنظمة المعلومات (digital_infrastructure, unclassified)
+- 7201 — شركة بحر العرب لأنظمة المعلومات (digital_infrastructure, unclassified)
 - 7202 — سلوشنز (digital_infrastructure, digital_transformation)
+- 7203 — شركة علم (digital_infrastructure, unclassified)
+- 7204 — شركة العرض المتقن للخدمات التجارية (digital_infrastructure, unclassified)
+- 7205 — شرکة دار البلد لحلول الأعمال (digital_infrastructure, unclassified)
+- 7211 — شركة عزم السعودية للاتصالات وتقنية المعلومات (digital_infrastructure, unclassified)
 
 ### البنوك
 
@@ -213,9 +219,9 @@
 - insurance: 28
 - food_production: 22
 - healthcare: 14
+- digital_infrastructure: 11
 - financial: 10
 - real_estate: 5
-- digital_infrastructure: 5
 - capital_goods: 4
 - energy: 4
 - consumer_retail: 4
@@ -227,7 +233,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 87
+- unclassified: 93
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

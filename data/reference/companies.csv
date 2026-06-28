@@ -121,7 +121,13 @@ symbol,name_ar,name_en,market,sector,industry
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom
 7040,عذيب للاتصالات,GO Telecom,main,الاتصالات,Telecom
+7200,شركة المعمر لأنظمة المعلومات,Al Moammar Information Systems Co.,M,الاتصالات,
+7201,شركة بحر العرب لأنظمة المعلومات,Arab Sea Information System Co.,M,الاتصالات,
 7202,سلوشنز,solutions by stc,main,الاتصالات,Digital Services
+7203,شركة علم,Elm Co.,M,الاتصالات,
+7204,شركة العرض المتقن للخدمات التجارية,Perfect Presentation for Commercial Services Co.,M,الاتصالات,
+7205,شرکة دار البلد لحلول الأعمال,Dar Albalad for Business Solutions Co.,M,الاتصالات,
+7211,شركة عزم السعودية للاتصالات وتقنية المعلومات,Saudi Azm for Communication and Information Technology Co.,M,الاتصالات,
 8010,التعاونية,Tawuniya,main,التأمين,Insurance
 8012,شركة الجزيرة تكافل تعاوني,Aljazira Takaful Taawuni Co.,M,التأمين,
 8020,شركة ملاذ للتأمين التعاوني,Malath Cooperative Insurance Co.,M,التأمين,
