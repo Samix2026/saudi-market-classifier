@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 102
+- عدد الشركات: 121
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
 - عدد ثيمات رؤية 2030: 15
@@ -21,9 +21,28 @@
 
 ### إنتاج الأغذية
 
+- 2050 — مجموعة صافولا (food_production, unclassified)
+- 2100 — شركة وفرة للصناعة والتنمية (food_production, unclassified)
+- 2270 — الشركة السعودية لمنتجات الألبان والأغذية (food_production, unclassified)
+- 2280 — شركة المراعي (food_production, unclassified)
+- 2281 — شركة التنمية الغذائية (food_production, unclassified)
+- 2282 — شركة نقي للمياه (food_production, unclassified)
+- 2283 — شركة المطاحن الأولى (food_production, unclassified)
+- 2284 — شركة المطاحن الحديثة للمنتجات الغذائية (food_production, unclassified)
+- 2285 — شركة المطاحن العربية للمنتجات الغذائية (food_production, unclassified)
+- 2286 — شركة المطاحن الرابعة (food_production, unclassified)
+- 2287 — الشركة العربية للاستثمار الزراعي والصناعي (food_production, unclassified)
+- 2288 — شركة نفوذ للمنتجات الغذائية (food_production, unclassified)
 - 6001 — حلواني إخوان (food_production, food_security_and_industry)
 - 6010 — نادك (food_production, food_security_and_industry)
 - 6020 — جاكو (food_production, food_security_and_industry)
+- 6030 — شركة حائل للتنمية الزراعية (food_production, unclassified)
+- 6040 — شركة تبوك للتنمية الزراعية (food_production, unclassified)
+- 6050 — الشركة السعودية للأسماك (food_production, unclassified)
+- 6060 — شركة الشرقية للتنمية (food_production, unclassified)
+- 6070 — شركة الجوف الزراعية (food_production, unclassified)
+- 6080 — شركة بيشة للتنمية الزراعية (food_production, unclassified)
+- 6090 — شركة جازان للتنمية والاستثمار (food_production, unclassified)
 
 ### الاتصالات
 
@@ -161,6 +180,7 @@
 ## الشركات حسب تصنيف النشاط
 
 - basic_materials: 45
+- food_production: 22
 - financial: 10
 - healthcare: 7
 - real_estate: 5
@@ -170,7 +190,6 @@
 - energy: 4
 - consumer_retail: 4
 - transportation_logistics: 3
-- food_production: 3
 - consumer_services: 2
 - commercial_services: 2
 - utilities: 2
@@ -178,7 +197,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 38
+- unclassified: 57
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

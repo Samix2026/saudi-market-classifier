@@ -26,10 +26,12 @@ symbol,name_ar,name_en,market,sector,industry
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
 2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products
+2050,مجموعة صافولا,Savola Group,M,إنتاج الأغذية,
 2060,شركة التصنيع الوطنية,National Industrialization Co.,M,المواد الأساسية,
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
 2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
+2100,شركة وفرة للصناعة والتنمية,Wafrah for Industry and Development Co.,M,إنتاج الأغذية,
 2150,شركة الصناعات الزجاجية الوطنية,The National Company for Glass Industries,M,المواد الأساسية,
 2160,شركة أميانتيت العربية السعودية,Saudi Arabian Amiantit Co.,M,المواد الأساسية,
 2170,شركة اللجين,Alujain Corp.,M,المواد الأساسية,
@@ -41,6 +43,16 @@ symbol,name_ar,name_en,market,sector,industry
 2240,شركة صناعات البناء المتقدمة,Advanced Building Industries Co.,M,المواد الأساسية,
 2250,المجموعة السعودية للإستثمار الصناعي,Saudi Industrial Investment Group,M,المواد الأساسية,
 2260,شركة الصحراء للبتروكيماويات,Sahara Petrochemical Co.,M,المواد الأساسية,
+2270,الشركة السعودية لمنتجات الألبان والأغذية,Saudia Dairy and Foodstuff Co.,M,إنتاج الأغذية,
+2280,شركة المراعي,Almarai Co.,M,إنتاج الأغذية,
+2281,شركة التنمية الغذائية,Tanmiah Food Co.,M,إنتاج الأغذية,
+2282,شركة نقي للمياه,Naqi Water Co.,M,إنتاج الأغذية,
+2283,شركة المطاحن الأولى,First Milling Co.,M,إنتاج الأغذية,
+2284,شركة المطاحن الحديثة للمنتجات الغذائية,Modern Mills for Food Products Co.,M,إنتاج الأغذية,
+2285,شركة المطاحن العربية للمنتجات الغذائية,Arabian Mills for Food Products Co.,M,إنتاج الأغذية,
+2286,شركة المطاحن الرابعة,Fourth Milling Co.,M,إنتاج الأغذية,
+2287,الشركة العربية للاستثمار الزراعي والصناعي,Arabian Company for Agricultural and Industrial Investment,M,إنتاج الأغذية,
+2288,شركة نفوذ للمنتجات الغذائية,Nofoth Food Products Co.,M,إنتاج الأغذية,
 2290,شركة ينبع الوطنية للبتروكيماويات,Yanbu National Petrochemical Co.,M,المواد الأساسية,
 2300,الشركة السعودية لصناعة الورق,Saudi Paper Manufacturing Co.,M,المواد الأساسية,
 2310,شركة الصحراء العالمية للبتروكيماويات,Sahara International Petrochemical Co.,M,المواد الأساسية,
@@ -91,6 +103,13 @@ symbol,name_ar,name_en,market,sector,industry
 6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants
 6010,نادك,NADEC,main,إنتاج الأغذية,Food Production
 6020,جاكو,JACO,main,إنتاج الأغذية,Agriculture
+6030,شركة حائل للتنمية الزراعية,Hail Agriculture Development Co.,M,إنتاج الأغذية,
+6040,شركة تبوك للتنمية الزراعية,Tabuk Agricultural Development Co.,M,إنتاج الأغذية,
+6050,الشركة السعودية للأسماك,Saudi Fisheries Co.,M,إنتاج الأغذية,
+6060,شركة الشرقية للتنمية,Ash-Sharqiyah Development Co.,M,إنتاج الأغذية,
+6070,شركة الجوف الزراعية,Al-Jouf Agricultural Development Co.,M,إنتاج الأغذية,
+6080,شركة بيشة للتنمية الزراعية,Bishah Agricultural Development Co.,M,إنتاج الأغذية,
+6090,شركة جازان للتنمية والاستثمار,Jazan Development and Investment Co.,M,إنتاج الأغذية,
 7010,stc,stc,main,الاتصالات,Telecom
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom
