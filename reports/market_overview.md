@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 121
+- عدد الشركات: 128
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
 - عدد ثيمات رؤية 2030: 15
@@ -85,13 +85,20 @@
 
 ### الرعاية الصحية
 
+- 2070 — الشركة السعودية للصناعات الدوائية والمستلزمات الطبية (healthcare, unclassified)
 - 4002 — المواساة (healthcare, healthcare_quality)
 - 4004 — دله الصحية (healthcare, healthcare_quality)
 - 4005 — رعاية (healthcare, healthcare_quality)
 - 4007 — الحمادي (healthcare, healthcare_quality)
 - 4009 — السعودي الألماني الصحية (healthcare, healthcare_quality)
 - 4013 — مجموعة سليمان الحبيب (healthcare, healthcare_quality)
+- 4014 — شركة دار المعدات الطبية والعلمية (healthcare, unclassified)
+- 4015 — شركة مصنع جمجوم للأدوية (healthcare, unclassified)
+- 4016 — شركة الشرق الأوسط للصناعات الدوائية (healthcare, unclassified)
 - 4017 — فقيه الطبية (healthcare, healthcare_quality)
+- 4018 — شركة الموسى الصحية (healthcare, unclassified)
+- 4019 — الشركة الطبية التخصصية (healthcare, unclassified)
+- 4021 — شركة مجمع المركز الكندي الطبي العام (healthcare, unclassified)
 
 ### السلع الرأسمالية
 
@@ -181,8 +188,8 @@
 
 - basic_materials: 45
 - food_production: 22
+- healthcare: 14
 - financial: 10
-- healthcare: 7
 - real_estate: 5
 - digital_infrastructure: 5
 - insurance: 5
@@ -197,7 +204,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 57
+- unclassified: 64
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

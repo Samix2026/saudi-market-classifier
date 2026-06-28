@@ -28,6 +28,7 @@ symbol,name_ar,name_en,market,sector,industry
 2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products
 2050,مجموعة صافولا,Savola Group,M,إنتاج الأغذية,
 2060,شركة التصنيع الوطنية,National Industrialization Co.,M,المواد الأساسية,
+2070,الشركة السعودية للصناعات الدوائية والمستلزمات الطبية,Saudi Pharmaceutical Industries and Medical Appliances Corp.,M,الرعاية الصحية,
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
 2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
@@ -88,7 +89,13 @@ symbol,name_ar,name_en,market,sector,industry
 4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
+4014,شركة دار المعدات الطبية والعلمية,Scientific and Medical Equipment House Co.,M,الرعاية الصحية,
+4015,شركة مصنع جمجوم للأدوية,Jamjoom Pharmaceuticals Factory Co.,M,الرعاية الصحية,
+4016,شركة الشرق الأوسط للصناعات الدوائية,Middle East Pharmaceutical Industries Co.,M,الرعاية الصحية,
 4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services
+4018,شركة الموسى الصحية,Almoosa Health Co.,M,الرعاية الصحية,
+4019,الشركة الطبية التخصصية,Specialized Medical Co.,M,الرعاية الصحية,
+4021,شركة مجمع المركز الكندي الطبي العام,Canadian Medical Center Co.,M,الرعاية الصحية,
 4030,البحري,Bahri,main,النقل,Marine Transportation
 4031,الخدمات الأرضية,Saudi Ground Services,main,النقل,Airport Services
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail

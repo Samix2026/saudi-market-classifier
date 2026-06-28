@@ -28,6 +28,7 @@ symbol,vision2030_theme
 2040,industrial_development
 2050,unclassified
 2060,unclassified
+2070,unclassified
 2082,renewable_energy_and_utilities
 2083,utilities_and_infrastructure
 2090,unclassified
@@ -88,7 +89,13 @@ symbol,vision2030_theme
 4007,healthcare_quality
 4009,healthcare_quality
 4013,healthcare_quality
+4014,unclassified
+4015,unclassified
+4016,unclassified
 4017,healthcare_quality
+4018,unclassified
+4019,unclassified
+4021,unclassified
 4030,logistics_and_transport
 4031,logistics_and_transport
 4163,healthcare_access
