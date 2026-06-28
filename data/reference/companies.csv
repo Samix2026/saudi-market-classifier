@@ -24,15 +24,25 @@ symbol,name_ar,name_en,market,sector,industry
 2382,أديس,ADES,main,الطاقة,Energy Equipment & Services
 4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
 4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
+4003,إكسترا,eXtra,main,تجزئة وتوزيع السلع الكمالية,Electronics Retail
 4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
 4005,رعاية,Care,main,الرعاية الصحية,Healthcare Services
 4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services
 4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services
+4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
+4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail
 4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
+4310,مدينة المعرفة,Knowledge City,main,إدارة وتطوير العقارات,Real Estate Development
+4320,الأندلس,Al Andalus,main,إدارة وتطوير العقارات,Real Estate Management
 4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management
+4322,رتال,Retal,main,إدارة وتطوير العقارات,Real Estate Development
+6001,حلواني إخوان,Halwani Bros,main,إنتاج الأغذية,Food Production
+6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants
+6010,نادك,NADEC,main,إنتاج الأغذية,Food Production
+6020,جاكو,JACO,main,إنتاج الأغذية,Agriculture
 7010,stc,stc,main,الاتصالات,Telecom
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom

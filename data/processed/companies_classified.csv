@@ -24,15 +24,25 @@ symbol,name_ar,name_en,market,sector,industry,business_class,vision2030_theme
 2382,أديس,ADES,main,الطاقة,Energy Equipment & Services,energy,energy
 4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail,consumer_defensive,food_security_and_retail
 4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
+4003,إكسترا,eXtra,main,تجزئة وتوزيع السلع الكمالية,Electronics Retail,consumer_retail,quality_of_life_and_retail
 4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4005,رعاية,Care,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4007,الحمادي,Al Hammadi,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4009,السعودي الألماني الصحية,Saudi German Health,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4013,مجموعة سليمان الحبيب,Sulaiman Al Habib,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
 4017,فقيه الطبية,Fakeeh Care,main,الرعاية الصحية,Healthcare Services,healthcare,healthcare_quality
+4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail,consumer_retail,healthcare_access
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail,consumer_retail,healthcare_access
+4190,جرير,Jarir,main,تجزئة وتوزيع السلع الكمالية,Specialty Retail,consumer_retail,quality_of_life_and_retail
 4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development,real_estate,housing_and_real_estate
+4310,مدينة المعرفة,Knowledge City,main,إدارة وتطوير العقارات,Real Estate Development,real_estate,housing_and_real_estate
+4320,الأندلس,Al Andalus,main,إدارة وتطوير العقارات,Real Estate Management,real_estate,quality_of_life_and_retail
 4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management,real_estate,quality_of_life_and_retail
+4322,رتال,Retal,main,إدارة وتطوير العقارات,Real Estate Development,real_estate,housing_and_real_estate
+6001,حلواني إخوان,Halwani Bros,main,إنتاج الأغذية,Food Production,food_production,food_security_and_industry
+6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants,consumer_services,quality_of_life_and_retail
+6010,نادك,NADEC,main,إنتاج الأغذية,Food Production,food_production,food_security_and_industry
+6020,جاكو,JACO,main,إنتاج الأغذية,Agriculture,food_production,food_security_and_industry
 7010,stc,stc,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom,digital_infrastructure,digital_transformation

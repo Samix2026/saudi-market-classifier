@@ -4,9 +4,9 @@
 
 ## Summary
 
-- عدد الشركات: 44
-- عدد القطاعات: 10
-- عدد تصنيفات الأعمال: 10
+- عدد الشركات: 54
+- عدد القطاعات: 12
+- عدد تصنيفات الأعمال: 12
 - عدد ثيمات رؤية 2030: 12
 
 ## Companies by sector
@@ -14,7 +14,16 @@
 ### إدارة وتطوير العقارات
 
 - 4300 — دار الأركان (real_estate, housing_and_real_estate)
+- 4310 — مدينة المعرفة (real_estate, housing_and_real_estate)
+- 4320 — الأندلس (real_estate, quality_of_life_and_retail)
 - 4321 — المراكز العربية (real_estate, quality_of_life_and_retail)
+- 4322 — رتال (real_estate, housing_and_real_estate)
+
+### إنتاج الأغذية
+
+- 6001 — حلواني إخوان (food_production, food_security_and_industry)
+- 6010 — نادك (food_production, food_security_and_industry)
+- 6020 — جاكو (food_production, food_security_and_industry)
 
 ### الاتصالات
 
@@ -44,6 +53,10 @@
 - 8060 — ولاء (insurance, financial_sector_development)
 - 8210 — بوبا العربية (insurance, healthcare_access)
 - 8230 — تكافل الراجحي (insurance, financial_sector_development)
+
+### الخدمات الاستهلاكية
+
+- 6002 — هرفي للأغذية (consumer_services, quality_of_life_and_retail)
 
 ### الرعاية الصحية
 
@@ -83,32 +96,37 @@
 
 ### تجزئة وتوزيع السلع الكمالية
 
+- 4003 — إكسترا (consumer_retail, quality_of_life_and_retail)
+- 4163 — الدواء (consumer_retail, healthcare_access)
 - 4164 — النهدي الطبية (consumer_retail, healthcare_access)
+- 4190 — جرير (consumer_retail, quality_of_life_and_retail)
 
 ## Companies by business class
 
 - financial: 10
 - basic_materials: 7
 - healthcare: 7
+- real_estate: 5
 - digital_infrastructure: 5
 - insurance: 5
 - energy: 4
+- consumer_retail: 4
+- food_production: 3
 - utilities: 2
-- real_estate: 2
 - consumer_defensive: 1
-- consumer_retail: 1
+- consumer_services: 1
 
 ## Companies by Vision 2030 theme
 
 - financial_sector_development: 14
 - healthcare_quality: 7
 - industrial_development: 6
+- quality_of_life_and_retail: 5
 - digital_transformation: 5
+- food_security_and_industry: 4
 - energy: 4
-- healthcare_access: 2
-- food_security_and_industry: 1
+- healthcare_access: 3
+- housing_and_real_estate: 3
 - renewable_energy_and_utilities: 1
 - utilities_and_infrastructure: 1
 - food_security_and_retail: 1
-- housing_and_real_estate: 1
-- quality_of_life_and_retail: 1
