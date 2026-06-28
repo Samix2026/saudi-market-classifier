@@ -1,40 +1,62 @@
-# Saudi Market Classifier
+# مصنف السوق السعودي
 
-Open classification layer for Saudi listed companies.
+مصنف مفتوح للشركات المدرجة في السوق السعودي.
 
-تصنيف مفتوح للشركات المدرجة في السوق السعودي، يهدف إلى تنظيم الشركات حسب القطاع، نوع النشاط، وثيمات رؤية 2030.
+يهدف المشروع إلى بناء طبقة مرجعية منظمة تساعد على فهم الشركات السعودية حسب القطاع، نوع النشاط، ثيمات رؤية 2030، وجودة مصدر البيانات.
 
-## What this project does
+## ما هو المشروع؟
 
-The project builds a structured reference layer for Saudi listed companies.
+هذا المشروع ينظم بيانات الشركات المدرجة في السوق السعودي في ملفات مرجعية قابلة للتطوير.
 
-It currently classifies companies by:
+الفكرة ليست توقع أسعار الأسهم، وليست توصيات شراء أو بيع.
 
-- Market
-- Sector
-- Industry
-- Business class
-- Vision 2030 theme
+الفكرة هي بناء قاعدة تصنيف واضحة يمكن استخدامها لاحقًا في:
 
-This is useful for market research, sector mapping, company screening, and future Saudi market intelligence tools.
+- تحليل السوق السعودي
+- مقارنة القطاعات
+- بناء خرائط للشركات المدرجة
+- دعم أدوات بحث أو ذكاء اصطناعي عن السوق السعودي
+- بناء تقارير قطاعية منظمة
 
-## What this project is not
+## ماذا يصنف المشروع؟
 
-This project is not an investment recommendation tool.
+يصنف المشروع الشركات حسب:
 
-It does not provide buy, sell, or hold recommendations.
+- السوق
+- القطاع
+- الصناعة
+- تصنيف النشاط
+- ثيم رؤية 2030
+- جودة مصدر البيانات
+- تاريخ آخر مراجعة
 
-## Current version
+## ما الذي لا يفعله المشروع؟
 
-v0.1 includes:
+هذا المشروع لا يقدم توصيات استثمارية.
 
-- 20 Saudi listed companies
-- Business class mapping
-- Vision 2030 theme mapping
-- Processed classification output
-- Markdown market overview report
+لا يقدم:
 
-## Project structure
+- توصية شراء
+- توصية بيع
+- أهداف سعرية
+- توقعات ربحية
+- قرارات تداول
+
+المشروع مخصص للتصنيف والبحث وتنظيم البيانات فقط.
+
+## النسخة الحالية
+
+تغطي النسخة الحالية:
+
+- 64 شركة سعودية مدرجة
+- 15 قطاعًا
+- 15 تصنيف نشاط
+- 14 ثيمًا مرتبطًا برؤية 2030
+- تقرير نظرة عامة على السوق
+- تقرير تغطية البيانات
+- طبقة جودة مصادر البيانات
+
+## هيكل المشروع
 
 ```text
 data/
@@ -42,67 +64,101 @@ data/
     companies.csv
     business_classes.csv
     vision2030_themes.csv
+    source_quality.csv
+
   processed/
     companies_classified.csv
 
 reports/
   market_overview.md
+  coverage_report.md
 
 src/
   saudi_market_classifier/
     classify.py
+    coverage.py
     report.py
+    validate.py
 
 run.py
 ROADMAP.md
+LICENSE
 ```
 
-## Run
+## طريقة التشغيل
 
-Install dependencies:
+ثبت المتطلبات:
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-Run the full pipeline:
+شغل المشروع كاملًا:
 
 ```bash
 python3 run.py
 ```
 
-This will:
+هذا الأمر يقوم بالآتي:
 
-1. classify companies
-2. create `data/processed/companies_classified.csv`
-3. generate `reports/market_overview.md`
+1. التحقق من اكتمال ملفات البيانات المرجعية
+2. تصنيف الشركات
+3. إنشاء ملف `data/processed/companies_classified.csv`
+4. إنشاء تقرير `reports/market_overview.md`
+5. إنشاء تقرير `reports/coverage_report.md`
 
-## Sample output
+## التقارير
 
-The generated report includes:
+ينتج المشروع تقريرين:
 
-- number of companies
-- number of sectors
-- companies grouped by sector
-- companies grouped by business class
-- companies grouped by Vision 2030 theme
+### `reports/market_overview.md`
 
-## Roadmap
+يعرض نظرة عامة على الشركات المصنفة، مع تجميع الشركات حسب القطاع، وتصنيف النشاط، وثيمات رؤية 2030.
 
-See [ROADMAP.md](ROADMAP.md).
+### `reports/coverage_report.md`
 
-## Disclaimer
+يعرض مستوى تغطية البيانات، ونسبة التغطية التقريبية، وجودة مصادر البيانات، والشركات التي تحتاج إلى تحقق رسمي لاحقًا.
 
-This project is for research and classification purposes only.
+## جودة البيانات
 
-It is not financial advice.
+يستخدم المشروع ملف:
 
-## Reports
+```text
+data/reference/source_quality.csv
+```
 
-The project generates two Markdown reports:
+لتوضيح جودة مصدر البيانات لكل شركة.
 
-- `reports/market_overview.md`  
-  Overview of companies grouped by sector, business class, and Vision 2030 theme.
+القيم الحالية تبدأ بـ:
 
-- `reports/coverage_report.md`  
-  Coverage report showing current dataset size, approximate coverage percentage, source quality, and companies needing official verification.
+```text
+manual
+```
+
+وهذا يعني أن البيانات أضيفت يدويًا وتحتاج لاحقًا إلى مراجعة مقابل مصدر رسمي.
+
+## خارطة الطريق
+
+راجع ملف:
+
+```text
+ROADMAP.md
+```
+
+## تنبيه
+
+هذا المشروع لأغراض البحث والتصنيف وتنظيم البيانات فقط.
+
+لا يعد نصيحة مالية أو توصية استثمارية.
+
+---
+
+## English Summary
+
+Saudi Market Classifier is an open classification layer for Saudi listed companies.
+
+It organizes companies by market, sector, industry, business class, Vision 2030 theme, and source quality.
+
+The project is intended for research, market mapping, and future Saudi market intelligence tools.
+
+It is not an investment recommendation tool and does not provide buy, sell, or hold recommendations.
