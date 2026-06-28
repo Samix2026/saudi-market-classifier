@@ -1,15 +1,15 @@
-# Saudi Market Overview
+# نظرة عامة على السوق السعودي
 
-ملخص أولي لتصنيف الشركات المدرجة في عينة المشروع.
+ملخص لتصنيف الشركات المدرجة في عينة المشروع.
 
-## Summary
+## الملخص
 
 - عدد الشركات: 64
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
 - عدد ثيمات رؤية 2030: 14
 
-## Companies by sector
+## الشركات حسب القطاع
 
 ### إدارة وتطوير العقارات
 
@@ -120,7 +120,7 @@
 - 4164 — النهدي الطبية (consumer_retail, healthcare_access)
 - 4190 — جرير (consumer_retail, quality_of_life_and_retail)
 
-## Companies by business class
+## الشركات حسب تصنيف النشاط
 
 - financial: 10
 - basic_materials: 7
@@ -138,7 +138,7 @@
 - utilities: 2
 - consumer_defensive: 1
 
-## Companies by Vision 2030 theme
+## الشركات حسب ثيم رؤية 2030
 
 - financial_sector_development: 14
 - industrial_development: 10

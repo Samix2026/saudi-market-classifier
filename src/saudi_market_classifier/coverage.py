@@ -15,11 +15,11 @@ def main():
     coverage_pct = round((total_companies / TARGET_COMPANIES) * 100, 1)
 
     lines = [
-        "# Coverage Report",
+        "# تقرير تغطية البيانات",
         "",
-        "تقرير يوضح مستوى تغطية بيانات الشركات في المشروع.",
+        "تقرير يوضح مستوى تغطية بيانات الشركات داخل المشروع.",
         "",
-        "## Summary",
+        "## الملخص",
         "",
         f"- الشركات الحالية: {total_companies}",
         f"- هدف التغطية التقريبي: {TARGET_COMPANIES}",
@@ -28,7 +28,7 @@ def main():
         f"- عدد تصنيفات الأعمال: {df['business_class'].nunique()}",
         f"- عدد ثيمات رؤية 2030: {df['vision2030_theme'].nunique()}",
         "",
-        "## Source quality",
+        "## جودة مصادر البيانات",
         "",
     ]
 
@@ -37,7 +37,7 @@ def main():
 
     lines.extend([
         "",
-        "## Coverage by sector",
+        "## التغطية حسب القطاع",
         "",
     ])
 
@@ -46,7 +46,7 @@ def main():
 
     lines.extend([
         "",
-        "## Companies needing official verification",
+        "## الشركات التي تحتاج إلى تحقق رسمي",
         "",
     ])
 
@@ -55,11 +55,11 @@ def main():
     for _, row in needs_review.sort_values("symbol").iterrows():
         lines.append(
             f"- {row['symbol']} — {row['name_ar']} "
-            f"({row['source_quality']}, last reviewed: {row['last_reviewed']})"
+            f"({row['source_quality']}, آخر مراجعة: {row['last_reviewed']})"
         )
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Coverage report written to {report_path}")
+    print(f"تم إنشاء تقرير التغطية: {report_path}")
 
 
 if __name__ == "__main__":

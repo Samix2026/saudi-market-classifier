@@ -9,18 +9,18 @@ def main():
     report_path = Path("reports/market_overview.md")
 
     lines = [
-        "# Saudi Market Overview",
+        "# نظرة عامة على السوق السعودي",
         "",
-        "ملخص أولي لتصنيف الشركات المدرجة في عينة المشروع.",
+        "ملخص لتصنيف الشركات المدرجة في عينة المشروع.",
         "",
-        "## Summary",
+        "## الملخص",
         "",
         f"- عدد الشركات: {len(df)}",
         f"- عدد القطاعات: {df['sector'].nunique()}",
         f"- عدد تصنيفات الأعمال: {df['business_class'].nunique()}",
         f"- عدد ثيمات رؤية 2030: {df['vision2030_theme'].nunique()}",
         "",
-        "## Companies by sector",
+        "## الشركات حسب القطاع",
         "",
     ]
 
@@ -35,7 +35,7 @@ def main():
         lines.append("")
 
     lines.extend([
-        "## Companies by business class",
+        "## الشركات حسب تصنيف النشاط",
         "",
     ])
 
@@ -44,7 +44,7 @@ def main():
 
     lines.extend([
         "",
-        "## Companies by Vision 2030 theme",
+        "## الشركات حسب ثيم رؤية 2030",
         "",
     ])
 
@@ -52,7 +52,7 @@ def main():
         lines.append(f"- {theme}: {count}")
 
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Report written to {report_path}")
+    print(f"تم إنشاء تقرير نظرة السوق: {report_path}")
 
 
 if __name__ == "__main__":
