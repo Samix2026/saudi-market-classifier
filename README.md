@@ -96,3 +96,13 @@ See [ROADMAP.md](ROADMAP.md).
 This project is for research and classification purposes only.
 
 It is not financial advice.
+
+## Reports
+
+The project generates two Markdown reports:
+
+- `reports/market_overview.md`  
+  Overview of companies grouped by sector, business class, and Vision 2030 theme.
+
+- `reports/coverage_report.md`  
+  Coverage report showing current dataset size, approximate coverage percentage, source quality, and companies needing official verification.
