@@ -21,15 +21,53 @@ symbol,name_ar,name_en,market,sector,industry
 1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources
 1832,صدر,Sadr Logistics,main,النقل,Logistics
 1833,الموارد,Al Mawarid,main,الخدمات التجارية والمهنية,Human Resources
+2001,شركة كيمائيات الميثانول,Methanol Chemicals Co.,M,المواد الأساسية,
+2002,الشركة الوطنية للبتروكيماويات,National Petrochemical Co.,M,المواد الأساسية,
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
 2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products
+2060,شركة التصنيع الوطنية,National Industrialization Co.,M,المواد الأساسية,
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
+2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
+2150,شركة الصناعات الزجاجية الوطنية,The National Company for Glass Industries,M,المواد الأساسية,
+2160,شركة أميانتيت العربية السعودية,Saudi Arabian Amiantit Co.,M,المواد الأساسية,
+2170,شركة اللجين,Alujain Corp.,M,المواد الأساسية,
+2200,الشركة العربية للأنابيب,Arabian Pipes Co.,M,المواد الأساسية,
+2210,شركة نماء للكيماويات,Nama Chemicals Co.,M,المواد الأساسية,
+2220,الشركة الوطنية لتصنيع وسبك المعادن,National Metal Manufacturing and Casting Co.,M,المواد الأساسية,
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas
+2230,الشركة الكيميائية السعودية القابضة,Saudi Chemical Co.,M,المواد الأساسية,
+2240,شركة صناعات البناء المتقدمة,Advanced Building Industries Co.,M,المواد الأساسية,
+2250,المجموعة السعودية للإستثمار الصناعي,Saudi Industrial Investment Group,M,المواد الأساسية,
+2260,شركة الصحراء للبتروكيماويات,Sahara Petrochemical Co.,M,المواد الأساسية,
+2290,شركة ينبع الوطنية للبتروكيماويات,Yanbu National Petrochemical Co.,M,المواد الأساسية,
+2300,الشركة السعودية لصناعة الورق,Saudi Paper Manufacturing Co.,M,المواد الأساسية,
+2310,شركة الصحراء العالمية للبتروكيماويات,Sahara International Petrochemical Co.,M,المواد الأساسية,
+2330,الشركة المتقدمة للبتروكيماويات,Advanced Petrochemical Co.,M,المواد الأساسية,
+2350,شركة كيان السعودية للبتروكيماويات,Saudi Kayan Petrochemical Co.,M,المواد الأساسية,
+2360,الشركة السعودية لإنتاج الأنابيب الفخارية,Saudi Vitrified Clay Pipes Co.,M,المواد الأساسية,
+2370,شركة الشرق الأوسط للكابلات المتخصصة,Middle East Specialized Cables Co.,M,المواد الأساسية,
 2380,بترو رابغ,Petro Rabigh,main,الطاقة,Refining & Petrochemicals
 2381,الحفر العربية,Arabian Drilling,main,الطاقة,Energy Equipment & Services
 2382,أديس,ADES,main,الطاقة,Energy Equipment & Services
+3001,شركة أسمنت حائل,Hail Cement Co.,M,المواد الأساسية,
+3002,شركة أسمنت نجران,Najran Cement Co.,M,المواد الأساسية,
+3003,شركة أسمنت المدينة,City Cement Co.,M,المواد الأساسية,
+3004,شركة أسمنت المنطقة الشمالية,Northern Region Cement Co.,M,المواد الأساسية,
+3005,شركة أسمنت ام القرى,Umm Al-Qura Cement Co.,M,المواد الأساسية,
+3007,شركة زهرة الواحة للتجارة,Zahrat Al Waha for Trading Co.,M,المواد الأساسية,
+3008,شركة الكثيري القابضة,Al Kathiri Holding Co.,M,المواد الأساسية,
+3010,شركة الأسمنت العربية,Arabian Cement Co.,M,المواد الأساسية,
+3020,شركة أسمنت اليمامة,Yamama Cement Co.,M,المواد الأساسية,
+3030,شركة الأسمنت السعودية,Saudi Cement Co.,M,المواد الأساسية,
+3040,شركة أسمنت القصيم,Qassim Cement Co.,M,المواد الأساسية,
+3050,شركة أسمنت المنطقة الجنوبية,Southern Province Cement Co.,M,المواد الأساسية,
+3060,شركة أسمنت ينبع,Yanbu Cement Co.,M,المواد الأساسية,
+3080,شركة أسمنت المنطقة الشرقية,Eastern Province Cement Co.,M,المواد الأساسية,
+3090,شركة أسمنت تبوك,Tabuk Cement Co.,M,المواد الأساسية,
+3091,شركة أسمنت الجوف,Al Jouf Cement Co.,M,المواد الأساسية,
+3092,شركة أسمنت الرياض,Riyadh Cement Co.,M,المواد الأساسية,
 4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
 4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
 4003,إكسترا,eXtra,main,تجزئة وتوزيع السلع الكمالية,Electronics Retail

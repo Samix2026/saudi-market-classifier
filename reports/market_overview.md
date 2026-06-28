@@ -4,10 +4,10 @@
 
 ## الملخص
 
-- عدد الشركات: 64
+- عدد الشركات: 102
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
-- عدد ثيمات رؤية 2030: 14
+- عدد ثيمات رؤية 2030: 15
 
 ## الشركات حسب القطاع
 
@@ -100,8 +100,46 @@
 - 1210 — بي سي آي (basic_materials, industrial_development)
 - 1211 — معادن (basic_materials, industrial_development)
 - 1322 — أماك (basic_materials, industrial_development)
+- 2001 — شركة كيمائيات الميثانول (basic_materials, unclassified)
+- 2002 — الشركة الوطنية للبتروكيماويات (basic_materials, unclassified)
 - 2010 — سابك (basic_materials, industrial_development)
 - 2020 — سابك للمغذيات الزراعية (basic_materials, food_security_and_industry)
+- 2060 — شركة التصنيع الوطنية (basic_materials, unclassified)
+- 2090 — شركة الجبس الأهلية (basic_materials, unclassified)
+- 2150 — شركة الصناعات الزجاجية الوطنية (basic_materials, unclassified)
+- 2160 — شركة أميانتيت العربية السعودية (basic_materials, unclassified)
+- 2170 — شركة اللجين (basic_materials, unclassified)
+- 2200 — الشركة العربية للأنابيب (basic_materials, unclassified)
+- 2210 — شركة نماء للكيماويات (basic_materials, unclassified)
+- 2220 — الشركة الوطنية لتصنيع وسبك المعادن (basic_materials, unclassified)
+- 2230 — الشركة الكيميائية السعودية القابضة (basic_materials, unclassified)
+- 2240 — شركة صناعات البناء المتقدمة (basic_materials, unclassified)
+- 2250 — المجموعة السعودية للإستثمار الصناعي (basic_materials, unclassified)
+- 2260 — شركة الصحراء للبتروكيماويات (basic_materials, unclassified)
+- 2290 — شركة ينبع الوطنية للبتروكيماويات (basic_materials, unclassified)
+- 2300 — الشركة السعودية لصناعة الورق (basic_materials, unclassified)
+- 2310 — شركة الصحراء العالمية للبتروكيماويات (basic_materials, unclassified)
+- 2330 — الشركة المتقدمة للبتروكيماويات (basic_materials, unclassified)
+- 2350 — شركة كيان السعودية للبتروكيماويات (basic_materials, unclassified)
+- 2360 — الشركة السعودية لإنتاج الأنابيب الفخارية (basic_materials, unclassified)
+- 2370 — شركة الشرق الأوسط للكابلات المتخصصة (basic_materials, unclassified)
+- 3001 — شركة أسمنت حائل (basic_materials, unclassified)
+- 3002 — شركة أسمنت نجران (basic_materials, unclassified)
+- 3003 — شركة أسمنت المدينة (basic_materials, unclassified)
+- 3004 — شركة أسمنت المنطقة الشمالية (basic_materials, unclassified)
+- 3005 — شركة أسمنت ام القرى (basic_materials, unclassified)
+- 3007 — شركة زهرة الواحة للتجارة (basic_materials, unclassified)
+- 3008 — شركة الكثيري القابضة (basic_materials, unclassified)
+- 3010 — شركة الأسمنت العربية (basic_materials, unclassified)
+- 3020 — شركة أسمنت اليمامة (basic_materials, unclassified)
+- 3030 — شركة الأسمنت السعودية (basic_materials, unclassified)
+- 3040 — شركة أسمنت القصيم (basic_materials, unclassified)
+- 3050 — شركة أسمنت المنطقة الجنوبية (basic_materials, unclassified)
+- 3060 — شركة أسمنت ينبع (basic_materials, unclassified)
+- 3080 — شركة أسمنت المنطقة الشرقية (basic_materials, unclassified)
+- 3090 — شركة أسمنت تبوك (basic_materials, unclassified)
+- 3091 — شركة أسمنت الجوف (basic_materials, unclassified)
+- 3092 — شركة أسمنت الرياض (basic_materials, unclassified)
 
 ### النقل
 
@@ -122,8 +160,8 @@
 
 ## الشركات حسب تصنيف النشاط
 
+- basic_materials: 45
 - financial: 10
-- basic_materials: 7
 - healthcare: 7
 - real_estate: 5
 - digital_infrastructure: 5
@@ -140,6 +178,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
+- unclassified: 38
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7
