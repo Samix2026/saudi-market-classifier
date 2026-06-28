@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -5,32 +6,143 @@ import pandas as pd
 
 TARGET_COMPANIES = 250
 
+COMPANIES_CSV = Path("data/reference/companies.csv")
+THEMES_CSV = Path("data/reference/vision2030_themes.csv")
+CLASSIFIED_CSV = Path("data/processed/companies_classified.csv")
+
+DEFERRED_REPORT = Path("reports/excluded_or_deferred_companies.md")
+HOLDING_REPORT = Path("reports/holding_companies_review.md")
+
+ROW_RE = re.compile(r"^\|\s*\d{4}\b")
+
+
+def _count_table_rows(path):
+    """عدد صفوف الجدول التي تبدأ برمز شركة من 4 أرقام."""
+    if not path.exists():
+        return 0
+    return sum(1 for line in path.read_text(encoding="utf-8").splitlines()
+               if ROW_RE.match(line))
+
+
+def _count_holding_needs_review(path):
+    """عدد صفوف الجدول التي حالتها needs_review (تتجاهل سطر الملخص)."""
+    if not path.exists():
+        return 0
+    return sum(1 for line in path.read_text(encoding="utf-8").splitlines()
+               if ROW_RE.match(line) and "needs_review" in line)
+
+
+def _dupes(symbols):
+    seen, dupes = set(), set()
+    for s in symbols:
+        if s in seen:
+            dupes.add(s)
+        seen.add(s)
+    return sorted(dupes)
+
+
+def _empties(symbols):
+    return [s for s in symbols if str(s).strip() == "" or pd.isna(s)]
+
 
 def main():
-    df = pd.read_csv("data/processed/companies_classified.csv")
+    df = pd.read_csv(CLASSIFIED_CSV, dtype={"symbol": str})
+    companies = pd.read_csv(COMPANIES_CSV, dtype={"symbol": str})
+    themes = pd.read_csv(THEMES_CSV, dtype={"symbol": str})
 
     report_path = Path("reports/coverage_report.md")
 
     total_companies = len(df)
     coverage_pct = round((total_companies / TARGET_COMPANIES) * 100, 1)
 
+    # مقاييس جودة البيانات
+    classified_symbols = df["symbol"].tolist()
+    companies_symbols = companies["symbol"].tolist()
+    themes_symbols = themes["symbol"].tolist()
+
+    all_dupes = (
+        _dupes(classified_symbols)
+        + _dupes(companies_symbols)
+        + _dupes(themes_symbols)
+    )
+    dup_count = len(set(all_dupes))
+    empty_count = (
+        len(_empties(classified_symbols))
+        + len(_empties(companies_symbols))
+        + len(_empties(themes_symbols))
+    )
+    symbol_set_match = set(companies_symbols) == set(classified_symbols)
+    unclassified_count = int((df["vision2030_theme"].astype(str).str.strip()
+                              == "unclassified").sum())
+
+    # مقاييس المراجعات المفتوحة (مشتقة من التقارير المستقلة)
+    deferred_count = _count_table_rows(DEFERRED_REPORT)
+    holding_candidates = _count_table_rows(HOLDING_REPORT)
+    holding_needs_review = _count_holding_needs_review(HOLDING_REPORT)
+
+    n_sectors = df["sector"].nunique()
+    n_business_classes = df["business_class"].nunique()
+    n_themes = df["vision2030_theme"].nunique()
+
     lines = [
         "# تقرير تغطية البيانات",
         "",
-        "تقرير يوضح مستوى تغطية بيانات الشركات داخل المشروع.",
+        "لوحة جودة وتغطية لبيانات الشركات داخل المشروع.",
         "",
-        "## الملخص",
+        "## الملخص التنفيذي",
         "",
-        f"- الشركات الحالية: {total_companies}",
-        f"- هدف التغطية التقريبي: {TARGET_COMPANIES}",
-        f"- نسبة التغطية التقريبية: {coverage_pct}%",
-        f"- عدد القطاعات المغطاة: {df['sector'].nunique()}",
-        f"- عدد تصنيفات الأعمال: {df['business_class'].nunique()}",
-        f"- عدد ثيمات رؤية 2030: {df['vision2030_theme'].nunique()}",
+        "| المؤشر | القيمة |",
+        "|---|---|",
+        f"| الشركات المصنفة | {total_companies} |",
+        f"| الشركات المؤجلة | {deferred_count} |",
+        f"| نسبة التغطية التقريبية | {coverage_pct}% |",
+        f"| عدد القطاعات | {n_sectors} |",
+        f"| عدد تصنيفات الأعمال | {n_business_classes} |",
+        f"| عدد ثيمات رؤية 2030 | {n_themes} |",
+        f"| unclassified في Vision 2030 | {unclassified_count} |",
+        f"| الرموز المكررة | {dup_count} |",
+        "",
+        "## جودة البيانات",
+        "",
+        "| الفحص | القيمة |",
+        "|---|---|",
+        f"| صفوف companies.csv | {len(companies)} |",
+        f"| صفوف companies_classified.csv | {len(df)} |",
+        f"| صفوف vision2030_themes.csv | {len(themes)} |",
+        f"| تطابق مجموعة الرموز (companies ↔ classified) | {'yes' if symbol_set_match else 'no'} |",
+        f"| الرموز المكررة | {dup_count} |",
+        f"| الرموز الفارغة | {empty_count} |",
+        "",
+        "## مراجعات مفتوحة",
+        "",
+        f"- تقرير الشركات المؤجلة: [reports/excluded_or_deferred_companies.md]"
+        f"(excluded_or_deferred_companies.md) — {deferred_count} شركة مؤجلة",
+        f"- تقرير الشركات القابضة: [reports/holding_companies_review.md]"
+        f"(holding_companies_review.md)",
+        f"- عدد الشركات القابضة المرشحة: {holding_candidates}",
+        f"- عدد needs_review في تقرير الشركات القابضة: {holding_needs_review}",
+        "",
+        "## توزيع ثيمات رؤية 2030",
+        "",
+        "| الثيم | العدد |",
+        "|---|---|",
+    ]
+
+    for theme, count in df["vision2030_theme"].value_counts().items():
+        lines.append(f"| {theme} | {count} |")
+
+    lines.extend([
+        "",
+        "## ملاحظات",
+        "",
+        "- لا توجد شركات unclassified بعد التحسين الأخير للتغطية.",
+        f"- يوجد {deferred_count} شركة مؤجلة خارج الإدخال الحالي "
+        "(موثقة في تقرير الشركات المؤجلة).",
+        "- مراجعة الشركات القابضة موجودة كتقرير مستقل ولا تغيّر التصنيف تلقائيًا.",
         "",
         "## جودة مصادر البيانات",
         "",
-    ]
+    ])
 
     for source_quality, count in df["source_quality"].value_counts().items():
         lines.append(f"- {source_quality}: {count}")
