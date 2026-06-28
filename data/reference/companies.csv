@@ -1,21 +1,33 @@
 symbol,name_ar,name_en,market,sector,industry
+1010,بنك الرياض,Riyad Bank,main,البنوك,Banks
+1020,بنك الجزيرة,Bank Aljazira,main,البنوك,Banks
+1030,البنك السعودي للاستثمار,Saudi Investment Bank,main,البنوك,Banks
+1050,البنك السعودي الفرنسي,Banque Saudi Fransi,main,البنوك,Banks
+1060,البنك السعودي الأول,Saudi Awwal Bank,main,البنوك,Banks
+1080,البنك العربي الوطني,Arab National Bank,main,البنوك,Banks
 1120,مصرف الراجحي,Al Rajhi Bank,main,البنوك,Banks
+1140,بنك البلاد,Bank Albilad,main,البنوك,Banks
 1150,مصرف الإنماء,Alinma Bank,main,البنوك,Banks
 1180,البنك الأهلي السعودي,SNB,main,البنوك,Banks
-1010,بنك الرياض,Riyad Bank,main,البنوك,Banks
+1201,تكوين,Takween,main,المواد الأساسية,Materials
+1202,مبكو,MEPCO,main,المواد الأساسية,Materials
+1210,بي سي آي,BCI,main,المواد الأساسية,Chemicals
+1211,معادن,Maaden,main,المواد الأساسية,Mining
+1322,أماك,AMAK,main,المواد الأساسية,Mining
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
-1211,معادن,Maaden,main,المواد الأساسية,Mining
+2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
+2083,مرافق,Marafiq,main,المرافق العامة,Utilities
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas
 2380,بترو رابغ,Petro Rabigh,main,الطاقة,Refining & Petrochemicals
+2381,الحفر العربية,Arabian Drilling,main,الطاقة,Energy Equipment & Services
+2382,أديس,ADES,main,الطاقة,Energy Equipment & Services
+4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
+4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
+4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
+4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
+4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
+4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management
 7010,stc,stc,main,الاتصالات,Telecom
 7020,اتحاد اتصالات,Mobily,main,الاتصالات,Telecom
 7030,زين السعودية,Zain KSA,main,الاتصالات,Telecom
-4002,المواساة,Mouwasat,main,الرعاية الصحية,Healthcare Services
-4004,دله الصحية,Dallah Healthcare,main,الرعاية الصحية,Healthcare Services
-4001,أسواق عبدالله العثيم,Al Othaim Markets,main,تجزئة الأغذية,Food Retail
-4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
-2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
-2083,مرافق,Marafiq,main,المرافق العامة,Utilities
-4300,دار الأركان,Dar Al Arkan,main,إدارة وتطوير العقارات,Real Estate Development
-4321,المراكز العربية,Arabian Centres,main,إدارة وتطوير العقارات,Real Estate Management
