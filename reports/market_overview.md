@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 221
+- عدد الشركات: 226
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -131,6 +131,11 @@
 
 - 1831 — مهارة (commercial_services, labor_market_and_services)
 - 1833 — الموارد (commercial_services, labor_market_and_services)
+- 1834 — الشركة السعودية لحلول القوى البشرية (commercial_services, unclassified)
+- 1835 — شركة تمكين للموارد البشرية (commercial_services, unclassified)
+- 4160 — شركة ثمار التنمية القابضة (commercial_services, unclassified)
+- 4161 — شركة بن داود القابضة (commercial_services, unclassified)
+- 4162 — شركة المنجم للأغذية (commercial_services, unclassified)
 
 ### الخدمات المالية
 
@@ -294,14 +299,14 @@
 - digital_infrastructure: 11
 - financial: 10
 - energy: 9
+- commercial_services: 7
 - financial_services: 6
 - utilities: 4
-- commercial_services: 2
 - consumer_defensive: 1
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 157
+- unclassified: 162
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

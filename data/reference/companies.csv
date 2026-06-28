@@ -29,6 +29,8 @@ symbol,name_ar,name_en,market,sector,industry
 1831,مهارة,Maharah,main,الخدمات التجارية والمهنية,Human Resources
 1832,صدر,Sadr Logistics,main,النقل,Logistics
 1833,الموارد,Al Mawarid,main,الخدمات التجارية والمهنية,Human Resources
+1834,الشركة السعودية لحلول القوى البشرية,Saudi Manpower Solutions Co.,M,الخدمات التجارية والمهنية,
+1835,شركة تمكين للموارد البشرية,Tamkeen Human Resource Co.,M,الخدمات التجارية والمهنية,
 2001,شركة كيمائيات الميثانول,Methanol Chemicals Co.,M,المواد الأساسية,
 2002,الشركة الوطنية للبتروكيماويات,National Petrochemical Co.,M,المواد الأساسية,
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
@@ -134,6 +136,9 @@ symbol,name_ar,name_en,market,sector,industry
 4146,شركة جاز العربية للخدمات,Gas Arabian Services Co.,M,السلع الرأسمالية,
 4148,شركة الوسائل الصناعية,Alwasail Industrial Co.,M,السلع الرأسمالية,
 4150,شركة الرياض للتعمير,Arriyadh Development Co.,M,إدارة وتطوير العقارات,
+4160,شركة ثمار التنمية القابضة,Thimar Development Holding Co.,M,الخدمات التجارية والمهنية,
+4161,شركة بن داود القابضة,BinDawood Holding Co.,M,الخدمات التجارية والمهنية,
+4162,شركة المنجم للأغذية,Almunajem Foods Co.,M,الخدمات التجارية والمهنية,
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4170,شركة المشروعات السياحية,Tourism Enterprise Co.,M,الخدمات الاستهلاكية,
