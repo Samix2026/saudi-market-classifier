@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 184
+- عدد الشركات: 197
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -104,8 +104,19 @@
 
 ### الخدمات الاستهلاكية
 
+- 1820 — شركة مجموعة بان القابضة (consumer_services, unclassified)
 - 1830 — لجام للرياضة (consumer_services, quality_of_life_and_retail)
+- 4170 — شركة المشروعات السياحية (consumer_services, unclassified)
+- 4290 — شركة الخليج للتدريب والتعليم (consumer_services, unclassified)
+- 4291 — الشركة الوطنية للتربية و التعليم (consumer_services, unclassified)
+- 4292 — شركة عطاء التعليمية (consumer_services, unclassified)
 - 6002 — هرفي للأغذية (consumer_services, quality_of_life_and_retail)
+- 6012 — شركة ريدان الغذائية (consumer_services, unclassified)
+- 6013 — شركة الأعمال التطويرية الغذائية (consumer_services, unclassified)
+- 6014 — شركة الآمار الغذائية (consumer_services, unclassified)
+- 6015 — شركة أمريكانا للمطاعم العالمية بي إل سي - شركة أجنبية (consumer_services, unclassified)
+- 6016 — شركة مطاعم بيت الشطيرة للوجبات السريعة (consumer_services, unclassified)
+- 6017 — شركة جاهز الدولية لتقنية نظم المعلومات (consumer_services, unclassified)
 
 ### الخدمات التجارية والمهنية
 
@@ -232,6 +243,8 @@
 - 4003 — إكسترا (consumer_retail, quality_of_life_and_retail)
 - 4006 — الشركة السعودية للتسويق (consumer_retail, unclassified)
 - 4008 — الشركة السعودية للعدد والأدوات (consumer_retail, unclassified)
+- 4011 — شركة لازوردي للمجوهرات (consumer_retail, unclassified)
+- 4012 — شركة ثوب الأصيل (consumer_retail, unclassified)
 - 4050 — الشركة السعودية لخدمات السيارات والمعدات (consumer_retail, unclassified)
 - 4051 — شركة باعظيم التجارية (consumer_retail, unclassified)
 - 4163 — الدواء (consumer_retail, healthcare_access)
@@ -249,22 +262,22 @@
 - insurance: 28
 - food_production: 22
 - capital_goods: 16
+- consumer_retail: 15
 - healthcare: 14
-- consumer_retail: 13
+- consumer_services: 13
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 6
 - real_estate: 5
 - energy: 4
 - transportation_logistics: 3
-- consumer_services: 2
 - commercial_services: 2
 - utilities: 2
 - consumer_defensive: 1
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 120
+- unclassified: 133
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

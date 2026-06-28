@@ -24,6 +24,7 @@ symbol,vision2030_theme
 1321,unclassified
 1322,industrial_development
 1323,unclassified
+1820,unclassified
 1830,quality_of_life_and_retail
 1831,labor_market_and_services
 1832,logistics_and_transport
@@ -99,6 +100,8 @@ symbol,vision2030_theme
 4007,healthcare_quality
 4008,unclassified
 4009,healthcare_quality
+4011,unclassified
+4012,unclassified
 4013,healthcare_quality
 4014,unclassified
 4015,unclassified
@@ -122,12 +125,16 @@ symbol,vision2030_theme
 4148,unclassified
 4163,healthcare_access
 4164,healthcare_access
+4170,unclassified
 4190,quality_of_life_and_retail
 4191,unclassified
 4192,unclassified
 4193,unclassified
 4194,unclassified
 4240,unclassified
+4290,unclassified
+4291,unclassified
+4292,unclassified
 4300,housing_and_real_estate
 4310,housing_and_real_estate
 4320,quality_of_life_and_retail
@@ -136,6 +143,12 @@ symbol,vision2030_theme
 6001,food_security_and_industry
 6002,quality_of_life_and_retail
 6010,food_security_and_industry
+6012,unclassified
+6013,unclassified
+6014,unclassified
+6015,unclassified
+6016,unclassified
+6017,unclassified
 6020,food_security_and_industry
 6030,unclassified
 6040,unclassified
