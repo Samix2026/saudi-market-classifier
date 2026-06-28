@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 214
+- عدد الشركات: 221
 - عدد القطاعات: 16
 - عدد تصنيفات الأعمال: 16
 - عدد ثيمات رؤية 2030: 15
@@ -179,7 +179,12 @@
 
 ### الطاقة
 
+- 2030 — شركة المصافي العربية السعودية (energy, unclassified)
+- 2080 — شركة الغاز والتصنيع الأهلية القابضة (energy, unclassified)
+- 2081 — شركة الخريف لتقنية المياه والطاقة (energy, unclassified)
+- 2084 — شركة مياهنا (energy, unclassified)
 - 2222 — أرامكو السعودية (energy, energy)
+- 2223 — شركة أرامكو السعودية لزيوت الأساس (energy, unclassified)
 - 2380 — بترو رابغ (energy, energy)
 - 2381 — الحفر العربية (energy, energy)
 - 2382 — أديس (energy, energy)
@@ -188,6 +193,8 @@
 
 - 2082 — أكوا باور (utilities, renewable_energy_and_utilities)
 - 2083 — مرافق (utilities, utilities_and_infrastructure)
+- 5110 — الشركة السعودية للطاقة (utilities, unclassified)
+- 6004 — شركة كاتريون للتموين القابضة (utilities, unclassified)
 
 ### المواد الأساسية
 
@@ -286,15 +293,15 @@
 - transportation_logistics: 11
 - digital_infrastructure: 11
 - financial: 10
+- energy: 9
 - financial_services: 6
-- energy: 4
+- utilities: 4
 - commercial_services: 2
-- utilities: 2
 - consumer_defensive: 1
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 150
+- unclassified: 157
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7

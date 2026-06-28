@@ -33,12 +33,16 @@ symbol,vision2030_theme
 2002,unclassified
 2010,industrial_development
 2020,food_security_and_industry
+2030,unclassified
 2040,industrial_development
 2050,unclassified
 2060,unclassified
 2070,unclassified
+2080,unclassified
+2081,unclassified
 2082,renewable_energy_and_utilities
 2083,utilities_and_infrastructure
+2084,unclassified
 2090,unclassified
 2100,unclassified
 2110,unclassified
@@ -49,6 +53,7 @@ symbol,vision2030_theme
 2210,unclassified
 2220,unclassified
 2222,energy
+2223,unclassified
 2230,unclassified
 2240,unclassified
 2250,unclassified
@@ -157,8 +162,10 @@ symbol,vision2030_theme
 4322,housing_and_real_estate
 4323,unclassified
 4324,unclassified
+5110,unclassified
 6001,food_security_and_industry
 6002,quality_of_life_and_retail
+6004,unclassified
 6010,food_security_and_industry
 6012,unclassified
 6013,unclassified

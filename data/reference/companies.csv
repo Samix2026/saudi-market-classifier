@@ -33,12 +33,16 @@ symbol,name_ar,name_en,market,sector,industry
 2002,الشركة الوطنية للبتروكيماويات,National Petrochemical Co.,M,المواد الأساسية,
 2010,سابك,SABIC,main,المواد الأساسية,Petrochemicals
 2020,سابك للمغذيات الزراعية,SABIC Agri-Nutrients,main,المواد الأساسية,Fertilizers
+2030,شركة المصافي العربية السعودية,Saudi Arabia Refineries Co.,M,الطاقة,
 2040,الخزف السعودي,Saudi Ceramics,main,السلع الرأسمالية,Building Products
 2050,مجموعة صافولا,Savola Group,M,إنتاج الأغذية,
 2060,شركة التصنيع الوطنية,National Industrialization Co.,M,المواد الأساسية,
 2070,الشركة السعودية للصناعات الدوائية والمستلزمات الطبية,Saudi Pharmaceutical Industries and Medical Appliances Corp.,M,الرعاية الصحية,
+2080,شركة الغاز والتصنيع الأهلية القابضة,Alghaz Waltsnae Company Eligibility Alqabida,M,الطاقة,
+2081,شركة الخريف لتقنية المياه والطاقة,Alkhorayef Water and Power Technologies Co.,M,الطاقة,
 2082,أكوا باور,ACWA Power,main,المرافق العامة,Utilities
 2083,مرافق,Marafiq,main,المرافق العامة,Utilities
+2084,شركة مياهنا,Miahona Co.,M,الطاقة,
 2090,شركة الجبس الأهلية,National Gypsum Co.,M,المواد الأساسية,
 2100,شركة وفرة للصناعة والتنمية,Wafrah for Industry and Development Co.,M,إنتاج الأغذية,
 2110,شركة الكابلات السعودية,Saudi Cable Co.,M,السلع الرأسمالية,
@@ -49,6 +53,7 @@ symbol,name_ar,name_en,market,sector,industry
 2210,شركة نماء للكيماويات,Nama Chemicals Co.,M,المواد الأساسية,
 2220,الشركة الوطنية لتصنيع وسبك المعادن,National Metal Manufacturing and Casting Co.,M,المواد الأساسية,
 2222,أرامكو السعودية,Saudi Aramco,main,الطاقة,Oil & Gas
+2223,شركة أرامكو السعودية لزيوت الأساس,Saudi Aramco Base Oil Co.,M,الطاقة,
 2230,الشركة الكيميائية السعودية القابضة,Saudi Chemical Co.,M,المواد الأساسية,
 2240,شركة صناعات البناء المتقدمة,Advanced Building Industries Co.,M,المواد الأساسية,
 2250,المجموعة السعودية للإستثمار الصناعي,Saudi Industrial Investment Group,M,المواد الأساسية,
@@ -157,8 +162,10 @@ symbol,name_ar,name_en,market,sector,industry
 4322,رتال,Retal,main,إدارة وتطوير العقارات,Real Estate Development
 4323,شركة سمو العقارية,Sumou Real Estate Co.,M,إدارة وتطوير العقارات,
 4324,شركة بنان العقارية,Banan Real Estate Co.,M,إدارة وتطوير العقارات,
+5110,الشركة السعودية للطاقة,Saudi Energy Co.,M,المرافق العامة,
 6001,حلواني إخوان,Halwani Bros,main,إنتاج الأغذية,Food Production
 6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants
+6004,شركة كاتريون للتموين القابضة,CATRION Catering Holding Co.,M,المرافق العامة,
 6010,نادك,NADEC,main,إنتاج الأغذية,Food Production
 6012,شركة ريدان الغذائية,Raydan Food Co.,M,الخدمات الاستهلاكية,
 6013,شركة الأعمال التطويرية الغذائية,Development Works Food Co.,M,الخدمات الاستهلاكية,
