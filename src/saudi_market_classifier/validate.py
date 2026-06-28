@@ -8,6 +8,7 @@ def main():
     classes = pd.read_csv("data/reference/business_classes.csv")
     themes = pd.read_csv("data/reference/vision2030_themes.csv")
     source_quality = pd.read_csv("data/reference/source_quality.csv")
+    official_sources = pd.read_csv("data/reference/official_sources.csv")
 
     errors = []
 
@@ -27,6 +28,12 @@ def main():
     if not missing_source_quality.empty:
         errors.append("Missing source quality mapping for companies:")
         for _, row in missing_source_quality.sort_values("symbol").iterrows():
+            errors.append(f"- {row['symbol']} — {row['name_ar']}")
+
+    missing_official_sources = companies[~companies["symbol"].isin(official_sources["symbol"])]
+    if not missing_official_sources.empty:
+        errors.append("Missing official source mapping for companies:")
+        for _, row in missing_official_sources.sort_values("symbol").iterrows():
             errors.append(f"- {row['symbol']} — {row['name_ar']}")
 
     duplicate_symbols = companies[companies["symbol"].duplicated(keep=False)]
