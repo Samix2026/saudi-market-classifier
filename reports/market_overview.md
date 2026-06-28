@@ -4,7 +4,7 @@
 
 ## الملخص
 
-- عدد الشركات: 128
+- عدد الشركات: 151
 - عدد القطاعات: 15
 - عدد تصنيفات الأعمال: 15
 - عدد ثيمات رؤية 2030: 15
@@ -68,10 +68,33 @@
 ### التأمين
 
 - 8010 — التعاونية (insurance, financial_sector_development)
+- 8012 — شركة الجزيرة تكافل تعاوني (insurance, unclassified)
+- 8020 — شركة ملاذ للتأمين التعاوني (insurance, unclassified)
 - 8030 — ميدغلف للتأمين (insurance, financial_sector_development)
+- 8040 — شركة متكاملة للتأمين (insurance, unclassified)
+- 8050 — شركة سلامة للتأمين التعاوني (insurance, unclassified)
 - 8060 — ولاء (insurance, financial_sector_development)
+- 8070 — شركة الدرع العربي للتأمين التعاوني (insurance, unclassified)
+- 8100 — الشركة العربية السعودية للتأمين التعاوني (insurance, unclassified)
+- 8120 — شركة إتحاد الخليج الأهلية للتأمين التعاوني (insurance, unclassified)
+- 8150 — المجموعة المتحدة للتأمين التعاوني (insurance, unclassified)
+- 8160 — شركة التأمين العربية التعاونية (insurance, unclassified)
+- 8170 — شركة الاتحاد للتأمين التعاوني (insurance, unclassified)
+- 8180 — شركة الصقر للتأمين التعاوني (insurance, unclassified)
+- 8190 — الشركة المتحدة للتأمين التعاوني (insurance, unclassified)
+- 8200 — الشركة السعودية لإعادة التأمين (insurance, unclassified)
 - 8210 — بوبا العربية (insurance, healthcare_access)
 - 8230 — تكافل الراجحي (insurance, financial_sector_development)
+- 8240 — شركة تْشب العربية للتأمين التعاوني (insurance, unclassified)
+- 8250 — مجموعة الخليج للتأمين (insurance, unclassified)
+- 8260 — الشركة الخليجية العامة للتأمين التعاوني (insurance, unclassified)
+- 8270 — شركة بروج للتأمين التعاوني (insurance, unclassified)
+- 8280 — شركة ليفا للتأمين (insurance, unclassified)
+- 8300 — الشركة الوطنية للتأمين (insurance, unclassified)
+- 8310 — شركة أمانة للتأمين التعاوني (insurance, unclassified)
+- 8311 — شركة عناية السعودية للتأمين التعاوني (insurance, unclassified)
+- 8312 — شركة الإنماء طوكيو مارين (insurance, unclassified)
+- 8313 — شركة رسن لتقنية المعلومات (insurance, unclassified)
 
 ### الخدمات الاستهلاكية
 
@@ -187,12 +210,12 @@
 ## الشركات حسب تصنيف النشاط
 
 - basic_materials: 45
+- insurance: 28
 - food_production: 22
 - healthcare: 14
 - financial: 10
 - real_estate: 5
 - digital_infrastructure: 5
-- insurance: 5
 - capital_goods: 4
 - energy: 4
 - consumer_retail: 4
@@ -204,7 +227,7 @@
 
 ## الشركات حسب ثيم رؤية 2030
 
-- unclassified: 64
+- unclassified: 87
 - financial_sector_development: 14
 - industrial_development: 10
 - healthcare_quality: 7
