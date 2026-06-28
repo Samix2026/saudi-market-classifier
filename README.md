@@ -30,3 +30,11 @@ Output:
 ```text
 data/processed/companies_classified.csv
 ```
+
+## Run full pipeline
+
+```bash
+python3 run.py
+```
+
+This runs classification and generates the market overview report.
