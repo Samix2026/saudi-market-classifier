@@ -1,0 +1,55 @@
+symbol,name_ar,expo2030_exposure,worldcup2034_exposure,primary_event_driver,secondary_event_driver,exposure_strength,confidence,rationale
+4300,دار الأركان,high,medium,urban_infrastructure,venue_construction,high,high,مطور عقاري كبير؛ تعرّض محتمل عبر التطوير العمراني المرتبط بالبنية التحتية للفعاليات. ربط موضوعي وليس عقدًا.
+4150,شركة الرياض للتعمير,high,medium,urban_infrastructure,venue_construction,high,medium,مطور بمنطقة الرياض؛ تعرّض محتمل عبر التطوير العمراني قرب مواقع إكسبو. ربط موضوعي.
+4020,الشركة العقارية السعودية,high,medium,urban_infrastructure,venue_construction,high,medium,مطور عقاري؛ تعرّض محتمل عبر مشاريع التطوير الحضري. ربط موضوعي لا تعاقدي.
+4321,المراكز العربية,medium,medium,urban_infrastructure,hospitality_tourism,medium,medium,مطور وجهات تجزئة/ترفيه؛ تعرّض محتمل عبر زيادة النشاط التجاري المصاحب للفعاليات. ربط موضوعي.
+4322,رتال,medium,medium,venue_construction,urban_infrastructure,medium,medium,مطور عقاري بالرياض؛ تعرّض محتمل عبر التطوير العمراني. ربط موضوعي.
+4323,شركة سمو العقارية,medium,low,urban_infrastructure,venue_construction,medium,low,مطور عقاري؛ تعرّض محتمل عبر التطوير الحضري. ربط موضوعي.
+4220,إعمار المدينة الإقتصادية,medium,medium,urban_infrastructure,hospitality_tourism,medium,medium,مطور مدن ووجهات؛ تعرّض محتمل عبر التطوير والضيافة. ربط موضوعي.
+4230,شركة البحر الأحمر العالمية,medium,medium,hospitality_tourism,urban_infrastructure,medium,medium,تطوير وجهات سياحية؛ تعرّض محتمل عبر الطلب على الضيافة المصاحب للفعاليات. ربط موضوعي.
+4250,شركة جبل عمر للتطوير,medium,medium,hospitality_tourism,urban_infrastructure,medium,medium,تطوير ضيافة بمكة؛ تعرّض محتمل عبر زيادة حركة الزوار. ربط موضوعي.
+4090,شركة طيبة للإستثمار,medium,medium,hospitality_tourism,urban_infrastructure,medium,low,استثمار وضيافة بالمدينة؛ تعرّض محتمل عبر النشاط السياحي. ربط موضوعي.
+4100,شركة مكة للإنشاء والتعمير,medium,low,urban_infrastructure,hospitality_tourism,medium,low,إنشاء وتعمير بمكة؛ تعرّض محتمل عبر التطوير الحضري. ربط موضوعي.
+4320,الأندلس,medium,low,urban_infrastructure,hospitality_tourism,medium,low,عقارات تجزئة وترفيه؛ تعرّض محتمل عبر النشاط المصاحب للفعاليات. ربط موضوعي.
+4142,شركة مجموعة كابلات الرياض,medium,medium,venue_construction,urban_infrastructure,medium,medium,مصنّع كابلات؛ تعرّض محتمل عبر مواد البنية التحتية للإنشاءات. ربط موضوعي لا تعاقدي.
+2110,شركة الكابلات السعودية,medium,medium,venue_construction,urban_infrastructure,medium,medium,مصنّع كابلات؛ تعرّض محتمل عبر مواد الإنشاء والبنية التحتية. ربط موضوعي.
+1320,الشركة السعودية لأنابيب الصلب,medium,medium,venue_construction,urban_infrastructure,medium,low,أنابيب صلب؛ تعرّض محتمل عبر مواد الإنشاء. ربط موضوعي.
+1321,شركة أنابيب الشرق المتكاملة للصناعة,medium,medium,venue_construction,urban_infrastructure,medium,low,أنابيب صناعية؛ تعرّض محتمل عبر مواد البنية التحتية. ربط موضوعي.
+1302,بوان,medium,medium,venue_construction,urban_infrastructure,medium,medium,مواد ومنتجات بناء؛ تعرّض محتمل عبر الإنشاءات. ربط موضوعي.
+1301,أسلاك,medium,low,venue_construction,urban_infrastructure,medium,low,منتجات أسلاك معدنية؛ تعرّض محتمل عبر مواد الإنشاء. ربط موضوعي.
+1304,شركة اليمامة للصناعات الحديدية,medium,medium,venue_construction,urban_infrastructure,medium,low,صناعات حديدية؛ تعرّض محتمل عبر مواد الإنشاء الهيكلي. ربط موضوعي.
+4145,شركة العبيكان للزجاج,medium,low,venue_construction,facilities_management,medium,low,زجاج معماري؛ تعرّض محتمل عبر مواد الإنشاء والتشطيب. ربط موضوعي.
+2040,الخزف السعودي,medium,low,venue_construction,facilities_management,medium,low,سيراميك ومواد تشطيب؛ تعرّض محتمل عبر الإنشاءات. ربط موضوعي.
+3092,شركة أسمنت الرياض,high,medium,venue_construction,urban_infrastructure,high,medium,أسمنت بمنطقة الرياض؛ تعرّض محتمل عبر مواد الإنشاء قرب مواقع إكسبو. ربط موضوعي.
+3020,شركة أسمنت اليمامة,medium,medium,venue_construction,urban_infrastructure,medium,medium,أسمنت بمنطقة الرياض؛ تعرّض محتمل عبر مواد الإنشاء. ربط موضوعي.
+3030,شركة الأسمنت السعودية,medium,medium,venue_construction,urban_infrastructure,medium,low,أسمنت؛ تعرّض محتمل عبر مواد الإنشاء للبنية التحتية. ربط موضوعي.
+3010,شركة الأسمنت العربية,medium,medium,venue_construction,urban_infrastructure,medium,low,أسمنت؛ تعرّض محتمل عبر مواد الإنشاء. ربط موضوعي.
+3050,شركة أسمنت المنطقة الجنوبية,medium,low,venue_construction,urban_infrastructure,medium,low,أسمنت؛ تعرّض محتمل عبر مواد الإنشاء الإقليمي. ربط موضوعي.
+4040,الشركة السعودية للنقل الجماعي,medium,high,transport_mobility,event_services,high,high,نقل جماعي عام؛ تعرّض محتمل عبر حركة الجماهير والتنقل في الفعاليات. ربط موضوعي.
+4264,شركة طيران ناس,medium,high,transport_mobility,hospitality_tourism,high,medium,ناقل جوي اقتصادي؛ تعرّض محتمل عبر تدفق الزوار الدوليين والمحليين. ربط موضوعي.
+4031,الخدمات الأرضية,medium,high,transport_mobility,event_services,high,medium,خدمات أرضية للمطارات؛ تعرّض محتمل عبر زيادة الحركة الجوية. ربط موضوعي.
+4261,شركة ذيب لتأجير السيارات,medium,medium,transport_mobility,hospitality_tourism,medium,medium,تأجير سيارات؛ تعرّض محتمل عبر تنقل الزوار. ربط موضوعي.
+4262,شركة لومي للتأجير,medium,medium,transport_mobility,hospitality_tourism,medium,medium,تأجير مركبات؛ تعرّض محتمل عبر تنقل الزوار. ربط موضوعي.
+4263,شركة سال السعودية للخدمات اللوجستية,medium,medium,transport_mobility,event_services,medium,medium,خدمات لوجستية؛ تعرّض محتمل عبر سلاسل الإمداد للفعاليات. ربط موضوعي.
+4260,الشركة المتحدة الدولية للمواصلات,medium,medium,transport_mobility,hospitality_tourism,medium,low,مواصلات وتأجير؛ تعرّض محتمل عبر تنقل الزوار. ربط موضوعي.
+4010,شركة دور للضيافة,high,high,hospitality_tourism,event_services,high,high,تشغيل فنادق وضيافة؛ تعرّض محتمل عبر الطلب على الإقامة في الفعاليات. ربط موضوعي.
+1810,مجموعة سيرا القابضة,high,high,hospitality_tourism,transport_mobility,high,medium,سفر وضيافة؛ تعرّض محتمل عبر السياحة والتنقل المرتبط بالفعاليات. ربط موضوعي.
+4170,شركة المشروعات السياحية,high,high,hospitality_tourism,event_services,high,medium,مشاريع سياحية وترفيهية؛ تعرّض محتمل عبر النشاط السياحي للفعاليات. ربط موضوعي.
+6004,شركة كاتريون للتموين القابضة,medium,high,food_catering,event_services,high,high,تموين مؤسسي وضيافة؛ تعرّض محتمل عبر خدمات الإعاشة في الفعاليات. ربط موضوعي.
+6002,هرفي للأغذية,medium,medium,food_catering,hospitality_tourism,medium,medium,مطاعم وجبات سريعة؛ تعرّض محتمل عبر الطلب الاستهلاكي أثناء الفعاليات. ربط موضوعي.
+6015,شركة أمريكانا للمطاعم العالمية بي إل سي - شركة أجنبية,medium,medium,food_catering,hospitality_tourism,medium,low,مطاعم متعددة العلامات؛ تعرّض محتمل عبر الطلب المصاحب للفعاليات. ربط موضوعي.
+6012,شركة ريدان الغذائية,low,medium,food_catering,hospitality_tourism,medium,low,مطاعم؛ تعرّض محتمل عبر الطلب الاستهلاكي. ربط موضوعي.
+1830,لجام للرياضة,medium,high,event_services,hospitality_tourism,high,medium,تجزئة وخدمات رياضية؛ ربط موضوعي مع فعالية رياضية كبرى. ليس عقدًا.
+6018,شركة الأندية للرياضة,medium,high,event_services,hospitality_tourism,high,medium,أندية ولياقة رياضية؛ ربط موضوعي مع كأس العالم. ليس عقدًا.
+7010,stc,medium,high,digital_connectivity,event_services,high,high,مشغّل اتصالات رئيسي؛ تعرّض محتمل عبر شبكات الاتصال والبث للفعاليات. ربط موضوعي.
+7020,اتحاد اتصالات,medium,high,digital_connectivity,event_services,high,medium,مشغّل اتصالات؛ تعرّض محتمل عبر تغطية الشبكات للفعاليات. ربط موضوعي.
+7030,زين السعودية,medium,high,digital_connectivity,event_services,high,medium,مشغّل اتصالات؛ تعرّض محتمل عبر سعة الشبكة للفعاليات. ربط موضوعي.
+7203,شركة علم,medium,medium,digital_connectivity,event_services,medium,medium,حلول رقمية حكومية؛ تعرّض محتمل عبر خدمات التقنية للفعاليات. ربط موضوعي.
+7202,سلوشنز,medium,medium,digital_connectivity,event_services,medium,medium,حلول تقنية للأعمال؛ تعرّض محتمل عبر البنية الرقمية للفعاليات. ربط موضوعي.
+7204,شركة العرض المتقن للخدمات التجارية,medium,medium,event_services,digital_connectivity,medium,low,خدمات تجارية وعروض؛ تعرّض محتمل عبر خدمات الفعاليات. ربط موضوعي.
+4072,شركة مجموعة إم بي سي,medium,high,media_advertising,event_services,high,medium,إعلام وبث؛ تعرّض محتمل عبر التغطية الإعلامية والإعلان للفعاليات. ربط موضوعي.
+4210,المجموعة السعودية للأبحاث والإعلام,medium,medium,media_advertising,event_services,medium,medium,إعلام ونشر؛ تعرّض محتمل عبر الإعلان والتغطية. ربط موضوعي.
+4070,شركة تهامة للإعلان والعلاقات العامة والتسويق,medium,medium,media_advertising,event_services,medium,medium,إعلان وعلاقات عامة؛ تعرّض محتمل عبر حملات الفعاليات. ربط موضوعي.
+1831,مهارة,medium,medium,facilities_management,event_services,medium,medium,توظيف وقوى عاملة؛ تعرّض محتمل عبر الطلب على خدمات التشغيل والفعاليات. ربط موضوعي.
+1833,الموارد,medium,medium,facilities_management,event_services,medium,low,قوى عاملة وخدمات؛ تعرّض محتمل عبر تشغيل المرافق والفعاليات. ربط موضوعي.
+1835,شركة تمكين للموارد البشرية,medium,medium,facilities_management,event_services,medium,low,موارد بشرية؛ تعرّض محتمل عبر الطلب على العمالة المؤقتة للفعاليات. ربط موضوعي.

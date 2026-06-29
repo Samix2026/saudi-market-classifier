@@ -1,6 +1,58 @@
 import sys
+from pathlib import Path
 
 import pandas as pd
+
+
+EXPOSURES_CSV = "data/reference/mega_event_exposures.csv"
+
+ALLOWED_EXPOSURE = {"high", "medium", "low", "none"}
+ALLOWED_DRIVER = {
+    "venue_construction", "urban_infrastructure", "transport_mobility",
+    "hospitality_tourism", "food_catering", "digital_connectivity",
+    "event_services", "media_advertising", "facilities_management",
+    "security_operations", "none",
+}
+ALLOWED_CONFIDENCE = {"high", "medium", "low"}
+
+
+def _validate_mega_event_exposures(companies):
+    """تحقق من ملف التعرّض للفعاليات: وجوده، الرموز، القيم المسموحة."""
+    errors = []
+    path = Path(EXPOSURES_CSV)
+    if not path.exists():
+        errors.append(f"Missing mega event exposures file: {EXPOSURES_CSV}")
+        return errors
+
+    exposures = pd.read_csv(path, dtype={"symbol": str})
+    company_symbols = companies["symbol"].astype(str)
+
+    unknown = exposures[~exposures["symbol"].isin(company_symbols)]
+    if not unknown.empty:
+        errors.append("Mega event exposure symbols not in companies.csv:")
+        for _, row in unknown.sort_values("symbol").iterrows():
+            errors.append(f"- {row['symbol']}")
+
+    dupes = exposures[exposures["symbol"].duplicated(keep=False)]
+    if not dupes.empty:
+        errors.append("Duplicate symbols in mega event exposures:")
+        for sym in sorted(dupes["symbol"].unique()):
+            errors.append(f"- {sym}")
+
+    checks = [
+        (["expo2030_exposure", "worldcup2034_exposure", "exposure_strength"], ALLOWED_EXPOSURE),
+        (["primary_event_driver", "secondary_event_driver"], ALLOWED_DRIVER),
+        (["confidence"], ALLOWED_CONFIDENCE),
+    ]
+    for cols, allowed in checks:
+        for col in cols:
+            bad = exposures[~exposures[col].isin(allowed)]
+            for _, row in bad.iterrows():
+                errors.append(
+                    f"Invalid {col}='{row[col]}' for symbol {row['symbol']}"
+                )
+
+    return errors
 
 
 def main():
@@ -41,6 +93,8 @@ def main():
         errors.append("Duplicate symbols found:")
         for _, row in duplicate_symbols.sort_values("symbol").iterrows():
             errors.append(f"- {row['symbol']} — {row['name_ar']}")
+
+    errors.extend(_validate_mega_event_exposures(companies))
 
     if errors:
         print("\n".join(errors))
