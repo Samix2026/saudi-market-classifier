@@ -1,17 +1,113 @@
-# نظرة عامة على السوق السعودي
+# نظرة عامة على السوق السعودي المصنف
 
-ملخص لتصنيف الشركات المدرجة في عينة المشروع.
+_Generated from current dataset_
 
-## الملخص
+## الملخص التنفيذي
 
-- عدد الشركات: 259
-- عدد القطاعات: 16
-- عدد تصنيفات الأعمال: 16
-- عدد ثيمات رؤية 2030: 14
+يغطي هذا التقرير 259 شركة مصنّفة موزّعة على 16 قطاعًا، و 16 تصنيف نشاط، و 14 ثيمًا من ثيمات رؤية 2030، دون أي شركة غير مصنّفة. أكبر قطاع تمثيلًا هو "المواد الأساسية" (46 شركة).
 
-## الشركات حسب القطاع
+## المؤشرات الرئيسية
+
+| المؤشر | القيمة |
+|---|---|
+| عدد الشركات | 259 |
+| عدد القطاعات | 16 |
+| عدد تصنيفات الأعمال | 16 |
+| عدد ثيمات رؤية 2030 | 14 |
+| غير مصنّف (unclassified) | 0 |
+| أكبر قطاع | المواد الأساسية (46) |
+| أكبر تصنيف نشاط | basic_materials (46) |
+| أكبر ثيم رؤية 2030 | industrial_development (65) |
+
+## توزيع القطاعات
+
+| القطاع | عدد الشركات | النسبة % | أبرز تصنيف نشاط |
+|---|---:|---:|---|
+| المواد الأساسية | 46 | 17.8 | basic_materials |
+| التأمين | 28 | 10.8 | insurance |
+| تجزئة وتوزيع السلع الكمالية | 23 | 8.9 | consumer_retail |
+| إنتاج الأغذية | 23 | 8.9 | food_production |
+| السلع الرأسمالية | 20 | 7.7 | capital_goods |
+| الخدمات الاستهلاكية | 20 | 7.7 | consumer_services |
+| إدارة وتطوير العقارات | 17 | 6.6 | real_estate |
+| الرعاية الصحية | 15 | 5.8 | healthcare |
+| النقل | 12 | 4.6 | transportation_logistics |
+| الاتصالات | 11 | 4.2 | digital_infrastructure |
+| البنوك | 10 | 3.9 | financial |
+| الخدمات المالية | 10 | 3.9 | financial_services |
+| الطاقة | 10 | 3.9 | energy |
+| الخدمات التجارية والمهنية | 9 | 3.5 | commercial_services |
+| المرافق العامة | 3 | 1.2 | utilities |
+| تجزئة الأغذية | 2 | 0.8 | consumer_defensive |
+
+## توزيع تصنيفات الأعمال
+
+| تصنيف النشاط | عدد الشركات | النسبة % |
+|---|---:|---:|
+| basic_materials | 46 | 17.8 |
+| insurance | 28 | 10.8 |
+| consumer_retail | 23 | 8.9 |
+| food_production | 23 | 8.9 |
+| capital_goods | 20 | 7.7 |
+| consumer_services | 20 | 7.7 |
+| real_estate | 17 | 6.6 |
+| healthcare | 15 | 5.8 |
+| transportation_logistics | 12 | 4.6 |
+| digital_infrastructure | 11 | 4.2 |
+| financial | 10 | 3.9 |
+| financial_services | 10 | 3.9 |
+| energy | 10 | 3.9 |
+| commercial_services | 9 | 3.5 |
+| utilities | 3 | 1.2 |
+| consumer_defensive | 2 | 0.8 |
+
+## توزيع ثيمات رؤية 2030
+
+| الثيم | عدد الشركات | النسبة % |
+|---|---:|---:|
+| industrial_development | 65 | 25.1 |
+| financial_sector_development | 47 | 18.1 |
+| quality_of_life_and_retail | 43 | 16.6 |
+| food_security_and_industry | 24 | 9.3 |
+| healthcare_quality | 15 | 5.8 |
+| housing_and_real_estate | 15 | 5.8 |
+| logistics_and_transport | 12 | 4.6 |
+| digital_transformation | 11 | 4.2 |
+| energy | 10 | 3.9 |
+| labor_market_and_services | 9 | 3.5 |
+| healthcare_access | 3 | 1.2 |
+| utilities_and_infrastructure | 2 | 0.8 |
+| food_security_and_retail | 2 | 0.8 |
+| renewable_energy_and_utilities | 1 | 0.4 |
+
+## أبرز الملاحظات (Highlights)
+
+**أكثر 5 قطاعات تمثيلًا:**
+
+- المواد الأساسية: 46 (17.8%)
+- التأمين: 28 (10.8%)
+- تجزئة وتوزيع السلع الكمالية: 23 (8.9%)
+- إنتاج الأغذية: 23 (8.9%)
+- السلع الرأسمالية: 20 (7.7%)
+
+**أقل 5 قطاعات تمثيلًا:**
+
+- تجزئة الأغذية: 2 (0.8%)
+- المرافق العامة: 3 (1.2%)
+- الخدمات التجارية والمهنية: 9 (3.5%)
+- الخدمات المالية: 10 (3.9%)
+- الطاقة: 10 (3.9%)
+
+- تفاصيل جودة البيانات في [reports/coverage_report.md](coverage_report.md).
+- مراجعة الشركات القابضة في [reports/holding_companies_review.md](holding_companies_review.md).
+
+## القائمة التفصيلية حسب القطاع
 
 ### إدارة وتطوير العقارات
+
+- عدد الشركات: 17
+- التصنيف الغالب: real_estate
+- الثيم الغالب: housing_and_real_estate
 
 - 4020 — الشركة العقارية السعودية (real_estate, housing_and_real_estate)
 - 4090 — شركة طيبة للإستثمار (real_estate, housing_and_real_estate)
@@ -32,6 +128,10 @@
 - 4327 — شركة الرمز للعقارات (real_estate, housing_and_real_estate)
 
 ### إنتاج الأغذية
+
+- عدد الشركات: 23
+- التصنيف الغالب: food_production
+- الثيم الغالب: food_security_and_industry
 
 - 2050 — مجموعة صافولا (food_production, food_security_and_industry)
 - 2100 — شركة وفرة للصناعة والتنمية (food_production, food_security_and_industry)
@@ -59,6 +159,10 @@
 
 ### الاتصالات
 
+- عدد الشركات: 11
+- التصنيف الغالب: digital_infrastructure
+- الثيم الغالب: digital_transformation
+
 - 7010 — stc (digital_infrastructure, digital_transformation)
 - 7020 — اتحاد اتصالات (digital_infrastructure, digital_transformation)
 - 7030 — زين السعودية (digital_infrastructure, digital_transformation)
@@ -73,6 +177,10 @@
 
 ### البنوك
 
+- عدد الشركات: 10
+- التصنيف الغالب: financial
+- الثيم الغالب: financial_sector_development
+
 - 1010 — بنك الرياض (financial, financial_sector_development)
 - 1020 — بنك الجزيرة (financial, financial_sector_development)
 - 1030 — البنك السعودي للاستثمار (financial, financial_sector_development)
@@ -85,6 +193,10 @@
 - 1180 — البنك الأهلي السعودي (financial, financial_sector_development)
 
 ### التأمين
+
+- عدد الشركات: 28
+- التصنيف الغالب: insurance
+- الثيم الغالب: financial_sector_development
 
 - 8010 — التعاونية (insurance, financial_sector_development)
 - 8012 — شركة الجزيرة تكافل تعاوني (insurance, financial_sector_development)
@@ -117,6 +229,10 @@
 
 ### الخدمات الاستهلاكية
 
+- عدد الشركات: 20
+- التصنيف الغالب: consumer_services
+- الثيم الغالب: quality_of_life_and_retail
+
 - 1810 — مجموعة سيرا القابضة (consumer_services, quality_of_life_and_retail)
 - 1820 — شركة مجموعة بان القابضة (consumer_services, quality_of_life_and_retail)
 - 1830 — لجام للرياضة (consumer_services, quality_of_life_and_retail)
@@ -140,6 +256,10 @@
 
 ### الخدمات التجارية والمهنية
 
+- عدد الشركات: 9
+- التصنيف الغالب: commercial_services
+- الثيم الغالب: labor_market_and_services
+
 - 1831 — مهارة (commercial_services, labor_market_and_services)
 - 1833 — الموارد (commercial_services, labor_market_and_services)
 - 1834 — الشركة السعودية لحلول القوى البشرية (commercial_services, labor_market_and_services)
@@ -151,6 +271,10 @@
 - 4270 — الشركة السعودية للطباعة والتغليف (commercial_services, labor_market_and_services)
 
 ### الخدمات المالية
+
+- عدد الشركات: 10
+- التصنيف الغالب: financial_services
+- الثيم الغالب: financial_sector_development
 
 - 1111 — شركة مجموعة تداول السعودية القابضة (financial_services, financial_sector_development)
 - 1182 — شركة أملاك العالمية للتمويل (financial_services, financial_sector_development)
@@ -164,6 +288,10 @@
 - 4280 — شركة المملكة القابضة (financial_services, financial_sector_development)
 
 ### الرعاية الصحية
+
+- عدد الشركات: 15
+- التصنيف الغالب: healthcare
+- الثيم الغالب: healthcare_quality
 
 - 2070 — الشركة السعودية للصناعات الدوائية والمستلزمات الطبية (healthcare, healthcare_quality)
 - 2140 — شركة أيان للإستثمار (healthcare, healthcare_quality)
@@ -182,6 +310,10 @@
 - 4021 — شركة مجمع المركز الكندي الطبي العام (healthcare, healthcare_quality)
 
 ### السلع الرأسمالية
+
+- عدد الشركات: 20
+- التصنيف الغالب: capital_goods
+- الثيم الغالب: industrial_development
 
 - 1212 — مجموعة أسترا الصناعية (capital_goods, industrial_development)
 - 1301 — أسلاك (capital_goods, industrial_development)
@@ -206,6 +338,10 @@
 
 ### الطاقة
 
+- عدد الشركات: 10
+- التصنيف الغالب: energy
+- الثيم الغالب: energy
+
 - 2030 — شركة المصافي العربية السعودية (energy, energy)
 - 2080 — شركة الغاز والتصنيع الأهلية القابضة (energy, energy)
 - 2081 — شركة الخريف لتقنية المياه والطاقة (energy, energy)
@@ -219,11 +355,19 @@
 
 ### المرافق العامة
 
+- عدد الشركات: 3
+- التصنيف الغالب: utilities
+- الثيم الغالب: utilities_and_infrastructure
+
 - 2082 — أكوا باور (utilities, renewable_energy_and_utilities)
 - 2083 — مرافق (utilities, utilities_and_infrastructure)
 - 5110 — الشركة السعودية للطاقة (utilities, utilities_and_infrastructure)
 
 ### المواد الأساسية
+
+- عدد الشركات: 46
+- التصنيف الغالب: basic_materials
+- الثيم الغالب: industrial_development
 
 - 1201 — تكوين (basic_materials, industrial_development)
 - 1202 — مبكو (basic_materials, industrial_development)
@@ -274,6 +418,10 @@
 
 ### النقل
 
+- عدد الشركات: 12
+- التصنيف الغالب: transportation_logistics
+- الثيم الغالب: logistics_and_transport
+
 - 1832 — صدر (transportation_logistics, logistics_and_transport)
 - 2190 — شركة البنى التحتية المستدامة القابضة (transportation_logistics, logistics_and_transport)
 - 4030 — البحري (transportation_logistics, logistics_and_transport)
@@ -289,10 +437,18 @@
 
 ### تجزئة الأغذية
 
+- عدد الشركات: 2
+- التصنيف الغالب: consumer_defensive
+- الثيم الغالب: food_security_and_retail
+
 - 4001 — أسواق عبدالله العثيم (consumer_defensive, food_security_and_retail)
 - 4161 — شركة بن داود القابضة (consumer_defensive, food_security_and_retail)
 
 ### تجزئة وتوزيع السلع الكمالية
+
+- عدد الشركات: 23
+- التصنيف الغالب: consumer_retail
+- الثيم الغالب: quality_of_life_and_retail
 
 - 1213 — شركة نسيج العالمية التجارية (consumer_retail, quality_of_life_and_retail)
 - 1214 — شركة الحسن غازي إبراهيم شاكر (consumer_retail, quality_of_life_and_retail)
@@ -318,38 +474,3 @@
 - 4194 — شركة مجموعة منزل التسويق للتجارة (consumer_retail, quality_of_life_and_retail)
 - 4240 — شركة إيه إف جي إنترناشونال (consumer_retail, quality_of_life_and_retail)
 
-## الشركات حسب تصنيف النشاط
-
-- basic_materials: 46
-- insurance: 28
-- consumer_retail: 23
-- food_production: 23
-- capital_goods: 20
-- consumer_services: 20
-- real_estate: 17
-- healthcare: 15
-- transportation_logistics: 12
-- digital_infrastructure: 11
-- financial: 10
-- financial_services: 10
-- energy: 10
-- commercial_services: 9
-- utilities: 3
-- consumer_defensive: 2
-
-## الشركات حسب ثيم رؤية 2030
-
-- industrial_development: 65
-- financial_sector_development: 47
-- quality_of_life_and_retail: 43
-- food_security_and_industry: 24
-- healthcare_quality: 15
-- housing_and_real_estate: 15
-- logistics_and_transport: 12
-- digital_transformation: 11
-- energy: 10
-- labor_market_and_services: 9
-- healthcare_access: 3
-- utilities_and_infrastructure: 2
-- food_security_and_retail: 2
-- renewable_energy_and_utilities: 1
