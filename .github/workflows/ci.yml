@@ -1,4 +1,4 @@
-name: CI
+name: Data Quality CI
 
 on:
   push:
