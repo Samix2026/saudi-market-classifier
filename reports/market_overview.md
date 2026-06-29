@@ -25,10 +25,10 @@ _Generated from current dataset_
 |---|---:|---:|---|
 | المواد الأساسية | 46 | 17.8 | basic_materials |
 | التأمين | 28 | 10.8 | insurance |
-| تجزئة وتوزيع السلع الكمالية | 23 | 8.9 | consumer_retail |
 | إنتاج الأغذية | 23 | 8.9 | food_production |
-| السلع الرأسمالية | 20 | 7.7 | capital_goods |
+| تجزئة وتوزيع السلع الكمالية | 23 | 8.9 | consumer_retail |
 | الخدمات الاستهلاكية | 20 | 7.7 | consumer_services |
+| السلع الرأسمالية | 20 | 7.7 | capital_goods |
 | إدارة وتطوير العقارات | 17 | 6.6 | real_estate |
 | الرعاية الصحية | 15 | 5.8 | healthcare |
 | النقل | 12 | 4.6 | transportation_logistics |
@@ -54,9 +54,9 @@ _Generated from current dataset_
 | healthcare | 15 | 5.8 |
 | transportation_logistics | 12 | 4.6 |
 | digital_infrastructure | 11 | 4.2 |
+| energy | 10 | 3.9 |
 | financial | 10 | 3.9 |
 | financial_services | 10 | 3.9 |
-| energy | 10 | 3.9 |
 | commercial_services | 9 | 3.5 |
 | utilities | 3 | 1.2 |
 | consumer_defensive | 2 | 0.8 |
@@ -76,8 +76,8 @@ _Generated from current dataset_
 | energy | 10 | 3.9 |
 | labor_market_and_services | 9 | 3.5 |
 | healthcare_access | 3 | 1.2 |
-| utilities_and_infrastructure | 2 | 0.8 |
 | food_security_and_retail | 2 | 0.8 |
+| utilities_and_infrastructure | 2 | 0.8 |
 | renewable_energy_and_utilities | 1 | 0.4 |
 
 ## أبرز الملاحظات (Highlights)
@@ -86,17 +86,17 @@ _Generated from current dataset_
 
 - المواد الأساسية: 46 (17.8%)
 - التأمين: 28 (10.8%)
-- تجزئة وتوزيع السلع الكمالية: 23 (8.9%)
 - إنتاج الأغذية: 23 (8.9%)
-- السلع الرأسمالية: 20 (7.7%)
+- تجزئة وتوزيع السلع الكمالية: 23 (8.9%)
+- الخدمات الاستهلاكية: 20 (7.7%)
 
 **أقل 5 قطاعات تمثيلًا:**
 
 - تجزئة الأغذية: 2 (0.8%)
 - المرافق العامة: 3 (1.2%)
 - الخدمات التجارية والمهنية: 9 (3.5%)
+- البنوك: 10 (3.9%)
 - الخدمات المالية: 10 (3.9%)
-- الطاقة: 10 (3.9%)
 
 - تفاصيل جودة البيانات في [reports/coverage_report.md](coverage_report.md).
 - مراجعة الشركات القابضة في [reports/holding_companies_review.md](holding_companies_review.md).

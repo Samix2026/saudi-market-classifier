@@ -45,6 +45,12 @@ def _empties(symbols):
     return [s for s in symbols if str(s).strip() == "" or pd.isna(s)]
 
 
+def _ranked(series):
+    """قائمة (label, count) مرتبة: العدد تنازليًا ثم الاسم تصاعديًا (tie-break ثابت)."""
+    counts = series.value_counts()
+    return sorted(counts.items(), key=lambda kv: (-kv[1], str(kv[0])))
+
+
 def main():
     df = pd.read_csv(CLASSIFIED_CSV, dtype={"symbol": str})
     companies = pd.read_csv(COMPANIES_CSV, dtype={"symbol": str})
@@ -128,7 +134,7 @@ def main():
         "|---|---|",
     ]
 
-    for theme, count in df["vision2030_theme"].value_counts().items():
+    for theme, count in _ranked(df["vision2030_theme"]):
         lines.append(f"| {theme} | {count} |")
 
     lines.extend([
@@ -144,7 +150,7 @@ def main():
         "",
     ])
 
-    for source_quality, count in df["source_quality"].value_counts().items():
+    for source_quality, count in _ranked(df["source_quality"]):
         lines.append(f"- {source_quality}: {count}")
 
     lines.extend([
@@ -153,7 +159,7 @@ def main():
         "",
     ])
 
-    for source_type, count in df["source_type"].value_counts().items():
+    for source_type, count in _ranked(df["source_type"]):
         lines.append(f"- {source_type}: {count}")
 
     lines.extend([
@@ -162,7 +168,7 @@ def main():
         "",
     ])
 
-    for sector, count in df["sector"].value_counts().items():
+    for sector, count in _ranked(df["sector"]):
         lines.append(f"- {sector}: {count}")
 
     lines.extend([

@@ -48,8 +48,8 @@
 | energy | 10 |
 | labor_market_and_services | 9 |
 | healthcare_access | 3 |
-| utilities_and_infrastructure | 2 |
 | food_security_and_retail | 2 |
+| utilities_and_infrastructure | 2 |
 | renewable_energy_and_utilities | 1 |
 
 ## ملاحظات
@@ -70,10 +70,10 @@
 
 - المواد الأساسية: 46
 - التأمين: 28
-- تجزئة وتوزيع السلع الكمالية: 23
 - إنتاج الأغذية: 23
-- السلع الرأسمالية: 20
+- تجزئة وتوزيع السلع الكمالية: 23
 - الخدمات الاستهلاكية: 20
+- السلع الرأسمالية: 20
 - إدارة وتطوير العقارات: 17
 - الرعاية الصحية: 15
 - النقل: 12
