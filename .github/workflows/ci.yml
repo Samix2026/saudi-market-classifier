@@ -38,6 +38,6 @@ jobs:
         run: |
           if ! git diff --quiet -- data/processed reports; then
             echo "::error::Generated files differ from committed versions. Run 'python run.py' and commit the result."
-            git --no-pager diff --stat -- data/processed reports
+            git --no-pager diff -- data/processed reports
             exit 1
           fi
