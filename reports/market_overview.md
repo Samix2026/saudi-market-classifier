@@ -128,6 +128,7 @@
 - 4291 — الشركة الوطنية للتربية و التعليم (consumer_services, quality_of_life_and_retail)
 - 4292 — شركة عطاء التعليمية (consumer_services, quality_of_life_and_retail)
 - 6002 — هرفي للأغذية (consumer_services, quality_of_life_and_retail)
+- 6004 — شركة كاتريون للتموين القابضة (consumer_services, quality_of_life_and_retail)
 - 6012 — شركة ريدان الغذائية (consumer_services, quality_of_life_and_retail)
 - 6013 — شركة الأعمال التطويرية الغذائية (consumer_services, quality_of_life_and_retail)
 - 6014 — شركة الآمار الغذائية (consumer_services, quality_of_life_and_retail)
@@ -146,7 +147,6 @@
 - 4070 — شركة تهامة للإعلان والعلاقات العامة والتسويق (commercial_services, labor_market_and_services)
 - 4071 — الشركة العربية للتعهدات الفنية (commercial_services, labor_market_and_services)
 - 4160 — شركة ثمار التنمية القابضة (commercial_services, labor_market_and_services)
-- 4161 — شركة بن داود القابضة (commercial_services, labor_market_and_services)
 - 4162 — شركة المنجم للأغذية (commercial_services, labor_market_and_services)
 - 4270 — الشركة السعودية للطباعة والتغليف (commercial_services, labor_market_and_services)
 
@@ -222,7 +222,6 @@
 - 2082 — أكوا باور (utilities, renewable_energy_and_utilities)
 - 2083 — مرافق (utilities, utilities_and_infrastructure)
 - 5110 — الشركة السعودية للطاقة (utilities, utilities_and_infrastructure)
-- 6004 — شركة كاتريون للتموين القابضة (utilities, utilities_and_infrastructure)
 
 ### المواد الأساسية
 
@@ -291,6 +290,7 @@
 ### تجزئة الأغذية
 
 - 4001 — أسواق عبدالله العثيم (consumer_defensive, food_security_and_retail)
+- 4161 — شركة بن داود القابضة (consumer_defensive, food_security_and_retail)
 
 ### تجزئة وتوزيع السلع الكمالية
 
@@ -325,31 +325,31 @@
 - consumer_retail: 23
 - food_production: 23
 - capital_goods: 20
-- consumer_services: 19
+- consumer_services: 20
 - real_estate: 17
 - healthcare: 15
 - transportation_logistics: 12
 - digital_infrastructure: 11
 - financial: 10
 - financial_services: 10
-- commercial_services: 10
 - energy: 10
-- utilities: 4
-- consumer_defensive: 1
+- commercial_services: 9
+- utilities: 3
+- consumer_defensive: 2
 
 ## الشركات حسب ثيم رؤية 2030
 
 - industrial_development: 65
 - financial_sector_development: 47
-- quality_of_life_and_retail: 42
+- quality_of_life_and_retail: 43
 - food_security_and_industry: 24
 - healthcare_quality: 15
 - housing_and_real_estate: 15
 - logistics_and_transport: 12
 - digital_transformation: 11
-- labor_market_and_services: 10
 - energy: 10
-- utilities_and_infrastructure: 3
+- labor_market_and_services: 9
 - healthcare_access: 3
+- utilities_and_infrastructure: 2
+- food_security_and_retail: 2
 - renewable_energy_and_utilities: 1
-- food_security_and_retail: 1

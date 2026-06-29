@@ -159,7 +159,7 @@ symbol,name_ar,name_en,market,sector,industry
 4148,شركة الوسائل الصناعية,Alwasail Industrial Co.,M,السلع الرأسمالية,
 4150,شركة الرياض للتعمير,Arriyadh Development Co.,M,إدارة وتطوير العقارات,
 4160,شركة ثمار التنمية القابضة,Thimar Development Holding Co.,M,الخدمات التجارية والمهنية,
-4161,شركة بن داود القابضة,BinDawood Holding Co.,M,الخدمات التجارية والمهنية,
+4161,شركة بن داود القابضة,BinDawood Holding Co.,M,تجزئة الأغذية,
 4162,شركة المنجم للأغذية,Almunajem Foods Co.,M,الخدمات التجارية والمهنية,
 4163,الدواء,Aldawaa,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
 4164,النهدي الطبية,Nahdi Medical,main,تجزئة وتوزيع السلع الكمالية,Pharmacy Retail
@@ -201,7 +201,7 @@ symbol,name_ar,name_en,market,sector,industry
 5110,الشركة السعودية للطاقة,Saudi Energy Co.,M,المرافق العامة,
 6001,حلواني إخوان,Halwani Bros,main,إنتاج الأغذية,Food Production
 6002,هرفي للأغذية,Herfy Food Services,main,الخدمات الاستهلاكية,Restaurants
-6004,شركة كاتريون للتموين القابضة,CATRION Catering Holding Co.,M,المرافق العامة,
+6004,شركة كاتريون للتموين القابضة,CATRION Catering Holding Co.,M,الخدمات الاستهلاكية,
 6010,نادك,NADEC,main,إنتاج الأغذية,Food Production
 6012,شركة ريدان الغذائية,Raydan Food Co.,M,الخدمات الاستهلاكية,
 6013,شركة الأعمال التطويرية الغذائية,Development Works Food Co.,M,الخدمات الاستهلاكية,
