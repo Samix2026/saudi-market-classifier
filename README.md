@@ -12,7 +12,8 @@
 - 16 business classes
 - 14 Vision 2030 themes
 - 0 unclassified Vision 2030 themes
-- 12 data quality tests passing
+- Market intelligence layer: mega-event potential exposure (Expo 2030، World Cup 2034)
+- 19 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -34,8 +35,10 @@ data/
     vision2030_themes.csv
     source_quality.csv
     official_sources.csv
+    mega_event_exposures.csv   # Phase 2: التعرّض المحتمل للفعاليات
   processed/        # مخرجات يولّدها run.py
     companies_classified.csv
+    companies_intelligence.csv # Phase 2: التصنيف + طبقة التعرّض
 
 reports/            # تقارير Markdown مولّدة وموثّقة
   market_overview.md
@@ -43,6 +46,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   excluded_or_deferred_companies.md
   holding_companies_review.md
   holding_companies_fix_recommendations.md
+  mega_event_exposure_report.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -51,6 +55,8 @@ src/
     classify.py
     report.py
     coverage.py
+    intelligence.py            # Phase 2: توليد companies_intelligence.csv
+    event_report.py            # Phase 2: تقرير التعرّض للفعاليات
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -64,6 +70,30 @@ run.py              # خط التشغيل الكامل
 | Excluded / deferred | الشركات المؤجلة عن الاستيراد وأسبابها | `reports/excluded_or_deferred_companies.md` |
 | Holding companies review | مراجعة تصنيف الشركات القابضة | `reports/holding_companies_review.md` |
 | Holding fix recommendations | توصيات معالجة حالات needs_review | `reports/holding_companies_fix_recommendations.md` |
+| Mega event exposure | التعرّض المحتمل لإكسبو 2030 وكأس العالم 2034 | `reports/mega_event_exposure_report.md` |
+
+## Market Intelligence Taxonomy (Phase 2)
+
+طبقة قيمة مضافة فوق بيانات تداول: المستودع لم يعد تصنيفًا فقط، بل يضيف
+**طبقة ذكاء سوقي** تقدّر التعرّض الموضوعي المحتمل للفعاليات الكبرى:
+
+- **Expo 2030 Riyadh** و **FIFA World Cup 2034 Saudi Arabia**.
+- التعرّض مبني على **القطاع ونموذج العمل فقط** — `potential exposure / thematic linkage`.
+- **ليس** ادعاء عقود أو استفادة مباشرة، وليس توصية استثمارية.
+
+الملفات:
+
+- `data/reference/mega_event_exposures.csv` — مصدر التعرّض القابل للتحرير (curated).
+- `data/processed/companies_intelligence.csv` — التصنيف + طبقة التعرّض (يولّده `run.py`).
+- `reports/mega_event_exposure_report.md` — تقرير بتنبيه ثابت وجداول التعرّض.
+
+الضمانات:
+
+- تغطية 259 صفًا محفوظة في `companies_intelligence.csv` (left join).
+- التحقق من القيم ضمن المجموعات المسموحة (exposure / driver / confidence).
+- `rationale` إلزامي لأي تعرّض `high`/`medium`.
+- لغة ممنوعة محجوبة باختبار: `beneficiary` / `winner` / `guaranteed`.
+- CI drift guard يتحقق أن المخرجات المولّدة مطابقة للمصدر.
 
 ## How to run
 
@@ -92,6 +122,7 @@ pytest -q
 - symbol set match بين `companies.csv` و `companies_classified.csv`.
 - no unclassified Vision 2030 theme.
 - processed rows match source rows.
+- mega-event exposures: allowed values، rationale إلزامي لـ high/medium، لا لغة ممنوعة.
 
 ## Data scope and limits
 
@@ -108,7 +139,9 @@ pytest -q
 - Two high-confidence holding classifications fixed (4161 BinDawood، 6004 CATRION).
 - Coverage report improved (لوحة جودة وتغطية).
 - Market overview improved (مؤشرات وجداول توزيع وملخص تنفيذي).
-- Data quality tests added (12 tests).
+- Deterministic report ordering (stable tie-breaks) to remove CI drift.
+- Phase 2 Market Intelligence Taxonomy added (mega-event potential exposure).
+- Data quality tests added (19 tests).
 
 ## تنبيه
 
