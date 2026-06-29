@@ -1,164 +1,115 @@
-# مصنف السوق السعودي
+# Saudi Market Classifier
 
-مصنف مفتوح للشركات المدرجة في السوق السعودي.
+مصنف بيانات للشركات المدرجة في السوق السعودي، يربط الشركة بالقطاع، تصنيف النشاط، وثيمات رؤية 2030.
 
-يهدف المشروع إلى بناء طبقة مرجعية منظمة تساعد على فهم الشركات السعودية حسب القطاع، نوع النشاط، ثيمات رؤية 2030، وجودة مصدر البيانات.
+المشروع للبحث وتنظيم البيانات فقط — ليس توصية استثمارية ولا أهدافًا سعرية.
 
-## ما هو المشروع؟
+## Current Status
 
-هذا المشروع ينظم بيانات الشركات المدرجة في السوق السعودي في ملفات مرجعية قابلة للتطوير.
+- 259 classified companies
+- 12 deferred companies
+- 16 sectors
+- 16 business classes
+- 14 Vision 2030 themes
+- 0 unclassified Vision 2030 themes
+- 12 data quality tests passing
 
-الفكرة ليست توقع أسعار الأسهم، وليست توصيات شراء أو بيع.
+## ما الذي يفعله المشروع
 
-الفكرة هي بناء قاعدة تصنيف واضحة يمكن استخدامها لاحقًا في:
+- يجمع وينظف ويصنّف بيانات الشركات المدرجة.
+- ينتج ملف التصنيف الموحّد `data/processed/companies_classified.csv`.
+- يولّد تقارير Markdown جاهزة للقراءة من البيانات المصنّفة.
+- يحافظ على جودة البيانات عبر اختبارات `pytest`.
 
-- تحليل السوق السعودي
-- مقارنة القطاعات
-- بناء خرائط للشركات المدرجة
-- دعم أدوات بحث أو ذكاء اصطناعي عن السوق السعودي
-- بناء تقارير قطاعية منظمة
+آلية التصنيف: `business_class` يُشتق من `sector` عبر `business_classes.csv`،
+و `vision2030_theme` يُربط بالشركة عبر `vision2030_themes.csv` (انظر `src/saudi_market_classifier/classify.py`).
 
-## ماذا يصنف المشروع؟
-
-يصنف المشروع الشركات حسب:
-
-- السوق
-- القطاع
-- الصناعة
-- تصنيف النشاط
-- ثيم رؤية 2030
-- جودة مصدر البيانات
-- تاريخ آخر مراجعة
-
-## ما الذي لا يفعله المشروع؟
-
-هذا المشروع لا يقدم توصيات استثمارية.
-
-لا يقدم:
-
-- توصية شراء
-- توصية بيع
-- أهداف سعرية
-- توقعات ربحية
-- قرارات تداول
-
-المشروع مخصص للتصنيف والبحث وتنظيم البيانات فقط.
-
-## النسخة الحالية
-
-تغطي النسخة الحالية:
-
-- 64 شركة سعودية مدرجة
-- 15 قطاعًا
-- 15 تصنيف نشاط
-- 14 ثيمًا مرتبطًا برؤية 2030
-- تقرير نظرة عامة على السوق
-- تقرير تغطية البيانات
-- طبقة جودة مصادر البيانات
-
-## هيكل المشروع
+## Project structure
 
 ```text
 data/
-  reference/
+  reference/        # المصادر القابلة للتحرير
     companies.csv
     business_classes.csv
     vision2030_themes.csv
     source_quality.csv
-
-  processed/
+    official_sources.csv
+  processed/        # مخرجات يولّدها run.py
     companies_classified.csv
 
-reports/
+reports/            # تقارير Markdown مولّدة وموثّقة
   market_overview.md
   coverage_report.md
+  excluded_or_deferred_companies.md
+  holding_companies_review.md
+  holding_companies_fix_recommendations.md
 
+scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
   saudi_market_classifier/
-    classify.py
-    coverage.py
-    report.py
     validate.py
-
-run.py
-ROADMAP.md
-LICENSE
+    classify.py
+    report.py
+    coverage.py
+tests/              # اختبارات جودة البيانات (pytest)
+run.py              # خط التشغيل الكامل
 ```
 
-## طريقة التشغيل
+## Key reports
 
-ثبت المتطلبات:
+| report | purpose | path |
+|---|---|---|
+| Market overview | نظرة عامة على السوق: مؤشرات وجداول توزيع وقائمة تفصيلية حسب القطاع | `reports/market_overview.md` |
+| Coverage report | لوحة جودة وتغطية البيانات | `reports/coverage_report.md` |
+| Excluded / deferred | الشركات المؤجلة عن الاستيراد وأسبابها | `reports/excluded_or_deferred_companies.md` |
+| Holding companies review | مراجعة تصنيف الشركات القابضة | `reports/holding_companies_review.md` |
+| Holding fix recommendations | توصيات معالجة حالات needs_review | `reports/holding_companies_fix_recommendations.md` |
+
+## How to run
 
 ```bash
-python3 -m pip install -r requirements.txt
-```
-
-شغل المشروع كاملًا:
-
-```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 python3 run.py
 ```
 
-هذا الأمر يقوم بالآتي:
+`run.py` يقوم بالتحقق من المصادر، ثم التصنيف، ثم توليد التقارير،
+ويعيد كتابة `companies_classified.csv` و `reports/` من المصادر.
 
-1. التحقق من اكتمال ملفات البيانات المرجعية
-2. تصنيف الشركات
-3. إنشاء ملف `data/processed/companies_classified.csv`
-4. إنشاء تقرير `reports/market_overview.md`
-5. إنشاء تقرير `reports/coverage_report.md`
+## How to test
 
-## التقارير
-
-ينتج المشروع تقريرين:
-
-### `reports/market_overview.md`
-
-يعرض نظرة عامة على الشركات المصنفة، مع تجميع الشركات حسب القطاع، وتصنيف النشاط، وثيمات رؤية 2030.
-
-### `reports/coverage_report.md`
-
-يعرض مستوى تغطية البيانات، ونسبة التغطية التقريبية، وجودة مصادر البيانات، والشركات التي تحتاج إلى تحقق رسمي لاحقًا.
-
-## جودة البيانات
-
-يستخدم المشروع ملف:
-
-```text
-data/reference/source_quality.csv
+```bash
+pytest -q
 ```
 
-لتوضيح جودة مصدر البيانات لكل شركة.
+## Data quality guarantees
 
-القيم الحالية تبدأ بـ:
+اختبارات `tests/` تضمن:
 
-```text
-manual
-```
+- no duplicate symbols (في الملفات الأساسية الثلاثة).
+- fixed company count guard (لا ينخفض العدد عن 259).
+- symbol set match بين `companies.csv` و `companies_classified.csv`.
+- no unclassified Vision 2030 theme.
+- processed rows match source rows.
 
-وهذا يعني أن البيانات أضيفت يدويًا وتحتاج لاحقًا إلى مراجعة مقابل مصدر رسمي.
+## Data scope and limits
 
-## خارطة الطريق
+- يغطي 259 شركة حاليًا.
+- 12 شركة مؤجلة موثّقة في `reports/excluded_or_deferred_companies.md`.
+- الشركات المؤجلة لا تُدخل تلقائيًا — تحتاج تحققًا رسميًا قبل الاستيراد.
+- بعض الشركات القابضة تحتاج مراجعة دورية (انظر تقارير holding companies).
+- القطاع مأخوذ من تصنيف السوق المالية الرسمي؛ أي تعديل عليه يحتاج تأكيدًا من مصدر رسمي.
 
-راجع ملف:
+## Recent improvements
 
-```text
-ROADMAP.md
-```
+- Vision 2030 coverage improved from 195 unclassified to 0.
+- Holding company review added.
+- Two high-confidence holding classifications fixed (4161 BinDawood، 6004 CATRION).
+- Coverage report improved (لوحة جودة وتغطية).
+- Market overview improved (مؤشرات وجداول توزيع وملخص تنفيذي).
+- Data quality tests added (12 tests).
 
 ## تنبيه
 
-هذا المشروع لأغراض البحث والتصنيف وتنظيم البيانات فقط.
-
-لا يعد نصيحة مالية أو توصية استثمارية.
-
----
-
-## English Summary
-
-Saudi Market Classifier is an open classification layer for Saudi listed companies.
-
-It organizes companies by market, sector, industry, business class, Vision 2030 theme, and source quality.
-
-The project is intended for research, market mapping, and future Saudi market intelligence tools.
-
-It is not an investment recommendation tool and does not provide buy, sell, or hold recommendations.
+للبحث والتصنيف وتنظيم البيانات فقط. ليس نصيحة مالية ولا توصية بيع أو شراء.
