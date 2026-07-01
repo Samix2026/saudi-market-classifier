@@ -15,7 +15,8 @@
 - Market intelligence layer: mega-event potential exposure (Expo 2030، World Cup 2034)
 - Review queue layer: aggregates all items needing human review
 - Source freshness layer: tracks official-source coverage and staleness
-- 29 data quality tests passing
+- Index membership layer: conservative market-structure mapping
+- 37 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -38,9 +39,11 @@ data/
     source_quality.csv
     official_sources.csv
     mega_event_exposures.csv   # Phase 2: التعرّض المحتمل للفعاليات
+    index_memberships.csv      # Phase 5: عضوية المؤشرات
   processed/        # مخرجات يولّدها run.py
     companies_classified.csv
     companies_intelligence.csv # Phase 2: التصنيف + طبقة التعرّض
+    companies_index_membership.csv # Phase 5: عضوية المؤشرات المُثراة
 
 reports/            # تقارير Markdown مولّدة وموثّقة
   market_overview.md
@@ -51,6 +54,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   mega_event_exposure_report.md
   review_queue.md
   source_freshness_report.md
+  index_membership_report.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -63,6 +67,7 @@ src/
     event_report.py            # Phase 2: تقرير التعرّض للفعاليات
     review_queue.py            # Phase 3: توليد review_queue.md
     source_freshness.py        # Phase 4: توليد source_freshness_report.md
+    index_membership.py        # Phase 5: توليد طبقة عضوية المؤشرات
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -79,6 +84,7 @@ run.py              # خط التشغيل الكامل
 | Mega event exposure | التعرّض المحتمل لإكسبو 2030 وكأس العالم 2034 | `reports/mega_event_exposure_report.md` |
 | Review queue | كل عناصر المراجعة البشرية/التحقق مرتّبة بالأولوية | `reports/review_queue.md` |
 | Source freshness | حداثة المصادر وتغطية المصادر الرسمية | `reports/source_freshness_report.md` |
+| Index membership | عضوية مؤشرات السوق (بنية سوق محافظة) | `reports/index_membership_report.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -143,6 +149,22 @@ run.py              # خط التشغيل الكامل
 التاريخ المرجعي مُشتق من **أحدث `last_reviewed`** في البيانات (وليس ساعة النظام)،
 لإبقاء التقرير حتميًا وتفادي CI drift. تنبيه ثابت: تقرير جودة بيانات لا توصية استثمارية.
 
+## Index Membership Layer (Phase 5)
+
+طبقة بنية سوق محافظة تربط الشركات بعضوية مؤشرات السوق السعودي — **بدون تخمين
+المكوّنات**. المكوّنات غير المؤكدة تُعلَّم `needs_verification` بدل الافتراض.
+
+الملفات:
+
+- `data/reference/index_memberships.csv` — مصدر العضوية القابل للتحرير.
+- `data/processed/companies_index_membership.csv` — العضوية مُثراة بالاسم (يولّده `run.py`).
+- `reports/index_membership_report.md` — توزيع وجداول التحقق.
+
+- قيم `index_code` المسموحة: `TASI`، `MT30`، `TASI50`، `LARGE_CAP`، `MID_CAP`، `SMALL_CAP`.
+- قيم `membership_status` المسموحة: `member`، `not_member`، `needs_verification`.
+- الوضع الابتدائي محافظ: صف TASI لكل شركة بحالة `needs_verification` بانتظار لقطة رسمية مؤرخة.
+- تنبيه ثابت: عضوية المؤشرات ليست توصية استثمارية.
+
 ## How to run
 
 ```bash
@@ -191,7 +213,8 @@ pytest -q
 - Phase 2 Market Intelligence Taxonomy added (mega-event potential exposure).
 - Phase 3 Review Queue Layer added (aggregated review items by priority).
 - Phase 4 Source Freshness Layer added (source coverage and staleness).
-- Data quality tests added (29 tests).
+- Phase 5 Index Membership Layer added (conservative market structure).
+- Data quality tests added (37 tests).
 
 ## تنبيه
 
