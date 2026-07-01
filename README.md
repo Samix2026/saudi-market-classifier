@@ -20,7 +20,8 @@
 - Market intelligence matrix: one master row per company across all layers
 - Public data package: portable, self-contained dataset bundle
 - Local Streamlit dashboard: read-only exploration of the matrix
-- 72 data quality tests passing
+- Productization docs: product brief, methodology, dashboard guide, roadmap, demo script
+- 77 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -247,6 +248,19 @@ streamlit run dashboard/app.py
 - ليست مربوطة بـ `run.py` (ليست ناتجًا مولّدًا)؛ شغّل `run.py` أولًا لتحديث `public/`.
 - تنبيه ثابت: للبحث وتنظيم البيانات فقط — ليست توصية استثمارية.
 - التفاصيل في `dashboard/README.md`.
+
+## Productization Docs (Phase 10)
+
+توثيق فقط (لا تغيير في منطق البيانات أو `run.py` أو اللوحة) يقدّم المشروع كأصل
+منتج قابل للشرح لأصحاب المصلحة والمساهمين وكأساس لمنتج لاحق:
+
+- [docs/PRODUCT_BRIEF.md](docs/PRODUCT_BRIEF.md) — ما هو المشروع، لمن، وما يميّزه، واتجاهات المنتج.
+- [docs/METHODOLOGY.md](docs/METHODOLOGY.md) — المصادر ومنطق كل طبقة والحتمية والاختبارات والحدود.
+- [docs/DASHBOARD_GUIDE.md](docs/DASHBOARD_GUIDE.md) — تشغيل اللوحة، معاني الـ KPI والفلاتر والرسوم.
+- [docs/ROADMAP.md](docs/ROADMAP.md) — المراحل 1–10، الخطوات التالية، مسارات المنتج، وخارج النطاق.
+- [docs/STAKEHOLDER_DEMO_SCRIPT.md](docs/STAKEHOLDER_DEMO_SCRIPT.md) — سكربت شرح في 3–5 دقائق.
+
+تنبيه ثابت: للبحث وتنظيم البيانات فقط — ليست توصية استثمارية.
 
 ## How to run
 
