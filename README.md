@@ -18,7 +18,8 @@
 - Index membership layer: conservative market-structure mapping
 - Seasonal exposure layer: Hajj/Ramadan thematic linkage
 - Market intelligence matrix: one master row per company across all layers
-- 59 data quality tests passing
+- Public data package: portable, self-contained dataset bundle
+- 67 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -77,6 +78,8 @@ src/
     index_membership.py        # Phase 5: توليد طبقة عضوية المؤشرات
     seasonal_exposure.py       # Phase 6: توليد طبقة التعرّض الموسمي
     market_matrix.py           # Phase 7: توليد المصفوفة الرئيسية
+    public_package.py          # Phase 8: توليد حزمة البيانات العامة
+public/             # Phase 8: حزمة بيانات محمولة (manifest + datasets + قاموس)
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -96,6 +99,7 @@ run.py              # خط التشغيل الكامل
 | Index membership | عضوية مؤشرات السوق (بنية سوق محافظة) | `reports/index_membership_report.md` |
 | Seasonal exposure | التعرّض الموسمي المحتمل (حج/رمضان) | `reports/seasonal_exposure_report.md` |
 | Market intelligence matrix | مصفوفة رئيسية تدمج كل الطبقات لكل شركة | `reports/market_intelligence_matrix.md` |
+| Public data package | تقرير محتوى حزمة البيانات المحمولة | `reports/public_data_package_report.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -209,6 +213,21 @@ run.py              # خط التشغيل الكامل
   محسوبان بتحفّظ من البيانات المرجعية فقط.
 - طبقة ذكاء سوق وجودة بيانات — ليست توصية استثمارية.
 
+## Public Data Package (Phase 8)
+
+حزمة بيانات محمولة قابلة للمشاركة داخل `public/`، تجمّع المخرجات المصنّفة
+وطبقات الذكاء مع بيان (manifest) وقاموس بيانات وتنبيه ثابت.
+
+المحتوى:
+
+- `public/datasets/` — نسخ محمولة من 5 مجموعات بيانات (تصنيف، ذكاء، مؤشرات، موسمي، مصفوفة).
+- `public/manifest.json` — بيان قابل للقراءة آليًا (datasets، أعمدة، عدد صفوف، تنبيه).
+- `public/DATA_DICTIONARY.md` و `public/README.md` — توثيق الأعمدة والحزمة.
+- `reports/public_data_package_report.md` — تقرير محتوى الحزمة.
+
+- حتمي بالكامل: يستخدم `source_anchor_date` (أحدث `last_reviewed`) بدل `generated_at` — لا ساعة نظام.
+- تنبيه ثابت: حزمة بحث وجودة بيانات — ليست توصية استثمارية.
+
 ## How to run
 
 ```bash
@@ -260,7 +279,8 @@ pytest -q
 - Phase 5 Index Membership Layer added (conservative market structure).
 - Phase 6 Seasonal Exposure Layer added (Hajj/Ramadan thematic linkage).
 - Phase 7 Market Intelligence Matrix added (master row per company across all layers).
-- Data quality tests added (59 tests).
+- Phase 8 Public Data Package added (portable bundle, deterministic source_anchor_date).
+- Data quality tests added (67 tests).
 
 ## تنبيه
 
