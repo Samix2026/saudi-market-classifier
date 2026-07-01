@@ -16,7 +16,8 @@
 - Review queue layer: aggregates all items needing human review
 - Source freshness layer: tracks official-source coverage and staleness
 - Index membership layer: conservative market-structure mapping
-- 37 data quality tests passing
+- Seasonal exposure layer: Hajj/Ramadan thematic linkage
+- 47 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -40,10 +41,12 @@ data/
     official_sources.csv
     mega_event_exposures.csv   # Phase 2: التعرّض المحتمل للفعاليات
     index_memberships.csv      # Phase 5: عضوية المؤشرات
+    seasonal_exposures.csv     # Phase 6: التعرّض الموسمي (حج/رمضان)
   processed/        # مخرجات يولّدها run.py
     companies_classified.csv
     companies_intelligence.csv # Phase 2: التصنيف + طبقة التعرّض
     companies_index_membership.csv # Phase 5: عضوية المؤشرات المُثراة
+    companies_seasonal_exposure.csv # Phase 6: التعرّض الموسمي المُثرى
 
 reports/            # تقارير Markdown مولّدة وموثّقة
   market_overview.md
@@ -55,6 +58,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   review_queue.md
   source_freshness_report.md
   index_membership_report.md
+  seasonal_exposure_report.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -68,6 +72,7 @@ src/
     review_queue.py            # Phase 3: توليد review_queue.md
     source_freshness.py        # Phase 4: توليد source_freshness_report.md
     index_membership.py        # Phase 5: توليد طبقة عضوية المؤشرات
+    seasonal_exposure.py       # Phase 6: توليد طبقة التعرّض الموسمي
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -85,6 +90,7 @@ run.py              # خط التشغيل الكامل
 | Review queue | كل عناصر المراجعة البشرية/التحقق مرتّبة بالأولوية | `reports/review_queue.md` |
 | Source freshness | حداثة المصادر وتغطية المصادر الرسمية | `reports/source_freshness_report.md` |
 | Index membership | عضوية مؤشرات السوق (بنية سوق محافظة) | `reports/index_membership_report.md` |
+| Seasonal exposure | التعرّض الموسمي المحتمل (حج/رمضان) | `reports/seasonal_exposure_report.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -165,6 +171,22 @@ run.py              # خط التشغيل الكامل
 - الوضع الابتدائي محافظ: صف TASI لكل شركة بحالة `needs_verification` بانتظار لقطة رسمية مؤرخة.
 - تنبيه ثابت: عضوية المؤشرات ليست توصية استثمارية.
 
+## Seasonal Exposure Layer (Phase 6)
+
+طبقة ربط موضوعي محافظة لموسمي **الحج (HAJJ)** و**رمضان (RAMADAN)** فقط،
+من نموذج العمل — **لا** ادعاء باستفادة مضمونة أو عقود أو أثر إيرادي.
+
+الملفات:
+
+- `data/reference/seasonal_exposures.csv` — مصدر التعرّض القابل للتحرير (curated).
+- `data/processed/companies_seasonal_exposure.csv` — التعرّض مُثرى بالاسم (يولّده `run.py`).
+- `reports/seasonal_exposure_report.md` — توزيعات وجداول high/medium و needs_verification.
+
+- `season`: `HAJJ`، `RAMADAN`. `exposure_level`: `high`/`medium`/`low`/`none`.
+- `evidence_status`: `thematic_only` … `needs_verification` (لا إفصاح مالي مُدّعى).
+- كل تعرّض `high`/`medium` يتطلب `rationale`؛ المجموعة الابتدائية روابط واضحة فقط.
+- تنبيه ثابت: التعرّض الموسمي ليس توصية استثمارية.
+
 ## How to run
 
 ```bash
@@ -214,7 +236,8 @@ pytest -q
 - Phase 3 Review Queue Layer added (aggregated review items by priority).
 - Phase 4 Source Freshness Layer added (source coverage and staleness).
 - Phase 5 Index Membership Layer added (conservative market structure).
-- Data quality tests added (37 tests).
+- Phase 6 Seasonal Exposure Layer added (Hajj/Ramadan thematic linkage).
+- Data quality tests added (47 tests).
 
 ## تنبيه
 
