@@ -36,8 +36,14 @@ jobs:
 
       - name: Check generated outputs are committed
         run: |
-          if ! git diff --quiet -- data/processed reports; then
+          if ! git diff --quiet -- data/processed reports public; then
             echo "::error::Generated files differ from committed versions. Run 'python run.py' and commit the result."
-            git --no-pager diff -- data/processed reports
+            git --no-pager diff -- data/processed reports public
+            exit 1
+          fi
+          # Catch newly generated but untracked files under generated paths.
+          if [ -n "$(git ls-files --others --exclude-standard -- data/processed reports public)" ]; then
+            echo "::error::Untracked generated files present. Run 'python run.py' and commit the result."
+            git ls-files --others --exclude-standard -- data/processed reports public
             exit 1
           fi
