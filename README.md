@@ -19,7 +19,8 @@
 - Seasonal exposure layer: Hajj/Ramadan thematic linkage
 - Market intelligence matrix: one master row per company across all layers
 - Public data package: portable, self-contained dataset bundle
-- 67 data quality tests passing
+- Local Streamlit dashboard: read-only exploration of the matrix
+- 72 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -80,6 +81,9 @@ src/
     market_matrix.py           # Phase 7: توليد المصفوفة الرئيسية
     public_package.py          # Phase 8: توليد حزمة البيانات العامة
 public/             # Phase 8: حزمة بيانات محمولة (manifest + datasets + قاموس)
+dashboard/          # Phase 9: لوحة Streamlit محلية للقراءة فقط
+  app.py
+  README.md
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -228,6 +232,22 @@ run.py              # خط التشغيل الكامل
 - حتمي بالكامل: يستخدم `source_anchor_date` (أحدث `last_reviewed`) بدل `generated_at` — لا ساعة نظام.
 - تنبيه ثابت: حزمة بحث وجودة بيانات — ليست توصية استثمارية.
 
+## Dashboard (Phase 9)
+
+لوحة **Streamlit محلية للقراءة فقط** تستعرض مصفوفة الذكاء السوقي — بدون نشر
+ولا API ولا قاعدة بيانات. مصدر البيانات هو حزمة `public/`.
+
+```bash
+pip install -r requirements.txt   # يتضمن streamlit
+streamlit run dashboard/app.py
+```
+
+- تقرأ `public/datasets/market_intelligence_matrix.csv` و `public/manifest.json`.
+- بطاقات KPI، فلاتر، رسوم توزيع بسيطة، جدول، وملف تعريف لكل شركة.
+- ليست مربوطة بـ `run.py` (ليست ناتجًا مولّدًا)؛ شغّل `run.py` أولًا لتحديث `public/`.
+- تنبيه ثابت: للبحث وتنظيم البيانات فقط — ليست توصية استثمارية.
+- التفاصيل في `dashboard/README.md`.
+
 ## How to run
 
 ```bash
@@ -280,7 +300,8 @@ pytest -q
 - Phase 6 Seasonal Exposure Layer added (Hajj/Ramadan thematic linkage).
 - Phase 7 Market Intelligence Matrix added (master row per company across all layers).
 - Phase 8 Public Data Package added (portable bundle, deterministic source_anchor_date).
-- Data quality tests added (67 tests).
+- Phase 9 local Streamlit dashboard added (read-only exploration of the matrix).
+- Data quality tests added (72 tests).
 
 ## تنبيه
 
