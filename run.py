@@ -4,6 +4,7 @@ from src.saudi_market_classifier.report import main as report_main
 from src.saudi_market_classifier.coverage import main as coverage_main
 from src.saudi_market_classifier.intelligence import main as intelligence_main
 from src.saudi_market_classifier.event_report import main as event_report_main
+from src.saudi_market_classifier.review_queue import main as review_queue_main
 
 
 def main():
@@ -13,6 +14,7 @@ def main():
     coverage_main()
     intelligence_main()
     event_report_main()
+    review_queue_main()
 
 
 if __name__ == "__main__":

@@ -13,7 +13,8 @@
 - 14 Vision 2030 themes
 - 0 unclassified Vision 2030 themes
 - Market intelligence layer: mega-event potential exposure (Expo 2030، World Cup 2034)
-- 19 data quality tests passing
+- Review queue layer: aggregates all items needing human review
+- 24 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -47,6 +48,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   holding_companies_review.md
   holding_companies_fix_recommendations.md
   mega_event_exposure_report.md
+  review_queue.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -57,6 +59,7 @@ src/
     coverage.py
     intelligence.py            # Phase 2: توليد companies_intelligence.csv
     event_report.py            # Phase 2: تقرير التعرّض للفعاليات
+    review_queue.py            # Phase 3: توليد review_queue.md
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -71,6 +74,7 @@ run.py              # خط التشغيل الكامل
 | Holding companies review | مراجعة تصنيف الشركات القابضة | `reports/holding_companies_review.md` |
 | Holding fix recommendations | توصيات معالجة حالات needs_review | `reports/holding_companies_fix_recommendations.md` |
 | Mega event exposure | التعرّض المحتمل لإكسبو 2030 وكأس العالم 2034 | `reports/mega_event_exposure_report.md` |
+| Review queue | كل عناصر المراجعة البشرية/التحقق مرتّبة بالأولوية | `reports/review_queue.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -94,6 +98,29 @@ run.py              # خط التشغيل الكامل
 - `rationale` إلزامي لأي تعرّض `high`/`medium`.
 - لغة ممنوعة محجوبة باختبار: `beneficiary` / `winner` / `guaranteed`.
 - CI drift guard يتحقق أن المخرجات المولّدة مطابقة للمصدر.
+
+## Review Queue Layer (Phase 3)
+
+طبقة جودة/إبلاغ تجمع في تقرير واحد كل الشركات التي تحتاج مراجعة بشرية أو
+تحققًا رسميًا، من المصادر والتقارير الموجودة فقط (لا تغيّر أي تصنيف).
+
+الملف: `reports/review_queue.md` (يولّده `run.py`).
+
+يجمع:
+
+- الشركات المؤجلة من السوق الرئيسية.
+- الشركات القابضة بحالة `needs_review`.
+- تعرّض الفعاليات بثقة منخفضة.
+- أي تعرّض `high`/`medium` بدون `rationale`.
+
+الأولوية:
+
+- `high` — تعرّض high/medium بدون rationale، أو شركة مؤجلة من السوق الرئيسية.
+- `medium` — شركة قابضة needs_review، أو تعرّض high/medium بثقة منخفضة.
+- `low` — عنصر مراجعة معلوماتي (تحقق مصدر رسمي لاحقًا).
+
+الضمانات: تنبيه ثابت (ليس توصية استثمارية)، لا تكرار `(symbol, reason)`،
+كل عنصر له أولوية، واكتشاف حالات rationale المفقود إن وُجدت.
 
 ## How to run
 
@@ -141,7 +168,8 @@ pytest -q
 - Market overview improved (مؤشرات وجداول توزيع وملخص تنفيذي).
 - Deterministic report ordering (stable tie-breaks) to remove CI drift.
 - Phase 2 Market Intelligence Taxonomy added (mega-event potential exposure).
-- Data quality tests added (19 tests).
+- Phase 3 Review Queue Layer added (aggregated review items by priority).
+- Data quality tests added (24 tests).
 
 ## تنبيه
 
