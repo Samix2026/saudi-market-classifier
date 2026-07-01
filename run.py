@@ -8,6 +8,7 @@ from src.saudi_market_classifier.review_queue import main as review_queue_main
 from src.saudi_market_classifier.source_freshness import main as source_freshness_main
 from src.saudi_market_classifier.index_membership import main as index_membership_main
 from src.saudi_market_classifier.seasonal_exposure import main as seasonal_exposure_main
+from src.saudi_market_classifier.market_matrix import main as market_matrix_main
 
 
 def main():
@@ -21,6 +22,7 @@ def main():
     source_freshness_main()
     index_membership_main()
     seasonal_exposure_main()
+    market_matrix_main()
 
 
 if __name__ == "__main__":

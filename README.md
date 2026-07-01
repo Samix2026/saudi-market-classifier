@@ -17,7 +17,8 @@
 - Source freshness layer: tracks official-source coverage and staleness
 - Index membership layer: conservative market-structure mapping
 - Seasonal exposure layer: Hajj/Ramadan thematic linkage
-- 47 data quality tests passing
+- Market intelligence matrix: one master row per company across all layers
+- 59 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -47,6 +48,7 @@ data/
     companies_intelligence.csv # Phase 2: التصنيف + طبقة التعرّض
     companies_index_membership.csv # Phase 5: عضوية المؤشرات المُثراة
     companies_seasonal_exposure.csv # Phase 6: التعرّض الموسمي المُثرى
+    market_intelligence_matrix.csv # Phase 7: المصفوفة الرئيسية
 
 reports/            # تقارير Markdown مولّدة وموثّقة
   market_overview.md
@@ -59,6 +61,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   source_freshness_report.md
   index_membership_report.md
   seasonal_exposure_report.md
+  market_intelligence_matrix.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -73,6 +76,7 @@ src/
     source_freshness.py        # Phase 4: توليد source_freshness_report.md
     index_membership.py        # Phase 5: توليد طبقة عضوية المؤشرات
     seasonal_exposure.py       # Phase 6: توليد طبقة التعرّض الموسمي
+    market_matrix.py           # Phase 7: توليد المصفوفة الرئيسية
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -91,6 +95,7 @@ run.py              # خط التشغيل الكامل
 | Source freshness | حداثة المصادر وتغطية المصادر الرسمية | `reports/source_freshness_report.md` |
 | Index membership | عضوية مؤشرات السوق (بنية سوق محافظة) | `reports/index_membership_report.md` |
 | Seasonal exposure | التعرّض الموسمي المحتمل (حج/رمضان) | `reports/seasonal_exposure_report.md` |
+| Market intelligence matrix | مصفوفة رئيسية تدمج كل الطبقات لكل شركة | `reports/market_intelligence_matrix.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -187,6 +192,23 @@ run.py              # خط التشغيل الكامل
 - كل تعرّض `high`/`medium` يتطلب `rationale`؛ المجموعة الابتدائية روابط واضحة فقط.
 - تنبيه ثابت: التعرّض الموسمي ليس توصية استثمارية.
 
+## Market Intelligence Matrix (Phase 7)
+
+مصفوفة رئيسية حتمية بصف واحد لكل شركة تدمج التصنيف مع كل طبقات الذكاء
+(الفعاليات، عضوية المؤشرات، التعرّض الموسمي، حداثة المصدر) عبر `left join`،
+مع الحفاظ على 259 شركة.
+
+الملفات:
+
+- `data/processed/market_intelligence_matrix.csv` — المصفوفة الكاملة (يولّدها `run.py`).
+- `reports/market_intelligence_matrix.md` — توزيعات وجدول مخاطر high/medium.
+
+- القيم المفقودة تصبح محايدة: `none` / `not_available` / `needs_verification`.
+- `source_freshness_status` (`current`/`stale`/`missing`) يعتمد أحدث `last_reviewed` كمرساة — لا ساعة نظام.
+- `review_priority` (`high`/`medium`/`low`/`none`) و `classification_risk` (`high`/`medium`/`low`)
+  محسوبان بتحفّظ من البيانات المرجعية فقط.
+- طبقة ذكاء سوق وجودة بيانات — ليست توصية استثمارية.
+
 ## How to run
 
 ```bash
@@ -237,7 +259,8 @@ pytest -q
 - Phase 4 Source Freshness Layer added (source coverage and staleness).
 - Phase 5 Index Membership Layer added (conservative market structure).
 - Phase 6 Seasonal Exposure Layer added (Hajj/Ramadan thematic linkage).
-- Data quality tests added (47 tests).
+- Phase 7 Market Intelligence Matrix added (master row per company across all layers).
+- Data quality tests added (59 tests).
 
 ## تنبيه
 
