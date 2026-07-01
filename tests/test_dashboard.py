@@ -31,3 +31,10 @@ def test_app_has_no_forbidden_language():
     text = APP.read_text(encoding="utf-8").lower()
     hits = [w for w in FORBIDDEN if w in text]
     assert not hits, f"لغة استثمارية ممنوعة في app.py: {hits}"
+
+
+def test_app_has_separate_index_pending_kpi():
+    text = APP.read_text(encoding="utf-8")
+    assert "Index verification pending" in text
+    # Needing review KPI must be driven by review_priority, not the index column.
+    assert 'filtered["review_priority"] != "none"' in text

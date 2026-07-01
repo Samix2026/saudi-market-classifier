@@ -135,18 +135,19 @@ def main():
                 seasonal_lowconf_hm = True
         seasonal_primary_drivers = ";".join(sorted(drivers)) if drivers else "none"
 
-        # عضوية المؤشرات.
+        # عضوية المؤشرات (بنية سوق — ليست إشارة مراجعة تصنيف).
         index_summary = index_by_symbol.get(sym, "not_available")
-        index_needs_verify = "needs_verification" in index_summary
 
         freshness_status = freshness.get(sym, "missing")
 
         # أولوية المراجعة (محافظة، بأسبقية high>medium>low>none).
+        # ملاحظة: عضوية المؤشرات needs_verification إشارة بنية سوق وليست إشارة
+        # مراجعة تصنيف، لذا لا تُدرج هنا (تُتابع مستقلة في طبقة عضوية المؤشرات).
         event_missing_rationale = event_is_hm and not event_rationale
         event_lowconf_hm = event_is_hm and event_conf_raw == "low"
         if event_missing_rationale or seasonal_missing_rationale:
             review_priority = "high"
-        elif (index_needs_verify or seasonal_needs_verify
+        elif (seasonal_needs_verify
               or event_lowconf_hm or seasonal_lowconf_hm):
             review_priority = "medium"
         elif freshness_status in ("stale", "missing"):

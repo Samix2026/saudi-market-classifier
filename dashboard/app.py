@@ -30,8 +30,8 @@ FILTER_COLS = [
     "review_priority",
 ]
 
+# vision2030_theme handled separately (top 10, horizontal).
 CHART_COLS = [
-    ("vision2030_theme", "Count by Vision 2030 theme"),
     ("event_exposure_overall", "Count by event exposure"),
     ("classification_risk", "Count by classification risk"),
     ("review_priority", "Count by review priority"),
@@ -79,18 +79,37 @@ def main():
     hm_event = filtered["event_exposure_overall"].isin(["high", "medium"]).sum()
     hajj = (filtered["seasonal_hajj_exposure"] != "none").sum()
     ramadan = (filtered["seasonal_ramadan_exposure"] != "none").sum()
+    # "Needing review" = real data-quality / exposure review signals only.
+    # review_priority no longer inherits index-membership needs_verification.
     needs_review = (filtered["review_priority"] != "none").sum()
+    # Index membership pending is tracked as its own structural metric.
+    index_pending = filtered["index_membership_summary"].str.contains(
+        "needs_verification", na=False
+    ).sum()
 
-    k1, k2, k3, k4, k5, k6 = st.columns(6)
-    k1.metric("Companies", len(filtered))
-    k2.metric("Vision 2030 themes", filtered["vision2030_theme"].nunique())
-    k3.metric("High/medium event exposure", int(hm_event))
-    k4.metric("HAJJ exposure", int(hajj))
-    k5.metric("RAMADAN exposure", int(ramadan))
-    k6.metric("Needing review", int(needs_review))
+    r1 = st.columns(4)
+    r1[0].metric("Companies", len(filtered))
+    r1[1].metric("Vision 2030 themes", filtered["vision2030_theme"].nunique())
+    r1[2].metric("High/medium event exposure", int(hm_event))
+    r1[3].metric("HAJJ exposure", int(hajj))
+
+    r2 = st.columns(4)
+    r2[0].metric("RAMADAN exposure", int(ramadan))
+    r2[1].metric("Needing review", int(needs_review))
+    r2[2].metric("Index verification pending", int(index_pending))
 
     # Charts.
     st.subheader("Distributions")
+
+    # Vision 2030 themes: top 10, horizontal for readability.
+    st.caption("Top 10 Vision 2030 themes")
+    theme_counts = filtered["vision2030_theme"].value_counts().head(10)
+    try:
+        st.bar_chart(theme_counts, horizontal=True)
+    except TypeError:
+        # Older Streamlit without the horizontal argument.
+        st.bar_chart(theme_counts)
+
     chart_cols = st.columns(2)
     for idx, (col, label) in enumerate(CHART_COLS):
         counts = filtered[col].value_counts().sort_index()
