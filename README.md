@@ -14,7 +14,8 @@
 - 0 unclassified Vision 2030 themes
 - Market intelligence layer: mega-event potential exposure (Expo 2030، World Cup 2034)
 - Review queue layer: aggregates all items needing human review
-- 24 data quality tests passing
+- Source freshness layer: tracks official-source coverage and staleness
+- 29 data quality tests passing
 
 ## ما الذي يفعله المشروع
 
@@ -49,6 +50,7 @@ reports/            # تقارير Markdown مولّدة وموثّقة
   holding_companies_fix_recommendations.md
   mega_event_exposure_report.md
   review_queue.md
+  source_freshness_report.md
 
 scripts/            # سكربتات جلب/تنظيف/استيراد مساعدة
 src/
@@ -60,6 +62,7 @@ src/
     intelligence.py            # Phase 2: توليد companies_intelligence.csv
     event_report.py            # Phase 2: تقرير التعرّض للفعاليات
     review_queue.py            # Phase 3: توليد review_queue.md
+    source_freshness.py        # Phase 4: توليد source_freshness_report.md
 tests/              # اختبارات جودة البيانات (pytest)
 run.py              # خط التشغيل الكامل
 ```
@@ -75,6 +78,7 @@ run.py              # خط التشغيل الكامل
 | Holding fix recommendations | توصيات معالجة حالات needs_review | `reports/holding_companies_fix_recommendations.md` |
 | Mega event exposure | التعرّض المحتمل لإكسبو 2030 وكأس العالم 2034 | `reports/mega_event_exposure_report.md` |
 | Review queue | كل عناصر المراجعة البشرية/التحقق مرتّبة بالأولوية | `reports/review_queue.md` |
+| Source freshness | حداثة المصادر وتغطية المصادر الرسمية | `reports/source_freshness_report.md` |
 
 ## Market Intelligence Taxonomy (Phase 2)
 
@@ -121,6 +125,23 @@ run.py              # خط التشغيل الكامل
 
 الضمانات: تنبيه ثابت (ليس توصية استثمارية)، لا تكرار `(symbol, reason)`،
 كل عنصر له أولوية، واكتشاف حالات rationale المفقود إن وُجدت.
+
+## Source Freshness Layer (Phase 4)
+
+طبقة جودة بيانات تتتبع حداثة المصادر وتغطية المصادر الرسمية. المصدر:
+`data/reference/companies.csv` (مع ضمّ حقول المصدر من ملفات المرجع).
+
+الملف: `reports/source_freshness_report.md` (يولّده `run.py`).
+
+يعرض:
+
+- إجمالي الشركات، والتوزيع حسب `source_type`.
+- عدد الشركات بدون `official_profile_url`.
+- عدد السجلات بدون `last_reviewed`.
+- عدد السجلات الأقدم من 90 يومًا، وجداول السجلات القديمة والروابط المفقودة.
+
+التاريخ المرجعي مُشتق من **أحدث `last_reviewed`** في البيانات (وليس ساعة النظام)،
+لإبقاء التقرير حتميًا وتفادي CI drift. تنبيه ثابت: تقرير جودة بيانات لا توصية استثمارية.
 
 ## How to run
 
@@ -169,7 +190,8 @@ pytest -q
 - Deterministic report ordering (stable tie-breaks) to remove CI drift.
 - Phase 2 Market Intelligence Taxonomy added (mega-event potential exposure).
 - Phase 3 Review Queue Layer added (aggregated review items by priority).
-- Data quality tests added (24 tests).
+- Phase 4 Source Freshness Layer added (source coverage and staleness).
+- Data quality tests added (29 tests).
 
 ## تنبيه
 
