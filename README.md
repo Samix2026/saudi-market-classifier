@@ -276,9 +276,20 @@ python3 run.py
 
 ## How to test
 
+استخدم البيئة الافتراضية للمشروع و `python3 -m pytest` (لا `pytest` المجرّد):
+
 ```bash
-pytest -q
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 run.py
+python3 -m pytest -q
 ```
+
+**Troubleshooting:** إذا فشل `pytest -q` بـ
+`ModuleNotFoundError: No module named 'pandas'`، فغالبًا أن pytest يعمل خارج
+البيئة الافتراضية للمشروع (مثل Python الخاص بالنظام/Homebrew). فعّل `.venv`
+ثم شغّل `python3 -m pytest -q`.
 
 ## Data quality guarantees
 
